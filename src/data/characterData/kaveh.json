@@ -451,7 +451,7 @@
     },
     {
       "name": "Profferings of Dur Untash",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Painted Dome</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Painted Dome</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Feast of Apadana",
@@ -459,7 +459,7 @@
     },
     {
       "name": "Treasures of Bonkhanak",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Artistic Ingenuity</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Artistic Ingenuity</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Pairidaeza's Dreams",
@@ -473,16 +473,17 @@
     },
     {
       "name": "A Craftsman's Curious Conceptions",
-      "description": "During <span style=\"color: #FFD780FF;\">Painted Dome</span>, after Kaveh's Normal, Charged, or Plunging Attacks hit opponents, his Elemental Mastery will increase by 25. This effect can be triggered once every 0.1s. Max 4 stacks.\\nThis effect will be canceled when Painted Dome's effects end."
+      "description": "During <span style=\"color: #FFD780FF;\">Painted Dome</span>, after Kaveh's Normal, Charged, or Plunging Attacks hit opponents, his Elemental Mastery will increase by 25. This effect can be triggered once every 0.1s. Max 4 stacks.\nThis effect will be canceled when Painted Dome's effects end."
     },
     {
       "name": "The Art of Budgeting",
       "description": "When Kaveh crafts Landscape, Building, and Courtyard-type Furnishings, he has a 100% chance to refund a portion of the materials used."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Painted Dome",
-    "description": "Completely unleashes Mehrak's energy and creates a cubic scanned space, dealing <span style=\"color: #99FF88FF;\">AoE Dendro DMG</span> to all opponents within it, causing all Dendro Cores in its AoE to immediately burst, and granting Kaveh the following enhanced combat abilities for a specific duration:\\n· Increases Kaveh's Normal, Charged, and Plunging Attack AoE, and converts his attack DMG to <span style=\"color: #99FF88FF;\">Dendro DMG</span> that cannot be overridden.\\n· All Dendro Cores created by all your own party members through Bloom and Lunar-Bloom reactions will deal additional DMG when they burst.\\n· Increases Kaveh's resistance to interruption.\\nThese effects will be canceled once Kaveh leaves the field.\\n\\n<i>\"Every building style includes the architect's unique worldview, and from this angle, one can say that the buildings themselves are coalescences of human memories.\"</i>",
+    "description": "Completely unleashes Mehrak's energy and creates a cubic scanned space, dealing <span style=\"color: #99FF88FF;\">AoE Dendro DMG</span> to all opponents within it, causing all Dendro Cores in its AoE to immediately burst, and granting Kaveh the following enhanced combat abilities for a specific duration:\n· Increases Kaveh's Normal, Charged, and Plunging Attack AoE, and converts his attack DMG to <span style=\"color: #99FF88FF;\">Dendro DMG</span> that cannot be overridden.\n· All Dendro Cores created by all your own party members through Bloom and Lunar-Bloom reactions will deal additional DMG when they burst.\n· Increases Kaveh's resistance to interruption.\nThese effects will be canceled once Kaveh leaves the field.\n\n<i>\"Every building style includes the architect's unique worldview, and from this angle, one can say that the buildings themselves are coalescences of human memories.\"</i>",
     "skillLabels": [
       "Skill DMG",
       "Duration",
@@ -733,11 +734,13 @@
           80
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Schematic Setup",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nUses Mehrak to perform up to 4 consecutive attacks.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nDrains Stamina over time to perform continuous slashes.\\nAt the end of the sequence, performs a more powerful slash.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nUses Mehrak to perform up to 4 consecutive attacks.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1248,11 +1251,13 @@
           4.982145
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Artistic Ingenuity",
-    "description": "Uses Mehrak's mapping ability for offensive purposes, initiating a radial scan that deals <span style=\"color: #99FF88FF;\">AoE Dendro DMG</span>. It will also scan all Dendro Cores in its AoE and cause them to immediately burst.\\n\\n<i>Mehrak was created through the modification of ancient technology and may have some other functions apart from mapping work...</i>",
+    "description": "Uses Mehrak's mapping ability for offensive purposes, initiating a radial scan that deals <span style=\"color: #99FF88FF;\">AoE Dendro DMG</span>. It will also scan all Dendro Cores in its AoE and cause them to immediately burst.\n\n<i>Mehrak was created through the modification of ancient technology and may have some other functions apart from mapping work...</i>",
     "skillLabels": [
       "Skill DMG",
       "CD"
@@ -1356,6 +1361,8 @@
           6
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

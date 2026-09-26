@@ -451,15 +451,15 @@
     },
     {
       "name": "Samadhi Fire-Forged",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Signed Edict</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Signed Edict</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Supreme Amnesty",
-      "description": "When <span style=\"color: #FFD780FF;\">Done Deal</span> is used:\\nCreates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.\\nThis shield absorbs <span style=\"color: #FF9999FF;\">Pyro DMG</span> 250% more effectively."
+      "description": "When <span style=\"color: #FFD780FF;\">Done Deal</span> is used:\nCreates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.\nThis shield absorbs <span style=\"color: #FF9999FF;\">Pyro DMG</span> 250% more effectively."
     },
     {
       "name": "Abiding Affidavit",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Done Deal</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Done Deal</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Extra Clause",
@@ -480,9 +480,10 @@
       "description": "Displays the location of nearby <span style=\"color: #FFD780FF;\">resources unique to Liyue</span> on the mini-map."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Done Deal",
-    "description": "Triggers a spray of intense flames that rush at nearby opponents, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\\n\\n<span style=\"color: #FFD780FF;\">Brilliance</span>\\nHas the following effects:\\n·Grants Yanfei a Scarlet Seal at fixed intervals.\\n·Increases the DMG dealt by her Charged Attacks.\\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\\n\\n<i>\"Here are the full terms for this matter of life and death — by which I mean my life and your death!\"</i>",
+    "description": "Triggers a spray of intense flames that rush at nearby opponents, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n<span style=\"color: #FFD780FF;\">Brilliance</span>\nHas the following effects:\n·Grants Yanfei a Scarlet Seal at fixed intervals.\n·Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\n\n<i>\"Here are the full terms for this matter of life and death — by which I mean my life and your death!\"</i>",
     "skillLabels": [
       "Skill DMG",
       "Scarlet Seal Grant Interval",
@@ -782,11 +783,13 @@
           80
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Seal of Approval",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nShoots fireballs that deal up to three counts of <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\\nWhen Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.\\nEach Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes Stamina and all Scarlet Seals before dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span> to opponents after a short casting time.\\nThis Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nGathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span> upon impact with the ground.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nShoots fireballs that deal up to three counts of <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\nWhen Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.\nEach Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes Stamina and all Scarlet Seals before dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span> to opponents after a short casting time.\nThis Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nGathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span> upon impact with the ground.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1308,11 +1311,13 @@
           3.79592
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Signed Edict",
-    "description": "Summons blistering flames that deal <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\\n\\n<i>Apart from their legal uses, Yanfei's seals also come with her customized additional terms and conditions. Well, it's not as if the Ministry of Civil Affairs can change the laws of nature.</i>",
+    "description": "Summons blistering flames that deal <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\n\n<i>Apart from their legal uses, Yanfei's seals also come with her customized additional terms and conditions. Well, it's not as if the Ministry of Civil Affairs can change the laws of nature.</i>",
     "skillLabels": [
       "Skill DMG",
       "CD"
@@ -1416,6 +1421,8 @@
           9
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

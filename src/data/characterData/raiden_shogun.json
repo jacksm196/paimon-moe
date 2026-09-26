@@ -451,7 +451,7 @@
     },
     {
       "name": "Shinkage Bygones",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Secret Art: Musou Shinsetsu</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Secret Art: Musou Shinsetsu</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Pledge of Propriety",
@@ -459,30 +459,31 @@
     },
     {
       "name": "Shogun's Descent",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Transcendence: Baleful Omen</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Transcendence: Baleful Omen</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Wishbearer",
-      "description": "While in the <span style=\"color: #FFD780FF;\">Musou Isshin</span> state applied by <span style=\"color: #FFD780FF;\">Secret Art: Musou Shinsetsu</span>, attacks by the Raiden Shogun that are considered part of her Elemental Burst will decrease all nearby party members' (not including the Raiden Shogun herself) Elemental Burst CD by 1s when they hit opponents.\\nThis effect can trigger once every 1s and can trigger a total of 5 times during Musou Isshin's duration."
+      "description": "While in the <span style=\"color: #FFD780FF;\">Musou Isshin</span> state applied by <span style=\"color: #FFD780FF;\">Secret Art: Musou Shinsetsu</span>, attacks by the Raiden Shogun that are considered part of her Elemental Burst will decrease all nearby party members' (not including the Raiden Shogun herself) Elemental Burst CD by 1s when they hit opponents.\nThis effect can trigger once every 1s and can trigger a total of 5 times during Musou Isshin's duration."
     }
   ],
   "passives": [
     {
       "name": "Wishes Unnumbered",
-      "description": "When nearby party members gain Elemental Orbs or Particles, <span style=\"color: #FFD780FF;\">Chakra Desiderata</span> gains 2 Resolve stacks.\\nThis effect can occur once every 3s."
+      "description": "When nearby party members gain Elemental Orbs or Particles, <span style=\"color: #FFD780FF;\">Chakra Desiderata</span> gains 2 Resolve stacks.\nThis effect can occur once every 3s."
     },
     {
       "name": "Enlightened One",
-      "description": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:\\n·0.6% greater Energy restoration from <span style=\"color: #FFD780FF;\">Musou Isshin</span>\\n·0.4% <span style=\"color: #FFACFFFF;\">Electro DMG Bonus</span>."
+      "description": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:\n·0.6% greater Energy restoration from <span style=\"color: #FFD780FF;\">Musou Isshin</span>\n·0.4% <span style=\"color: #FFACFFFF;\">Electro DMG Bonus</span>."
     },
     {
       "name": "All-Preserver",
       "description": "Mora expended when ascending Swords and Polearms is decreased by 50%."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Secret Art: Musou Shinsetsu",
-    "description": "Gathering truths unnumbered and wishes uncounted, the Raiden Shogun unleashes the Musou no Hitotachi and deals <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span>, using Musou Isshin in combat for a certain duration afterward. The DMG dealt by Musou no Hitotachi and Musou Isshin's attacks will be increased based on the number of Chakra Desiderata's Resolve stacks consumed when this skill is used.\\n\\n<span style=\"color: #FFD780FF;\">Musou Isshin</span>\\nWhile in this state, the Raiden Shogun will wield her tachi in battle, while her Normal, Charged, and Plunging Attacks will be infused with <span style=\"color: #FFACFFFF;\">Electro DMG</span>, which cannot be overridden. When such attacks hit opponents, she will regenerate Energy for all nearby party members. Energy can be restored this way once every 1s, and this effect can be triggered 5 times throughout this skill's duration.\\nWhile in this state, the Raiden Shogun's resistance to interruption is increased, and she is immune to <span style=\"color: #FFACFFFF;\">Electro-Charged</span> reaction DMG.\\nWhile Musou Isshin is active, the Raiden Shogun's Normal, Charged, and Plunging Attack DMG will be considered Elemental Burst DMG.\\n\\nThe effects of Musou Isshin will be cleared when the Raiden Shogun leaves the field.\\n\\n<span style=\"color: #FFD780FF;\">Chakra Desiderata</span>\\nWhen nearby party members (excluding the Raiden Shogun herself) use their Elemental Bursts, the Raiden Shogun will build up Resolve stacks based on the Energy Cost of these Elemental Bursts.\\nThe maximum number of Resolve stacks is 60.\\n\\nThe Resolve gained by Chakra Desiderata will be cleared 300s after the Raiden Shogun leaves the field.\\n\\n<i>This is the Raiden Shogun's new secret technique. Abandoning the void-like \"Musou,\" she now shoulders a new \"Musou\" — the dreams and ambitions of all. Just as \"shinsetsu,\" \"the truth,\" also means \"the new,\" so too has Inazuma entered a new chapter.</i>",
+    "description": "Gathering truths unnumbered and wishes uncounted, the Raiden Shogun unleashes the Musou no Hitotachi and deals <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span>, using Musou Isshin in combat for a certain duration afterward. The DMG dealt by Musou no Hitotachi and Musou Isshin's attacks will be increased based on the number of Chakra Desiderata's Resolve stacks consumed when this skill is used.\n\n<span style=\"color: #FFD780FF;\">Musou Isshin</span>\nWhile in this state, the Raiden Shogun will wield her tachi in battle, while her Normal, Charged, and Plunging Attacks will be infused with <span style=\"color: #FFACFFFF;\">Electro DMG</span>, which cannot be overridden. When such attacks hit opponents, she will regenerate Energy for all nearby party members. Energy can be restored this way once every 1s, and this effect can be triggered 5 times throughout this skill's duration.\nWhile in this state, the Raiden Shogun's resistance to interruption is increased, and she is immune to <span style=\"color: #FFACFFFF;\">Electro-Charged</span> reaction DMG.\nWhile Musou Isshin is active, the Raiden Shogun's Normal, Charged, and Plunging Attack DMG will be considered Elemental Burst DMG.\n\nThe effects of Musou Isshin will be cleared when the Raiden Shogun leaves the field.\n\n<span style=\"color: #FFD780FF;\">Chakra Desiderata</span>\nWhen nearby party members (excluding the Raiden Shogun herself) use their Elemental Bursts, the Raiden Shogun will build up Resolve stacks based on the Energy Cost of these Elemental Bursts.\nThe maximum number of Resolve stacks is 60.\n\nThe Resolve gained by Chakra Desiderata will be cleared 300s after the Raiden Shogun leaves the field.\n\n<i>This is the Raiden Shogun's new secret technique. Abandoning the void-like \"Musou,\" she now shoulders a new \"Musou\" — the dreams and ambitions of all. Just as \"shinsetsu,\" \"the truth,\" also means \"the new,\" so too has Inazuma entered a new chapter.</i>",
     "skillLabels": [
       "Musou no Hitotachi Base DMG",
       "Resolve Bonus",
@@ -1332,11 +1333,13 @@
           90
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Origin",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 consecutive spear strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to perform an upward slash.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 consecutive spear strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to perform an upward slash.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1813,11 +1816,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Transcendence: Baleful Omen",
-    "description": "The Raiden Shogun unveils a shard of her Euthymia, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span> to nearby opponents, and granting nearby party members the Eye of Stormy Judgment.\\n\\n<span style=\"color: #FFD780FF;\">Eye of Stormy Judgment</span>\\n·When characters with this buff attack and deal DMG to opponents, the Eye will unleash a coordinated attack, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> at the opponent's position.\\n·Characters who gain the Eye of Stormy Judgment will have their Elemental Burst DMG increased based on the Energy Cost of the Elemental Burst during the Eye's duration.\\n\\nThe Eye can initiate one coordinated attack every 0.9s per party.\\nCoordinated attacks generated by characters not controlled by you deal 20% of the normal DMG.\\n\\n<i>Beings of great divinity might affect all that they survey, and the Electro Archon can manipulate the very inauspicious stars themselves to defend her retainers and bring a thundering sentence down on their foes.</i>",
+    "description": "The Raiden Shogun unveils a shard of her Euthymia, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span> to nearby opponents, and granting nearby party members the Eye of Stormy Judgment.\n\n<span style=\"color: #FFD780FF;\">Eye of Stormy Judgment</span>\n·When characters with this buff attack and deal DMG to opponents, the Eye will unleash a coordinated attack, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> at the opponent's position.\n·Characters who gain the Eye of Stormy Judgment will have their Elemental Burst DMG increased based on the Energy Cost of the Elemental Burst during the Eye's duration.\n\nThe Eye can initiate one coordinated attack every 0.9s per party.\nCoordinated attacks generated by characters not controlled by you deal 20% of the normal DMG.\n\n<i>Beings of great divinity might affect all that they survey, and the Electro Archon can manipulate the very inauspicious stars themselves to defend her retainers and bring a thundering sentence down on their foes.</i>",
     "skillLabels": [
       "Skill DMG",
       "Coordinated ATK DMG",
@@ -2068,6 +2073,8 @@
           10
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

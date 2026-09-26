@@ -451,7 +451,7 @@
     },
     {
       "name": "Frostbloom Kamifubuki",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Kamisato Art: Soumetsu</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Kamisato Art: Soumetsu</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Ebb and Flow",
@@ -459,17 +459,31 @@
     },
     {
       "name": "Blossom Cloud Irutsuki",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Kamisato Art: Hyouka</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Kamisato Art: Hyouka</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Dance of Suigetsu",
       "description": "Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart."
     }
   ],
-  "passives": [],
+  "passives": [
+    {
+      "name": "Amatsumi Kunitsumi Sanctification",
+      "description": "After using <span style=\"color: #FFD780FF;\">Kamisato Art: Hyouka</span>, Kamisato Ayaka's Normal and Charged Attacks deal 30% increased DMG for 6s."
+    },
+    {
+      "name": "Kanten Senmyou Blessing",
+      "description": "When the Cryo application at the end of <span style=\"color: #FFD780FF;\">Kamisato Art: Senho</span> hits an opponent, Kamisato Ayaka gains the following effects:\n·Restores 10 Stamina\n·Gains 18% <span style=\"color: #99FFFFFF;\">Cryo DMG Bonus</span> for 10s."
+    },
+    {
+      "name": "Fruits of Shinsa",
+      "description": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product."
+    }
+  ],
+  "links": {},
   "burst": {
     "name": "Kamisato Art: Soumetsu",
-    "description": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.\\n\\n<span style=\"color: #FFD780FF;\">Frostflake Seki no To</span>\\n·A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span>.\\n·The snowstorm explodes after its duration ends, dealing <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span>.\\n\\n<i>\"The blizzard veils the heron's thoughts, pity heavy in its heart.\"</i>",
+    "description": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.\n\n<span style=\"color: #FFD780FF;\">Frostflake Seki no To</span>\n·A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span>.\n·The snowstorm explodes after its duration ends, dealing <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span>.\n\n<i>\"The blizzard veils the heron's thoughts, pity heavy in its heart.\"</i>",
     "skillLabels": [
       "Cutting DMG",
       "Bloom DMG",
@@ -720,11 +734,13 @@
           80
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Kamisato Art: Kabuki",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 rapid strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash a flurry of sword ki.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 rapid strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to unleash a flurry of sword ki.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1186,11 +1202,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Kamisato Art: Hyouka",
-    "description": "Summons blooming ice to launch nearby opponents, dealing <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span>.\\n\\n<i>\"Clouds shroud the moonlit night. Longing descends like a fog, filling the one detained with wanderlust.\"</i>",
+    "description": "Summons blooming ice to launch nearby opponents, dealing <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span>.\n\n<i>\"Clouds shroud the moonlit night. Longing descends like a fog, filling the one detained with wanderlust.\"</i>",
     "skillLabels": [
       "Skill DMG",
       "CD"
@@ -1294,11 +1312,13 @@
           10
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "dashSkill": {
     "name": "Kamisato Art: Senho",
-    "description": "<span style=\"color: #FFD780FF;\">Alternate Sprint</span>\\nAyaka consumes Stamina and cloaks herself in a frozen fog that moves with her.\\n\\nIn Senho form, she moves swiftly upon water.\\nWhen she reappears, the following effects occur:\\n·Ayaka unleashes frigid energy to apply <span style=\"color: #99FFFFFF;\">Cryo</span> on nearby opponents.\\n·Coldness condenses around Ayaka's blade, infusing her attacks with <span style=\"color: #99FFFFFF;\">Cryo</span> for a brief period.\\n\\n<i>\"Feathers fleeting wet / the white heron treads water / a sight without flaw\"</i>",
+    "description": "<span style=\"color: #FFD780FF;\">Alternate Sprint</span>\nAyaka consumes Stamina and cloaks herself in a frozen fog that moves with her.\n\nIn Senho form, she moves swiftly upon water.\nWhen she reappears, the following effects occur:\n·Ayaka unleashes frigid energy to apply <span style=\"color: #99FFFFFF;\">Cryo</span> on nearby opponents.\n·Coldness condenses around Ayaka's blade, infusing her attacks with <span style=\"color: #99FFFFFF;\">Cryo</span> for a brief period.\n\n<i>\"Feathers fleeting wet / the white heron treads water / a sight without flaw\"</i>",
     "skillLabels": [
       "Activation Stamina Consumption",
       "Stamina Drain",
@@ -1325,6 +1345,8 @@
           5
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

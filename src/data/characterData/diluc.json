@@ -447,23 +447,23 @@
     },
     {
       "name": "Searing Ember",
-      "description": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\\nThis effect can stack up to 3 times and can only occur once every 1.5s."
+      "description": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s."
     },
     {
       "name": "Fire and Steel",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Searing Onslaught</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Searing Onslaught</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Flowing Flame",
-      "description": "Casting <span style=\"color: #FFD780FF;\">Searing Onslaught</span> in rhythm greatly increases damage dealt.\\n2s after casting <span style=\"color: #FFD780FF;\">Searing Onslaught</span>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s."
+      "description": "Casting <span style=\"color: #FFD780FF;\">Searing Onslaught</span> in rhythm greatly increases damage dealt.\n2s after casting <span style=\"color: #FFD780FF;\">Searing Onslaught</span>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s."
     },
     {
       "name": "Phoenix, Harbinger of Dawn",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Dawn</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Dawn</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Flaming Sword, Nemesis of the Dark",
-      "description": "After casting <span style=\"color: #FFD780FF;\">Searing Onslaught</span>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo."
+      "description": "After casting <span style=\"color: #FFD780FF;\">Searing Onslaught</span>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo."
     }
   ],
   "passives": [
@@ -480,9 +480,10 @@
       "description": "Refunds 15% of the ore used when crafting Claymore-type weapons."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Dawn",
-    "description": "Releases intense flames to knock back nearby opponents, dealing <span style=\"color: #FF9999FF;\">Pyro DMG</span>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <span style=\"color: #FF9999FF;\">Pyro DMG</span> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\\nThe searing flames that run down his blade cause it to be infused with <span style=\"color: #FF9999FF;\">Pyro</span>.\\n\\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>",
+    "description": "Releases intense flames to knock back nearby opponents, dealing <span style=\"color: #FF9999FF;\">Pyro DMG</span>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <span style=\"color: #FF9999FF;\">Pyro DMG</span> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\nThe searing flames that run down his blade cause it to be infused with <span style=\"color: #FF9999FF;\">Pyro</span>.\n\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>",
     "skillLabels": [
       "Slashing DMG",
       "DoT",
@@ -782,11 +783,13 @@
           40
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Tempered Sword",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 4 consecutive strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nDrains Stamina over time to perform continuous slashes.\\nAt the end of the sequence, performs a more powerful slash.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 4 consecutive strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1297,11 +1300,13 @@
           5.978574
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Searing Onslaught",
-    "description": "Performs a forward slash that deals <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\\n\\nThis skill can be consecutively used 3 times.\\nEnters CD if not cast again within a short period.\\n\\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
+    "description": "Performs a forward slash that deals <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\n\nThis skill can be consecutively used 3 times.\nEnters CD if not cast again within a short period.\n\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1503,6 +1508,8 @@
           10
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

@@ -443,15 +443,15 @@
   "constellations": [
     {
       "name": "Agate Ryuukin",
-      "description": "The Aurous Blaze created by <span style=\"color: #FFD780FF;\">Ryuukin Saxifrage</span> lasts for an extra 4s.\\nAdditionally, when an opponent affected by Aurous Blaze is defeated within its duration, Yoimiya's ATK is increased by 20% for 20s."
+      "description": "The Aurous Blaze created by <span style=\"color: #FFD780FF;\">Ryuukin Saxifrage</span> lasts for an extra 4s.\nAdditionally, when an opponent affected by Aurous Blaze is defeated within its duration, Yoimiya's ATK is increased by 20% for 20s."
     },
     {
       "name": "A Procession of Bonfires",
-      "description": "When Yoimiya's <span style=\"color: #FF9999FF;\">Pyro DMG</span> scores a CRIT Hit, Yoimiya will gain a 25% <span style=\"color: #FF9999FF;\">Pyro DMG Bonus</span> for 6s.\\nThis effect can be triggered even when Yoimiya is not the active character."
+      "description": "When Yoimiya's <span style=\"color: #FF9999FF;\">Pyro DMG</span> scores a CRIT Hit, Yoimiya will gain a 25% <span style=\"color: #FF9999FF;\">Pyro DMG Bonus</span> for 6s.\nThis effect can be triggered even when Yoimiya is not the active character."
     },
     {
       "name": "Trickster's Flare",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Niwabi Fire-Dance</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Niwabi Fire-Dance</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Pyrotechnic Professional",
@@ -459,7 +459,7 @@
     },
     {
       "name": "A Summer Festival's Eve",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Ryuukin Saxifrage</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Ryuukin Saxifrage</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Naganohara Meteor Swarm",
@@ -480,9 +480,10 @@
       "description": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Ryuukin Saxifrage",
-    "description": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span> and mark one of the hit opponents with Aurous Blaze.\\n\\n<span style=\"color: #FFD780FF;\">Aurous Blaze</span>\\nAll Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\\nWhen an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\\n\\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.\\n\\n<i>Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on.</i>",
+    "description": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span> and mark one of the hit opponents with Aurous Blaze.\n\n<span style=\"color: #FFD780FF;\">Aurous Blaze</span>\nAll Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\nWhen an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\n\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.\n\n<i>Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on.</i>",
     "skillLabels": [
       "Skill DMG",
       "Aurous Blaze Explosion DMG",
@@ -733,11 +734,13 @@
           60
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Firework Flare-Up",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 consecutive shots with a bow.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nPerforms a more precise <span style=\"color: #FFD780FF;\">Aimed Shot</span> with increased DMG.\\nWhile aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:\\n·Charge Level 1: Fires off a flaming arrow that deals <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\\n·Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing <span style=\"color: #FF9999FF;\">Pyro DMG</span> on hit.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 consecutive shots with a bow.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nPerforms a more precise <span style=\"color: #FFD780FF;\">Aimed Shot</span> with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:\n·Charge Level 1: Fires off a flaming arrow that deals <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\n·Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing <span style=\"color: #FF9999FF;\">Pyro DMG</span> on hit.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1248,11 +1251,13 @@
           3.79592
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Niwabi Fire-Dance",
-    "description": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.\\n\\n<span style=\"color: #FFD780FF;\">Niwabi Enshou</span>\\nDuring this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to <span style=\"color: #FF9999FF;\">Pyro DMG</span>. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.\\n\\nThis effect will deactivate when Yoimiya leaves the field.\\n\\n<i>\"Niwabi\" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preparation has made it a real hit. After many fire-related incidents, the Tenryou Commission ordered the use of \"Niwabi\" banned, but small, bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.</i>",
+    "description": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.\n\n<span style=\"color: #FFD780FF;\">Niwabi Enshou</span>\nDuring this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to <span style=\"color: #FF9999FF;\">Pyro DMG</span>. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.\n\nThis effect will deactivate when Yoimiya leaves the field.\n\n<i>\"Niwabi\" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preparation has made it a real hit. After many fire-related incidents, the Tenryou Commission ordered the use of \"Niwabi\" banned, but small, bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.</i>",
     "skillLabels": [
       "Blazing Arrow DMG",
       "Duration",
@@ -1405,6 +1410,8 @@
           18
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

@@ -228,7 +228,7 @@
   function highlightLink(text) {
     for (const link of links) {
       link.highlight(text);
-    } 
+    }
   }
 
   async function changeLocale(locale) {
@@ -251,10 +251,18 @@
 
     await getConstellationCount();
 
-    document.querySelectorAll('button[data-link]').forEach(btn => {
+    document.querySelectorAll('button[data-link]').forEach((btn) => {
       btn.addEventListener('click', (event) => {
-        highlightLink(event.target.innerText)
-      })
+        highlightLink(event.target.innerText);
+      });
+    });
+
+    document.querySelectorAll('button[data-link-p], button[data-link-s], button[data-link-c]').forEach((btn) => {
+      btn.addEventListener('click', (event) => {
+        console.log(event.target);
+        const target = document.getElementById(event.target.innerText);
+        target.scrollIntoView();
+      });
     });
 
     locale.subscribe((val) => {
@@ -379,6 +387,7 @@
             <p>{$t('characters.ascensionMaterial')}</p>
             <div class="flex items-center mt-2">
               {#each materials as material}
+                {@debug material}
                 {#if material.item.id !== 'none'}
                   <Tooltip title={$t(material.item.name)}>
                     <div class="mr-2 h-12 w-12 bg-background rounded-xl p-1">
@@ -921,7 +930,12 @@
   <div class="flex flex-col text-white px-4 md:px-8 max-w-screen-2xl">
     <p class="font-black font-display text-2xl mt-4">{$t('characters.passiveTalents')}</p>
     {#each data.passives as passive, i}
-      <PassiveSkillCard {id} image="talent_{i + 4}" data={passive} />
+      <PassiveSkillCard
+        {id}
+        image="talent_{i + 4}"
+        data={passive}
+        order={data.passives.length === 4 && i === 2 ? 3 : undefined}
+      />
     {/each}
   </div>
   <Ad class="mt-2 max-w-screen-2xl flex justify-center" type="desktop" variant="lb" id="3" />
@@ -943,6 +957,10 @@
 </div>
 
 <style lang="postcss">
+  :global(d-item) {
+    display: inline;
+  }
+
   .pill {
     @apply rounded-2xl;
     @apply border-2;

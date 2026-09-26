@@ -443,7 +443,7 @@
   "constellations": [
     {
       "name": "Sea Beast's Scourge",
-      "description": "When <span style=\"color: #FFD780FF;\">Stormbreaker</span> is used:\\nCreates a shield that absorbs up to 16% of Beidou's Max HP for 15s.\\nThis shield absorbs <span style=\"color: #FFACFFFF;\">Electro DMG</span> 250% more effectively."
+      "description": "When <span style=\"color: #FFD780FF;\">Stormbreaker</span> is used:\nCreates a shield that absorbs up to 16% of Beidou's Max HP for 15s.\nThis shield absorbs <span style=\"color: #FFACFFFF;\">Electro DMG</span> 250% more effectively."
     },
     {
       "name": "Upon the Turbulent Sea, the Thunder Arises",
@@ -451,7 +451,7 @@
     },
     {
       "name": "Summoner of Storm",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Tidecaller</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Tidecaller</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Stunning Revenge",
@@ -459,30 +459,41 @@
     },
     {
       "name": "Crimson Tidewalker",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Stormbreaker</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Stormbreaker</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Bane of Evil",
-      "description": "During the duration of <span style=\"color: #FFD780FF;\">Stormbreaker</span>, the <span style=\"color: #FFACFFFF;\">Electro RES</span> of surrounding opponents is decreased by 15%."
+      "description": "During the duration of <span style=\"color: #FFD780FF;\">Stormbreaker</span>, the <span style=\"color: #FFACFFFF;\">Electro RES</span> of surrounding opponents is decreased by 15%.",
+      "descriptionBuff": "While <span style=\"color: #FFD780FF;\">Stormbreaker</span> is active, nearby opponents' <span style=\"color: #FFACFFFF;\">Electro RES</span> is reduced by 15%.\n\n<span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span>: The <span style=\"color: #99FFFFFF;\">Cryo RES</span> of nearby opponents is decreased by 15%, and the Elemental Mastery of the current active character is increased by 200, while Stormbreaker is active."
     }
   ],
   "passives": [
+    {
+      "name": "Polaris",
+      "description": "When holding down on the Elemental Skill <span style=\"color: #FFD780FF;\">Tidecaller</span>, 1 stack of power will accumulate every 0.8s, even when not under attack. This increases the DMG dealt at the point of unleashing.\nAdditionally, holding down to unleash <span style=\"color: #FFD780FF;\">Tidecaller</span> and hitting the opponent also gives extra boosts based on the power accumulated: every stack active decreases Beidou's Elemental Skill CD by 4s, as well as regenerates 8 Elemental Energy for her. This effect can trigger once every 15s.\nAdditionally, when inside a <button data-link=\"11330003\"><span style=\"color: #FFD780FF;\">Polestar Field</span></button>, Beidou will enter the <span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span> state."
+    },
     {
       "name": "Retribution",
       "description": "Counterattacking with <span style=\"color: #FFD780FF;\">Tidecaller</span> at the precise moment when the character is hit grants the maximum DMG Bonus."
     },
     {
       "name": "Lightning Storm",
-      "description": "Gain the following effects for 10s after unleashing <span style=\"color: #FFD780FF;\">Tidecaller</span> with its maximum DMG Bonus: \\n·DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\\n·Greatly reduced delay before unleashing Charged Attacks."
+      "description": "Gain the following effects for 10s after unleashing <span style=\"color: #FFD780FF;\">Tidecaller</span> with its maximum DMG Bonus: \n·DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\n·Greatly reduced delay before unleashing Charged Attacks."
     },
     {
       "name": "Conqueror of Tides",
-      "description": "Decreases swimming Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+      "description": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
     }
   ],
+  "links": {
+    "11330003": {
+      "title": "Polestar Field",
+      "desc": "When Stellar-Conduct is triggered, the surrounding area will transform into a <span style=\"color: #FFD780FF;\">Polestar Field</span> for a short period of time, and when inside a Polestar Field, certain characters will enter the <span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span> state, which grants various skill buffs."
+    }
+  },
   "burst": {
     "name": "Stormbreaker",
-    "description": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span> to nearby opponents.\\n\\n<span style=\"color: #FFD780FF;\">Thunderbeast's Targe</span>\\n·When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span>.\\n·Increases the character's resistance to interruption, and decreases DMG taken.\\n\\nA maximum of 1 lightning discharge can be triggered per second.\\n\\n<i>With a peal of thunder, Haishan is slain.</i>",
+    "description": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span> to nearby opponents.\n\n<span style=\"color: #FFD780FF;\">Thunderbeast's Targe</span>\n·When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span>.\n·Increases the character's resistance to interruption, and decreases DMG taken.\n\nA maximum of 1 lightning discharge can be triggered per second.\n\n<i>With a peal of thunder, Haishan is slain.</i>",
     "skillLabels": [
       "Skill DMG",
       "Lightning DMG",
@@ -782,11 +793,13 @@
           80
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Oceanborne",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 consecutive strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nDrains Stamina over time to perform continuous slashes.\\nAt the end of the sequence, performs a more powerful slash.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 consecutive strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1346,11 +1359,13 @@
           4.982145
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Tidecaller",
-    "description": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\\n\\n<span style=\"color: #FFD780FF;\">Press</span>\\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Hold</span>\\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span>. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\\nThe shield possesses the following properties:\\n·Has 250% <span style=\"color: #FFACFFFF;\">Electro DMG</span> Absorption Efficiency.\\n·Applies the <span style=\"color: #FFACFFFF;\">Electro element</span> to Beidou upon activation.\\n\\n<i>Conquer the high seas! Pursue the waves and chase the storm!</i>",
+    "description": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\n\n<span style=\"color: #FFD780FF;\">Press</span>\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Hold</span>\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span>. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\nThe shield possesses the following properties:\n·Has 250% <span style=\"color: #FFACFFFF;\">Electro DMG</span> Absorption Efficiency.\n·Applies the <span style=\"color: #FFACFFFF;\">Electro element</span> to Beidou upon activation.\n\n<i>Conquer the high seas! Pursue the waves and chase the storm!</i>",
     "skillLabels": [
       "Shield DMG Absorption",
       "Base DMG",
@@ -1567,6 +1582,8 @@
           7.5
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

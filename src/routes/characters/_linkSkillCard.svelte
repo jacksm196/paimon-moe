@@ -1,5 +1,5 @@
 <script>
-  import { tick } from "svelte";
+  import { tick } from 'svelte';
 
   /** @type{{ title: string, desc: string }} */
   export let data;
@@ -15,7 +15,9 @@
     description = description.replaceAll(text, (str) => `<span class="text-highlight">${str}</span>`);
     title = title.replaceAll(text, (str) => `<span class="text-highlight">${str}</span>`);
     await tick();
-    document.querySelector('span.text-highlight').scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
+    document
+      .querySelector('span.text-highlight')
+      .scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
   }
 </script>
 
@@ -29,22 +31,36 @@
 </div>
 
 <style lang="postcss">
-:global(button[data-link]):hover {
-  text-decoration: underline;
-}
-
-:global(.text-highlight) {
-  animation: blink 1000ms ease-in-out forwards; 
-  --color: #FFD78050;
-}
-
-@keyframes blink {
-  20%, 60%, 100% {
-    background-color: var(--color);
+  :global(button[data-link]),
+  :global(button[data-link-p]),
+  :global(button[data-link-s]),
+  :global(button[data-link-c]) {
+    text-decoration: underline;
   }
 
-  0%, 40%, 80% {
-    background-color: transparent;
+  :global(button[data-link]):hover,
+  :global(button[data-link-p]):hover,
+  :global(button[data-link-s]):hover,
+  :global(button[data-link-c]):hover {
+    filter: brightness(0.8);
   }
-}
+
+  :global(.text-highlight) {
+    animation: blink 1000ms ease-in-out forwards;
+    --color: #ffd78050;
+  }
+
+  @keyframes blink {
+    20%,
+    60%,
+    100% {
+      background-color: var(--color);
+    }
+
+    0%,
+    40%,
+    80% {
+      background-color: transparent;
+    }
+  }
 </style>

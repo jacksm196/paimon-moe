@@ -451,15 +451,15 @@
     },
     {
       "name": "Seclusion",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Spring Spirit Summoning</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Spring Spirit Summoning</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Insight",
-      "description": "When characters under the effect of <span style=\"color: #FFD780FF;\">Icy Quill</span> applied by Shenhe trigger its DMG Bonus effects, Shenhe will gain a Skyfrost Mantra stack:\\n· When Shenhe uses <span style=\"color: #FFD780FF;\">Spring Spirit Summoning</span>, she will consume all stacks of Skyfrost Mantra, increasing the DMG of that Spring Spirit Summoning by 5% for each stack consumed.\\n· Max 50 stacks. Stacks last for 60s."
+      "description": "When characters under the effect of <span style=\"color: #FFD780FF;\">Icy Quill</span> applied by Shenhe trigger its DMG Bonus effects, Shenhe will gain a Skyfrost Mantra stack:\n· When Shenhe uses <span style=\"color: #FFD780FF;\">Spring Spirit Summoning</span>, she will consume all stacks of Skyfrost Mantra, increasing the DMG of that Spring Spirit Summoning by 5% for each stack consumed.\n· Max 50 stacks. Stacks last for 60s."
     },
     {
       "name": "Divine Attainment",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Divine Maiden's Deliverance</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Divine Maiden's Deliverance</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Mystical Abandon",
@@ -473,16 +473,17 @@
     },
     {
       "name": "Spirit Communion Seal",
-      "description": "After Shenhe uses <span style=\"color: #FFD780FF;\">Spring Spirit Summoning</span>, she will grant all nearby party members the following effects:\\n· Press: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\\n· Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s."
+      "description": "After Shenhe uses <span style=\"color: #FFD780FF;\">Spring Spirit Summoning</span>, she will grant all nearby party members the following effects:\n· Press: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\n· Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s."
     },
     {
       "name": "Precise Comings and Goings",
       "description": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Divine Maiden's Deliverance",
-    "description": "Unleashes the power of the Talisman Spirit, allowing it to roam free in this plane, dealing <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span>.\\nThe Talisman Spirit then creates a field that decreases the <span style=\"color: #99FFFFFF;\">Cryo RES</span> and Physical RES of opponents within it. It also deals periodic <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to opponents within the field.\\n\\n<i>The way of the adepti is not defined only by the mysterious and fantastical. Only by observing the changes in the heavens and the earth, and understanding the laws of cause and effect in this realm, may its essence be understood.</i>",
+    "description": "Unleashes the power of the Talisman Spirit, allowing it to roam free in this plane, dealing <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span>.\nThe Talisman Spirit then creates a field that decreases the <span style=\"color: #99FFFFFF;\">Cryo RES</span> and Physical RES of opponents within it. It also deals periodic <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to opponents within the field.\n\n<i>The way of the adepti is not defined only by the mysterious and fantastical. Only by observing the changes in the heavens and the earth, and understanding the laws of cause and effect in this realm, may its essence be understood.</i>",
     "skillLabels": [
       "Skill DMG",
       "RES Decrease",
@@ -782,11 +783,13 @@
           80
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Dawnstar Piercer",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 consecutive spear strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 consecutive spear strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1263,11 +1266,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Spring Spirit Summoning",
-    "description": "The frosted dew, silvery and dense, shall exorcise all demons.\\nGrants all nearby party members the Icy Quill effect and deals <span style=\"color: #99FFFFFF;\">Cryo DMG</span> in different ways based on whether it is pressed or held.\\n\\n<span style=\"color: #FFD780FF;\">pressed</span>\\nRushes forward together with a Talisman Spirit, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to opponents along the path.\\n\\n<span style=\"color: #FFD780FF;\">Hold</span>\\nCommands the Talisman Spirit to deal <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Icy Quill</span>\\nWhen Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts deal <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to opponents, the DMG dealt is increased based on Shenhe's current ATK.\\n\\nThe Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than pressed, the Icy Quill's effect lasts longer and can be triggered more times.\\nWhen one <span style=\"color: #99FFFFFF;\">Cryo DMG</span> instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.\\n\\n<i>The power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!</i>",
+    "description": "The frosted dew, silvery and dense, shall exorcise all demons.\nGrants all nearby party members the Icy Quill effect and deals <span style=\"color: #99FFFFFF;\">Cryo DMG</span> in different ways based on whether it is pressed or held.\n\n<span style=\"color: #FFD780FF;\">pressed</span>\nRushes forward together with a Talisman Spirit, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to opponents along the path.\n\n<span style=\"color: #FFD780FF;\">Hold</span>\nCommands the Talisman Spirit to deal <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Icy Quill</span>\nWhen Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts deal <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to opponents, the DMG dealt is increased based on Shenhe's current ATK.\n\nThe Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than pressed, the Icy Quill's effect lasts longer and can be triggered more times.\nWhen one <span style=\"color: #99FFFFFF;\">Cryo DMG</span> instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.\n\n<i>The power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!</i>",
     "skillLabels": [
       "Press Skill DMG",
       "Hold Skill DMG",
@@ -1646,6 +1651,8 @@
           15
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

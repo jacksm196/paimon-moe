@@ -443,7 +443,7 @@
   "constellations": [
     {
       "name": "Tidal Illusion",
-      "description": "Every time <span style=\"color: #FFD780FF;\">Icetide Vortex</span>'s Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s."
+      "description": "Every time <span style=\"color: #FFD780FF;\">Icetide Vortex</span>'s Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s."
     },
     {
       "name": "Lady of Seafoam",
@@ -451,7 +451,7 @@
     },
     {
       "name": "Lawrence Pedigree",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Glacial Illumination</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Glacial Illumination</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "The Obstinacy of One's Inferiors",
@@ -459,7 +459,7 @@
     },
     {
       "name": "Chivalric Quality",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Icetide Vortex</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Icetide Vortex</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Noble Obligation",
@@ -480,9 +480,10 @@
       "description": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Glacial Illumination",
-    "description": "Brandishes her greatsword, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\\n\\n<i>It is easy to sink. But even so, she desires to freeze this oncoming tide.</i>",
+    "description": "Brandishes her greatsword, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\n\n<i>It is easy to sink. But even so, she desires to freeze this oncoming tide.</i>",
     "skillLabels": [
       "Skill DMG",
       "Lightfall Sword Base DMG",
@@ -782,11 +783,13 @@
           80
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Favonius Bladework - Edel",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 consecutive strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nDrains Stamina over time to perform continuous slashes.\\nAt the end of the sequence, performs a more powerful slash.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 consecutive strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, performs a more powerful slash.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1376,11 +1379,13 @@
           5.413209
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Icetide Vortex",
-    "description": "Sharp frost, swift blade.\\n\\n<span style=\"color: #FFD780FF;\">Press</span>\\nSlashes swiftly, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span>.\\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\\n\\n<span style=\"color: #FFD780FF;\">Grimheart</span>\\nIncreases Eula's resistance to interruption and DEF.\\n\\n<span style=\"color: #FFD780FF;\">Hold</span>\\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span> to opponents in front of her.\\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and <span style=\"color: #99FFFFFF;\">Cryo RES</span> decreased.\\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to nearby opponents.\\n\\n<i>\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"</i>",
+    "description": "Sharp frost, swift blade.\n\n<span style=\"color: #FFD780FF;\">Press</span>\nSlashes swiftly, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span>.\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\n\n<span style=\"color: #FFD780FF;\">Grimheart</span>\nIncreases Eula's resistance to interruption and DEF.\n\n<span style=\"color: #FFD780FF;\">Hold</span>\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span> to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and <span style=\"color: #99FFFFFF;\">Cryo RES</span> decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to nearby opponents.\n\n<i>\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"</i>",
     "skillLabels": [
       "Press DMG",
       "Hold DMG",
@@ -1876,6 +1881,8 @@
           10
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

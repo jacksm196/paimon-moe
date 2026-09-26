@@ -443,33 +443,42 @@
   "constellations": [
     {
       "name": "Yakan Offering",
-      "description": "Each time <span style=\"color: #FFD780FF;\">Great Secret Art: Tenko Kenshin</span> activates a Tenko Thunderbolt, Yae Miko will restore 8 Elemental Energy for herself."
+      "description": "Each time <span style=\"color: #FFD780FF;\">Great Secret Art: Tenko Kenshin</span> activates a Tenko Thunderbolt, Yae Miko will restore 8 Elemental Energy for herself.",
+      "descriptionBuff": "Each time <span style=\"color: #FFD780FF;\">Great Secret Art: Tenko Kenshin</span> activates a Tenko Thunderbolt, Yae Miko restores 8 Elemental Energy to herself. After Yae Miko triggers a Superconduct or Stellar-Conduct reaction, or deals Stellar-Conduct DMG, nearby party members will gain a 50% Electro DMG and Stellar-Conduct DMG Bonus for 10s. Triggering these reactions again will refresh the duration of the DMG bonuses."
     },
     {
       "name": "Fox's Mooncall",
-      "description": "<span style=\"color: #FFD780FF;\">Sesshou Sakura</span> start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%."
+      "description": "<span style=\"color: #FFD780FF;\">Sesshou Sakura</span> start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%.",
+      "descriptionBuff": "<span style=\"color: #FFD780FF;\">Sesshou Sakura</span> start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%. Additionally, when there are Sesshou Sakura in the field, Yae Miko's and your current active character's Elemental Mastery will also be increased by 60/90/120/200 points, depending on the level of the Sesshou Sakura."
     },
     {
       "name": "The Seven Glamours",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Yakan Evocation: Sesshou Sakura</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Yakan Evocation: Sesshou Sakura</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Sakura Channeling",
-      "description": "When <span style=\"color: #FFD780FF;\">Sesshou Sakura</span> lightning hits opponents, the <span style=\"color: #FFACFFFF;\">Electro DMG Bonus</span> of all nearby party members is increased by 20% for 5s."
+      "description": "When <span style=\"color: #FFD780FF;\">Sesshou Sakura</span> lightning hits opponents, the <span style=\"color: #FFACFFFF;\">Electro DMG Bonus</span> of all nearby party members is increased by 20% for 5s.",
+      "descriptionBuff": "When <span style=\"color: #FFD780FF;\">Sesshou Sakura</span> lightning hits opponents, the <span style=\"color: #FFACFFFF;\">Electro DMG Bonus</span> of all nearby party members is increased by 20% for 5s, and Yae Miko regenerates 8 Elemental Energy. The aforementioned Elemental Energy recovery effect can trigger once every 5s. Additionally, Yae Miko's Elemental Burst DMG is increased by 100%."
     },
     {
       "name": "Mischievous Teasing",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Great Secret Art: Tenko Kenshin</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Great Secret Art: Tenko Kenshin</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Forbidden Art: Daisesshou",
-      "description": "<span style=\"color: #FFD780FF;\">The Sesshou Sakura's</span> attacks will ignore 60% of the opponents' DEF."
+      "description": "<span style=\"color: #FFD780FF;\">The Sesshou Sakura's</span> attacks will ignore 60% of the opponents' DEF.",
+      "descriptionBuff": "<span style=\"color: #FFD780FF;\">Sesshou Sakura's</span> attacks will ignore 60% of the opponents' DEF. The CRIT DMG of Yae Miko's Stellar-Conduct DMG is increased by 200%."
     }
   ],
   "passives": [
     {
+      "name": "Edict of Cleansing",
+      "description": "Extends the duration of the Sesshou Sakura by 10s. When a nearby party member triggers a Superconduct or Stellar-Conduct reaction, the next instance of Sesshou Sakura lightning is enhanced as follows: DMG dealt is increased at 80% of Yae Miko's ATK. This effect can trigger once every 2.5s.\n<span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span>: An enhanced Sesshou Sakura lightning bolt hit on an opponent will also cause an additional instance of <span style=\"color: #FFACFFFF;\">Electro DMG</span> at 200% of Yae Miko's ATK. This DMG is considered Stellar-Conduct DMG.\nAdditionally, when inside a <button data-link=\"11330003\"><span style=\"color: #FFD780FF;\">Polestar Field</span></button>, Yae Miko will enter the <span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span> state."
+    },
+    {
       "name": "The Shrine's Sacred Shade",
-      "description": "When casting <span style=\"color: #FFD780FF;\">Great Secret Art: Tenko Kenshin</span>, each Sesshou Sakura destroyed resets the cooldown for 1 charge of <span style=\"color: #FFD780FF;\">Yakan Evocation: Sesshou Sakura</span>."
+      "description": "When casting <span style=\"color: #FFD780FF;\">Great Secret Art: Tenko Kenshin</span>, each Sesshou Sakura destroyed resets the cooldown for 1 charge of <span style=\"color: #FFD780FF;\">Yakan Evocation: Sesshou Sakura</span>.",
+      "descriptionBuff": "When <span style=\"color: #FFD780FF;\">Great Secret Art: Tenko Kenshin</span> is unleashed, each Sesshou Sakura involved will reset the cooldown for one instance of <span style=\"color: #FFD780FF;\">Yakan Evocation: Sesshou Sakura</span>.\nWhen there are at least 3 Sesshou Sakura nearby at the same time, unleashing <span style=\"color: #FFD780FF;\">Yakan Evocation: Sesshou Sakura</span> will cause Yae Miko to unleash an additional lightning strike which deals <span style=\"color: #FFACFFFF;\">Electro DMG</span> at 40% of her ATK.\n<span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span>: The aforementioned additional lightning strike becomes an instance of <span style=\"color: #FFACFFFF;\">Electro DMG</span> at 50% of Yae Miko's ATK instead. This DMG will also be considered Stellar-Conduct DMG."
     },
     {
       "name": "Enlightened Blessing",
@@ -480,9 +489,16 @@
       "description": "Has a 25% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is that of the base material."
     }
   ],
+  "links": {
+    "11330003": {
+      "title": "Polestar Field",
+      "desc": "When Stellar-Conduct is triggered, the surrounding area will transform into a <span style=\"color: #FFD780FF;\">Polestar Field</span> for a short period of time, and when inside a Polestar Field, certain characters will enter the <span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span> state, which grants various skill buffs."
+    }
+  },
   "burst": {
     "name": "Great Secret Art: Tenko Kenshin",
-    "description": "Legends of \"kitsunetsuki,\" or the manifestation of a kitsune's might, are common in Inazuma's folktales. One that particularly captures the imagination is that of the Sky Kitsune, said to cause lightning to fall down upon the foes of the Grand Narukami Shrine. Summons a lightning strike, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span>.\\nWhen she uses this skill, Yae Miko will unseal nearby Sesshou Sakura, destroying their outer forms and transforming them into Tenko Thunderbolts that descend from the skies, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span>. Each Sesshou Sakura destroyed in this way will create one Tenko Thunderbolt.\\n\\n<i>Only at times like these will Yae reveal her Sky Kitsune form and wield lightning itself. None have seen the Lady Guuji's tails and lived to tell the story... so remember, as far as you are concerned, Lady Yae does not have a tail.</i>",
+    "description": "Legends of \"kitsunetsuki,\" or the manifestation of a kitsune's might, are common in Inazuma's folktales. One that particularly captures the imagination is that of the Sky Kitsune, said to cause lightning to fall down upon the foes of the Grand Narukami Shrine. Summons a lightning strike, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span>.\nWhen she uses this skill, Yae Miko will unseal nearby Sesshou Sakura, destroying their outer forms and transforming them into Tenko Thunderbolts that descend from the skies, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span>. Each Sesshou Sakura destroyed in this way will create one Tenko Thunderbolt.\n\n<i>Only at times like these will Yae reveal her Sky Kitsune form and wield lightning itself. None have seen the Lady Guuji's tails and lived to tell the story... so remember, as far as you are concerned, Lady Yae does not have a tail.</i>",
+    "descriptionBuff": "Legends of \"kitsunetsuki,\" or the manifestation of a kitsune's might, are common in Inazuma's folktales. One that particularly captures the imagination is that of the Sky Kitsune, said to cause lightning to fall down upon the foes of the Grand Narukami Shrine. Summons a lightning strike, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span>.\nWhen this is cast, Yae Miko will transform nearby Sesshou Sakura into Tenko Thunderbolts that descend from the skies, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span>. Each Sesshou Sakura within range transforms into one Tenko Thunderbolt.\n\n<i>Only at times like these will Yae reveal her Sky Kitsune form and wield lightning itself. None have seen the Lady Guuji's tails and lived to tell the story... so remember, as far as you are concerned, Lady Yae does not have a tail.</i>",
     "skillLabels": [
       "Skill DMG",
       "Tenko Thunderbolt DMG",
@@ -684,11 +700,13 @@
           90
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Spiritfox Sin-Eater",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nSummons forth kitsune spirits, initiating a maximum of 3 attacks that deal <span style=\"color: #FFACFFFF;\">Electro DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to deal <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> after a short casting time.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges towards the ground from mid-air, damaging all opponents in her path with thunderous might. Deals <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> upon impact with the ground.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nSummons forth kitsune spirits, initiating a maximum of 3 attacks that deal <span style=\"color: #FFACFFFF;\">Electro DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to deal <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> after a short casting time.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges towards the ground from mid-air, damaging all opponents in her path with thunderous might. Deals <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> upon impact with the ground.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1052,11 +1070,13 @@
           3.79592
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Yakan Evocation: Sesshou Sakura",
-    "description": "To Yae, such dull tasks as can be accomplished by driving spirits out need not be done personally.\\nMoves swiftly, leaving a Sesshou Sakura behind.\\n\\n<span style=\"color: #FFD780FF;\">Sesshou Sakura</span>\\nHas the following properties:\\n· Periodically strikes one nearby opponent with lightning, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span>\\n· When there are other Sesshou Sakura nearby, their level will increase, boosting the DMG dealt by these lightning strikes.\\n\\nThis skill has three charges.\\nA maximum of 3 Sesshou Sakura can exist simultaneously. The initial level of each Sesshou Sakura is 1, and the initial highest level each sakura can reach is 3. If a new Sesshou Sakura is created too close to an existing one, the existing one will be destroyed.\\n\\n<i>\"The kitsune spirits sealed in the branches are all yakan who stooped to preying upon humans. The yakan are two grades lower than us Sky Kitsune, and so, I hardly see the problem with... asking that they do my bidding. Now, this doesn't mean that you humans should go learning from our grading systems, no indeed — and as for which of us, kitsune or human, is higher up in the pecking order... Heh, wouldn't you like to know?\"</i>",
+    "description": "To Yae, such dull tasks as can be accomplished by driving spirits out need not be done personally.\nMoves swiftly, leaving a Sesshou Sakura behind.\n\n<span style=\"color: #FFD780FF;\">Sesshou Sakura</span>\nHas the following properties:\n· Periodically strikes one nearby opponent with lightning, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span>\n· When there are other Sesshou Sakura nearby, their level will increase, boosting the DMG dealt by these lightning strikes.\n\nThis skill has three charges.\nA maximum of 3 Sesshou Sakura can exist simultaneously. The initial level of each Sesshou Sakura is 1, and the initial highest level each sakura can reach is 3. If a new Sesshou Sakura is created too close to an existing one, the existing one will be destroyed.\n\n<i>\"The kitsune spirits sealed in the branches are all yakan who stooped to preying upon humans. The yakan are two grades lower than us Sky Kitsune, and so, I hardly see the problem with... asking that they do my bidding. Now, this doesn't mean that you humans should go learning from our grading systems, no indeed — and as for which of us, kitsune or human, is higher up in the pecking order... Heh, wouldn't you like to know?\"</i>",
     "skillLabels": [
       "Sesshou Sakura DMG: Level 1",
       "Sesshou Sakura DMG: Level 2",
@@ -1356,6 +1376,8 @@
           4
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

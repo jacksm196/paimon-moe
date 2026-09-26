@@ -443,7 +443,7 @@
   "constellations": [
     {
       "name": "Stable Front Line's Resolve",
-      "description": "When the active character with the \"Coordinated Tactics\" status (not including Chevreuse herself) triggers the Overloaded reaction, they will recover 6 Energy. This effect can be triggered once every 10s.\\nYou must first unlock the Ascension Talent \"Vanguard's Coordinated Tactics.\""
+      "description": "When the active character with the \"Coordinated Tactics\" status (not including Chevreuse herself) triggers the Overloaded reaction, they will recover 6 Energy. This effect can be triggered once every 10s.\nYou must first unlock the Ascension Talent \"Vanguard's Coordinated Tactics.\""
     },
     {
       "name": "Sniper Induced Explosion",
@@ -451,7 +451,7 @@
     },
     {
       "name": "Practiced Field Stripping Technique",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Short-Range Rapid Interdiction Fire</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Short-Range Rapid Interdiction Fire</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "The Secret to Rapid-Fire Multishots",
@@ -459,17 +459,17 @@
     },
     {
       "name": "Enhanced Incendiary Firepower",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Ring of Bursting Grenades</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Ring of Bursting Grenades</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "In Pursuit of Ending Evil",
-      "description": "After 12s of the healing effect from <span style=\"color: #FFD780FF;\">Short-Range Rapid Interdiction Fire</span>, all nearby party members recover HP equivalent to 10% of Chevreuse's Max HP once.\\nAfter a party member is healed by Short-Range Rapid Interdiction Fire, they gain a 20% <span style=\"color: #FF9999FF;\">Pyro DMG Bonus</span> and <span style=\"color: #FFACFFFF;\">Electro DMG Bonus</span> for 8s. Max 3 stacks. Each stack's duration is counted independently."
+      "description": "After 12s of the healing effect from <span style=\"color: #FFD780FF;\">Short-Range Rapid Interdiction Fire</span>, all nearby party members recover HP equivalent to 10% of Chevreuse's Max HP once.\nAfter a party member is healed by Short-Range Rapid Interdiction Fire, they gain a 20% <span style=\"color: #FF9999FF;\">Pyro DMG Bonus</span> and <span style=\"color: #FFACFFFF;\">Electro DMG Bonus</span> for 8s. Max 3 stacks. Each stack's duration is counted independently."
     }
   ],
   "passives": [
     {
       "name": "Vanguard's Coordinated Tactics",
-      "description": "When all party members are <span style=\"color: #FF9999FF;\">Pyro</span> and <span style=\"color: #FFACFFFF;\">Electro</span> characters and there is at least one Pyro and one Electro character each in the party:\\nChevreuse grants \"Coordinated Tactics\" to nearby party members: After a character triggers the Overloaded reaction, the <span style=\"color: #FF9999FF;\">Pyro</span> and <span style=\"color: #FFACFFFF;\">Electro</span> RES of the opponent(s) affected by this Overloaded reaction will be decreased by 40% for 6s.\\nThe \"Coordinated Tactics\" effect will be removed when the Elemental Types of the characters in the party do not meet the basic requirements for the Ascension Talent."
+      "description": "When all party members are <span style=\"color: #FF9999FF;\">Pyro</span> and <span style=\"color: #FFACFFFF;\">Electro</span> characters and there is at least one Pyro and one Electro character each in the party:\nChevreuse grants \"Coordinated Tactics\" to nearby party members: After a character triggers the Overloaded reaction, the <span style=\"color: #FF9999FF;\">Pyro</span> and <span style=\"color: #FFACFFFF;\">Electro</span> RES of the opponent(s) affected by this Overloaded reaction will be decreased by 40% for 6s.\nThe \"Coordinated Tactics\" effect will be removed when the Elemental Types of the characters in the party do not meet the basic requirements for the Ascension Talent."
     },
     {
       "name": "Vertical Force Coordination",
@@ -477,12 +477,13 @@
     },
     {
       "name": "Double Time March",
-      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Ring of Bursting Grenades",
-    "description": "Chevreuse fires an explosive grenade at opponents with her musket, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG.</span> After the projectile hits, it will split into many secondary explosive shells.\\nThe secondary explosive shells will burst after a short interval, dealing <span style=\"color: #FF9999FF;\">Pyro DMG</span> to nearby opponents.\\n\\n<i>\"Theoretically, a rectangular blast would be most efficient at destroying enemy formations. Unfortunately, the cross-section of an explosive shock wave is round, like most cakes. So, the secondary explosive shells can only be arranged like the fruit on a cake, forming a ring around the edge.\"</i>",
+    "description": "Chevreuse fires an explosive grenade at opponents with her musket, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG.</span> After the projectile hits, it will split into many secondary explosive shells.\nThe secondary explosive shells will burst after a short interval, dealing <span style=\"color: #FF9999FF;\">Pyro DMG</span> to nearby opponents.\n\n<i>\"Theoretically, a rectangular blast would be most efficient at destroying enemy formations. Unfortunately, the cross-section of an explosive shock wave is round, like most cakes. So, the secondary explosive shells can only be arranged like the fruit on a cake, forming a ring around the edge.\"</i>",
     "skillLabels": [
       "Explosive Grenade DMG",
       "Secondary Explosive Shell DMG",
@@ -684,11 +685,13 @@
           60
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Line Bayonet Thrust EX",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 4 consecutive spear strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 4 consecutive spear strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1116,11 +1119,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Short-Range Rapid Interdiction Fire",
-    "description": "Chevreuse quickly shoulders her musket and fires at her opponent(s), dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\\nFor a short duration after Chevreuse fires a shot, she will continuously restore HP to your active character on the field. The amount healed is based on her Max HP.\\nHold to fire in a different fashion.\\n\\n<span style=\"color: #FFD780FF;\">Hold</span>\\nEnter Aiming Mode, locking a target in her sights to fire a precise interdiction shot. If Chevreuse has an Overcharged Ball, then she will fire the Overcharged Ball instead, dealing greater <span style=\"color: #FF9999FF;\">Pyro DMG</span> in a larger area.\\nChevreuse gains 1 Overcharged Ball every time a nearby character in the party triggers an Overloaded reaction, and can have up to 1 Overcharged Ball at a time.\\n\\n<span style=\"color: #FFD780FF;\">Arkhe: Ousia</span>\\nPeriodically, after Chevreuse's Short-Range Rapid Interdiction Fire hits, a Surging Blade will be called forth that deals Ousia-aligned <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\\n\\n<i>\"Actually, training regulations only had the phrase \"interdiction fire,\" but the protagonist of this novel believes that even how stylish your terminology is can affect how motivated your troops are, which can put your opponents on the back foot right from the get-go... I think that's a good point, so I changed the regulations!\"</i>",
+    "description": "Chevreuse quickly shoulders her musket and fires at her opponent(s), dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\nFor a short duration after Chevreuse fires a shot, she will continuously restore HP to your active character on the field. The amount healed is based on her Max HP.\nHold to fire in a different fashion.\n\n<span style=\"color: #FFD780FF;\">Hold</span>\nEnter Aiming Mode, locking a target in her sights to fire a precise interdiction shot. If Chevreuse has an Overcharged Ball, then she will fire the Overcharged Ball instead, dealing greater <span style=\"color: #FF9999FF;\">Pyro DMG</span> in a larger area.\nChevreuse gains 1 Overcharged Ball every time a nearby character in the party triggers an Overloaded reaction, and can have up to 1 Overcharged Ball at a time.\n\n<span style=\"color: #FFD780FF;\">Arkhe: Ousia</span>\nPeriodically, after Chevreuse's Short-Range Rapid Interdiction Fire hits, a Surging Blade will be called forth that deals Ousia-aligned <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\n\n<i>\"Actually, training regulations only had the phrase \"interdiction fire,\" but the protagonist of this novel believes that even how stylish your terminology is can affect how motivated your troops are, which can put your opponents on the back foot right from the get-go... I think that's a good point, so I changed the regulations!\"</i>",
     "skillLabels": [
       "Press DMG",
       "Hold DMG",
@@ -1533,6 +1538,8 @@
           15
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

@@ -443,33 +443,41 @@
   "constellations": [
     {
       "name": "Terror for the Evildoers",
-      "description": "The Gracious Rebuke from the Ascension Talent \"There Shall Be a Plea for Justice\" is changed to this:\\nWhen Wriothesley's HP is less than 60% or while he is in the Chilling Penalty state caused by <span style=\"color: #FFD780FF;\">Icefang Rush</span>, when the fifth attack of Repelling Fists hits, it will create a Gracious Rebuke. 1 Gracious Rebuke effect can be obtained every 2.5s.\\n\\nAdditionally, Rebuke: Vaulting Fist will obtain the following enhancement:\\n· The DMG Bonus gained will be further increased to 200%.\\n· When it hits while Wriothesley is in the Chilling Penalty state, that state's duration is extended by 4s. 1 such extension can occur per 1 Chilling Penalty duration.\\n\\nYou must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\""
+      "description": "The Gracious Rebuke from the Ascension Talent \"There Shall Be a Plea for Justice\" is changed to this:\nWhen Wriothesley's HP is less than 60% or while he is in the Chilling Penalty state caused by <span style=\"color: #FFD780FF;\">Icefang Rush</span>, when the fifth attack of Repelling Fists hits, it will create a Gracious Rebuke. 1 Gracious Rebuke effect can be obtained every 2.5s.\n\nAdditionally, Rebuke: Vaulting Fist will obtain the following enhancement:\n· The DMG Bonus gained will be further increased to 200%.\n· When it hits while Wriothesley is in the Chilling Penalty state, that state's duration is extended by 4s. 1 such extension can occur per 1 Chilling Penalty duration.\n\nYou must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\"",
+      "descriptionBuff": "The Gracious Rebuke from the Ascension Talent \"There Shall Be a Plea for Justice\" is changed to this:\nWhen Wriothesley's HP is less than 60% or while he is in the Chilling Penalty state caused by <span style=\"color: #FFD780FF;\">Icefang Rush</span>, when the fifth attack of Repelling Fists hits, it will create a Gracious Rebuke. 1 Gracious Rebuke effect can be obtained every 2.5s.\n\nAdditionally, Rebuke: Vaulting Fist will obtain the following enhancement:\n· The DMG Bonus gained will be further increased to 200%.\n· When it hits while Wriothesley is in the Chilling Penalty state, that state's duration is extended by 4s.\n\n<span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct:</span>\n· After a Luster: Vaulting Fist attack hits an opponent, the next fifth attack of Repelling Fist enhanced by Chilling Penalty that hits within the next 5s deals 50% increased Stellar-Conduct DMG.\n· After the fifth attack of Repelling Fist enhanced by Chilling Penalty hits an opponent, Luster: Vaulting Fists that hit within the next 5s deal 50% increased DMG.\n· If Luster: Vaulting Fist hits an opponent while Wriothesley is in the Chilling Penalty state, that state's duration is extended by 4s.\n\n1 such extension can occur per 1 Chilling Penalty duration.\n\nYou must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\""
     },
     {
       "name": "Shackles for the Arrogant",
-      "description": "When using <span style=\"color: #FFD780FF;\">Darkgold Wolfbite</span>, each Prosecution Edict stack from the Ascension Talent \"There Shall Be a Reckoning for Sin\" will increase said ability's DMG dealt by 40%.\\nYou must first unlock the Ascension Talent \"There Shall Be a Reckoning for Sin.\""
+      "description": "When using <span style=\"color: #FFD780FF;\">Darkgold Wolfbite</span>, each Prosecution Edict stack from the Ascension Talent \"There Shall Be a Reckoning for Sin\" will increase said ability's DMG dealt by 40%.\nYou must first unlock the Ascension Talent \"There Shall Be a Reckoning for Sin.\"",
+      "descriptionBuff": "When <span style=\"color: #FFD780FF;\">Darkgold Wolfbite</span> is unleashed, each instance of the Prosecution Edict effect from the Ascension Talent \"There Shall Be a Reckoning for Sin\" will increase the DMG dealt by 40%.\n\nAdditionally, when the Prosecution Edict stack reaches 5, if Wriothesley:\n· Is in the <span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span> state: The Talent \"There Shall Be an Unveiling for Injustice\" will be enhanced, so that the third and fifth strikes of Repelling Fist, when enhanced by <span style=\"color: #FFD780FF;\">Chilling Penalty</span>, deal 90% or 120% of their original <span style=\"color: #99FFFFFF;\">Cryo DMG</span> respectively, while Luster: Vaulting Fist will deal 150% of its original <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span>. The aforementioned DMG is considered Stellar-Conduct DMG.\n· Is not in the <span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span> state: Normal Attacks and Charged Attacks will deal 125% or 130% of their original DMG respectively.\n\nYou must first unlock the Ascension Talent \"There Shall Be a Reckoning for Sin.\""
     },
     {
       "name": "Punishment for the Frauds",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Normal Attack: Forceful Fists of Frost</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Normal Attack: Forceful Fists of Frost</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Redemption for the Suffering",
-      "description": "The HP restored to Wriothesley through Rebuke: Vaulting Fist will be increased to 50% of his Max HP. You must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\"\\nAdditionally, when Wriothesley is healed, if the amount of healing overflows, the following effects will occur depending on whether he is on the field or not. If he is on the field, his ATK SPD will be increased by 20% for 4s. If he is off-field, all of your own party members' ATK SPD will be increased by 10% for 6s. These two methods of increasing ATK SPD cannot stack."
+      "description": "The HP restored to Wriothesley through Rebuke: Vaulting Fist will be increased to 50% of his Max HP. You must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\"\nAdditionally, when Wriothesley is healed, if the amount of healing overflows, the following effects will occur depending on whether he is on the field or not. If he is on the field, his ATK SPD will be increased by 20% for 4s. If he is off-field, all of your own party members' ATK SPD will be increased by 10% for 6s. These two methods of increasing ATK SPD cannot stack.",
+      "descriptionBuff": "The HP restored to Wriothesley through Rebuke: Vaulting Fist will be increased to 50% of his Max HP. You must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\"\nAdditionally, when Wriothesley is healed, if the amount of healing overflows, the following effects will occur, depending on whether he is on the field. If he is on the field, his ATK SPD will be increased by 20% for 4s. If he is off-field, all of your own party members' ATK SPD will be increased by 10% for 6s. These two ATK SPD boosts cannot stack.\n\n<span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span>: The aforementioned effect is changed to:\nWriothesley takes 25% less DMG, and his ATK SPD is increased by 20%. Other nearby party members' ATK SPD is increased by 10%."
     },
     {
       "name": "Mercy for the Wronged",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Darkgold Wolfbite</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Darkgold Wolfbite</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Esteem for the Innocent",
-      "description": "The CRIT Rate of Rebuke: Vaulting Fist will be increased by 10%, and its CRIT DMG by 80%. When unleashed, it will also create an additional icicle that deals 100% of Rebuke: Vaulting Fist's Base DMG as <span style=\"color: #99FFFFFF;\">Cryo DMG</span>. DMG dealt this way is regarded as Charged Attack DMG.\\nYou must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\""
+      "description": "The CRIT Rate of Rebuke: Vaulting Fist will be increased by 10%, and its CRIT DMG by 80%. When unleashed, it will also create an additional icicle that deals 100% of Rebuke: Vaulting Fist's Base DMG as <span style=\"color: #99FFFFFF;\">Cryo DMG</span>. DMG dealt this way is regarded as Charged Attack DMG.\nYou must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\"",
+      "descriptionBuff": "The CRIT Rate of Rebuke: Vaulting Fist will be increased by 10%, and its CRIT DMG by 80%. When unleashed, it will also create an additional icicle that deals 100% of Rebuke: Vaulting Fist's Base DMG as <span style=\"color: #99FFFFFF;\">Cryo DMG</span>. DMG dealt this way is regarded as Charged Attack DMG.\n\n<span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span>: The aforementioned effect is changed to:\n· The Repelling Fist enhanced by <span style=\"color: #FFD780FF;\">Chilling Penalty</span>, as well as Luster: Vaulting Fist, gain a 10% CRIT Rate and 80% CRIT DMG boost. In addition, the fifth attack of Repelling Fists enhanced by <span style=\"color: #FFD780FF;\">Chilling Penalty</span>, as well as Luster: Vaulting Fist, will each generate an additional icicle that deals <span style=\"color: #99FFFFFF;\">Cryo DMG</span> at 20% of its original DMG. This DMG will be considered Stellar-Conduct DMG.\n\nYou must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\""
     }
   ],
   "passives": [
     {
+      "name": "There Shall Be an Unveiling for Injustice",
+      "description": "<span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span>: The Ascension Talent \"There Shall Be a Plea for Justice\" is changed to the following:\nWhen Wriothesley's HP is less than 60%, he will obtain a \"Gracious Rebuke: Unveiling.\" This turns the Charged Attack of his <span style=\"color: #FFD780FF;\">Normal Attack: Forceful Fists of Frost</span> into the enhanced Luster: Vaulting Fist, which will not consume Stamina and restores 30% Max HP to Wriothesley upon hit. Wriothesley can gain HP in this way once every 2s.\nAdditionally, the third and fifth strikes of Repelling Fist enhanced by <span style=\"color: #FFD780FF;\">Chilling Penalty</span> will deal 60% and 80% of their original <span style=\"color: #99FFFFFF;\">Cryo DMG</span> respectively, while Luster: Vaulting Fist will deal 100% of its original <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span>. The aforementioned DMG is considered as Stellar-Conduct DMG, and Wriothesley deals 30% increased Stellar-Conduct DMG.\nAdditionally, when inside a <button data-link=\"11330003\"><span style=\"color: #FFD780FF;\">Polestar Field</span></button>, Wriothesley will enter the <span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span> state."
+    },
+    {
       "name": "There Shall Be a Plea for Justice",
-      "description": "When Wriothesley's HP is less than 60%, he will obtain a Gracious Rebuke. The next Charged Attack of his <span style=\"color: #FFD780FF;\">Normal Attack: Forceful Fists of Frost</span> will be enhanced to become Rebuke: Vaulting Fist. It will not consume Stamina, will deal 50% increased DMG, and after hitting will restore HP for Wriothesley equal to 30% of his Max HP.\\nYou can gain a Gracious Rebuke this way once every 5s."
+      "description": "When Wriothesley's HP is less than 60%, he will obtain a Gracious Rebuke. The next Charged Attack of his <span style=\"color: #FFD780FF;\">Normal Attack: Forceful Fists of Frost</span> will be enhanced to become Rebuke: Vaulting Fist. It will not consume Stamina, will deal 50% increased DMG, and after hitting will restore HP for Wriothesley equal to 30% of his Max HP.\nYou can gain a Gracious Rebuke this way once every 5s."
     },
     {
       "name": "There Shall Be a Reckoning for Sin",
@@ -480,9 +488,15 @@
       "description": "When Wriothesley crafts Weapon Ascension Materials, he has a 10% chance to receive double the product."
     }
   ],
+  "links": {
+    "11330003": {
+      "title": "Polestar Field",
+      "desc": "When Stellar-Conduct is triggered, the surrounding area will transform into a <span style=\"color: #FFD780FF;\">Polestar Field</span> for a short period of time, and when inside a Polestar Field, certain characters will enter the <span style=\"color: #FFD780FF;\">Radiance: Stellar-Conduct</span> state, which grants various skill buffs."
+    }
+  },
   "burst": {
     "name": "Darkgold Wolfbite",
-    "description": "Activating his boxing gloves, Wriothesley strikes out with an icy straight, then uses Icicle Impact to cause multiple instances of <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span> in a frontal area.\\n\\n<span style=\"color: #FFD780FF;\">Arkhe: Ousia</span>\\nAfter Icicle Impact ends, a Surging Blade will descend upon the opponent's position, dealing Ousia-aligned <span style=\"color: #99FFFFFF;\">Cryo DMG</span>.\\n\\n<i>There are some things that even the Duke of the Fortress of Meropide can do little about — for example, complicated paperwork, the trivialities of a supervisor, or even... little kids pasting a whole host of cute but difficult-to-remove stickers on his boxing gloves.</i>",
+    "description": "Activating his boxing gloves, Wriothesley strikes out with an icy straight, then uses Icicle Impact to cause multiple instances of <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span> in a frontal area.\n\n<span style=\"color: #FFD780FF;\">Arkhe: Ousia</span>\nAfter Icicle Impact ends, a Surging Blade will descend upon the opponent's position, dealing Ousia-aligned <span style=\"color: #99FFFFFF;\">Cryo DMG</span>.\n\n<i>There are some things that even the Duke of the Fortress of Meropide can do little about — for example, complicated paperwork, the trivialities of a supervisor, or even... little kids pasting a whole host of cute but difficult-to-remove stickers on his boxing gloves.</i>",
     "skillLabels": [
       "Skill DMG",
       "Surging Blade DMG",
@@ -733,11 +747,13 @@
           60
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Forceful Fists of Frost",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nCoalescing frost about his fist, Wriothesley will unleash powerful <span style=\"color: #FFD780FF;\">Repelling Fists</span>, performing up to 5 rapid attacks that deal <span style=\"color: #99FFFFFF;\">Cryo DMG</span>.\\nApart from this, Normal Attack combo count will not reset for a short time after using Icefang Rush or sprinting.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a fixed amount of Stamina to leap and unleash a <span style=\"color: #FFD780FF;\">Vaulting Fist</span>, dealing <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span> upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nCoalescing frost about his fist, Wriothesley will unleash powerful <span style=\"color: #FFD780FF;\">Repelling Fists</span>, performing up to 5 rapid attacks that deal <span style=\"color: #99FFFFFF;\">Cryo DMG</span>.\nApart from this, Normal Attack combo count will not reset for a short time after using Icefang Rush or sprinting.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a fixed amount of Stamina to leap and unleash a <span style=\"color: #FFD780FF;\">Vaulting Fist</span>, dealing <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing <span style=\"color: #99FFFFFF;\">AoE Cryo DMG</span> upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1214,11 +1230,13 @@
           3.79592
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Icefang Rush",
-    "description": "Adjusting his breathing, rhythm, and pace, Wriothesley sprints forward a short distance, entering the <span style=\"color: #FFD780FF;\">Chilling Penalty</span> state and unleashing more powerful attacks than before.\\n\\n<span style=\"color: #FFD780FF;\">Chilling Penalty</span>\\n·Increases Wriothesley's interruption resistance\\n·When his HP is above 50%, it will enhance the Repelling Fists of <span style=\"color: #FFD780FF;\">Normal Attack: Forceful Fists of Frost</span> and increase its DMG. When such an attack hits, it will consume a fixed amount of Wriothesley's HP. HP can be lost this way once every 0.1s.\\nThis effect will be canceled should Wriothesley leave the field.\\n\\n<i>\"Past convictions are past. It is our future choices that we must grasp.\"\\n\"Defy your fate, or else this glutton be, to pay your fate's due, by the crime and thee.\"</i>",
+    "description": "Adjusting his breathing, rhythm, and pace, Wriothesley sprints forward a short distance, entering the <span style=\"color: #FFD780FF;\">Chilling Penalty</span> state and unleashing more powerful attacks than before.\n\n<span style=\"color: #FFD780FF;\">Chilling Penalty</span>\n·Increases Wriothesley's interruption resistance\n·When his HP is above 50%, it will enhance the Repelling Fists of <span style=\"color: #FFD780FF;\">Normal Attack: Forceful Fists of Frost</span> and increase its DMG. When such an attack hits, it will consume a fixed amount of Wriothesley's HP. HP can be lost this way once every 0.1s.\nThis effect will be canceled should Wriothesley leave the field.\n\n<i>\"Past convictions are past. It is our future choices that we must grasp.\"\n\"Defy your fate, or else this glutton be, to pay your fate's due, by the crime and thee.\"</i>",
     "skillLabels": [
       "Enhanced Repelling Fist DMG",
       "HP Cost",
@@ -1420,6 +1438,8 @@
           16
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

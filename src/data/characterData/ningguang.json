@@ -447,11 +447,11 @@
     },
     {
       "name": "Shock Effect",
-      "description": "When <span style=\"color: #FFD780FF;\">Jade Screen</span> is shattered, its CD will reset.\\nCan occur once every 6s."
+      "description": "When <span style=\"color: #FFD780FF;\">Jade Screen</span> is shattered, its CD will reset.\nCan occur once every 6s."
     },
     {
       "name": "Majesty Be the Array of Stars",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Starshatter</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Starshatter</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Exquisite be the Jade, Outshining All Beneath",
@@ -459,7 +459,7 @@
     },
     {
       "name": "Invincible Be the Jade Screen",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Jade Screen</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Jade Screen</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Grandeur Be the Seven Stars",
@@ -480,9 +480,10 @@
       "description": "Displays the location of nearby <span style=\"color: #FFD780FF;\">ore veins used in forging</span> on the mini-map."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Starshatter",
-    "description": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <span style=\"color: #FFE699FF;\">Geo DMG</span>.\\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\\n\\n<i>Stars shatter. Silence falls.</i>",
+    "description": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <span style=\"color: #FFE699FF;\">Geo DMG</span>.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\n\n<i>Stars shatter. Silence falls.</i>",
     "skillLabels": [
       "DMG Per Gem",
       "CD",
@@ -635,11 +636,13 @@
           40
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Sparkling Scatter",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nShoots gems that deal <span style=\"color: #FFE699FF;\">Geo DMG</span>.\\nUpon hit, this grants Ningguang 1 Star Jade.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of stamina to fire off a giant gem that deals <span style=\"color: #FFE699FF;\">Geo DMG</span>.\\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> upon impact with the ground.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nShoots gems that deal <span style=\"color: #FFE699FF;\">Geo DMG</span>.\nUpon hit, this grants Ningguang 1 Star Jade.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of stamina to fire off a giant gem that deals <span style=\"color: #FFE699FF;\">Geo DMG</span>.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> upon impact with the ground.",
     "skillLabels": [
       "Normal Attack DMG",
       "Charged Attack DMG",
@@ -954,11 +957,13 @@
           3.79592
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Jade Screen",
-    "description": "Ningguang creates a Jade Screen out of gold, obsidian, and her great opulence, dealing <span style=\"color: #FFE699FF;\">AoE Geo DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Jade Screen</span>\\n·Blocks opponents' projectiles.\\n·Endurance scales based on Ningguang's Max HP.\\n\\nJade Screen is considered a <span style=\"color: #FFE699FF;\">Geo Construct</span> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\\n\\n<i>The canvas of stars is written upon this jade screen.</i>",
+    "description": "Ningguang creates a Jade Screen out of gold, obsidian, and her great opulence, dealing <span style=\"color: #FFE699FF;\">AoE Geo DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Jade Screen</span>\n·Blocks opponents' projectiles.\n·Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a <span style=\"color: #FFE699FF;\">Geo Construct</span> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\n\n<i>The canvas of stars is written upon this jade screen.</i>",
     "skillLabels": [
       "Inherited HP",
       "Skill DMG",
@@ -1111,6 +1116,8 @@
           12
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

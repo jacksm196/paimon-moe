@@ -443,7 +443,7 @@
   "constellations": [
     {
       "name": "Fatal Acceleration",
-      "description": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.\\nCan only occur once every 5s."
+      "description": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.\nCan only occur once every 5s."
     },
     {
       "name": "Impromptu Opening",
@@ -451,7 +451,7 @@
     },
     {
       "name": "Double-Stop",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Sweeping Fervor</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Sweeping Fervor</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Wildfire Rhythm",
@@ -459,7 +459,7 @@
     },
     {
       "name": "Screamin' for an Encore",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Riff Revolution</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Riff Revolution</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Rockin' in a Flaming World",
@@ -469,7 +469,7 @@
   "passives": [
     {
       "name": "\"The Show Goes On, Even Without an Audience...\"",
-      "description": "Decreases the number of opponents <span style=\"color: #FFD780FF;\">Sweeping Fervor</span> must hit to trigger each level of shielding.\\n·Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\\n·Shield Level 3: Rave requirement reduced to 2 opponents hit or more."
+      "description": "Decreases the number of opponents <span style=\"color: #FFD780FF;\">Sweeping Fervor</span> must hit to trigger each level of shielding.\n·Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\n·Shield Level 3: Rave requirement reduced to 2 opponents hit or more."
     },
     {
       "name": "\"...Now That's Rock 'N' Roll!\"",
@@ -480,9 +480,10 @@
       "description": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Riff Revolution",
-    "description": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\\nThe sheer intensity of the atmosphere will cause explosions that deal <span style=\"color: #FF9999FF;\">Pyro DMG</span> to nearby opponents.\\n\\n<i>Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\"</i>",
+    "description": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\nThe sheer intensity of the atmosphere will cause explosions that deal <span style=\"color: #FF9999FF;\">Pyro DMG</span> to nearby opponents.\n\n<i>Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\"</i>",
     "skillLabels": [
       "Skill DMG",
       "Pyro DoT",
@@ -733,11 +734,13 @@
           60
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Dance on Fire",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 4 consecutive strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, performs a more powerful slash. \\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 4 consecutive strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1248,11 +1251,13 @@
           4.982145
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Sweeping Fervor",
-    "description": "Xinyan brandishes her instrument, dealing <span style=\"color: #FF9999FF;\">Pyro DMG</span> on nearby opponents, forming a shield made out of her audience's passion.\\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\\n·Hitting 0–1 opponents grants Shield Level 1: Ad Lib.\\n·Hitting 2 opponents grants Shield Level 2: Lead-In.\\n·Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent <span style=\"color: #FF9999FF;\">Pyro DMG</span> to nearby opponents.\\n\\nThe shield has the following special properties:\\n·When unleashed, it infuses Xinyan with <span style=\"color: #FF9999FF;\">Pyro</span>.\\n·It has 250% DMG Absorption effectiveness against <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\\n\\n<i>Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision.</i>",
+    "description": "Xinyan brandishes her instrument, dealing <span style=\"color: #FF9999FF;\">Pyro DMG</span> on nearby opponents, forming a shield made out of her audience's passion.\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\n·Hitting 0–1 opponents grants Shield Level 1: Ad Lib.\n·Hitting 2 opponents grants Shield Level 2: Lead-In.\n·Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent <span style=\"color: #FF9999FF;\">Pyro DMG</span> to nearby opponents.\n\nThe shield has the following special properties:\n·When unleashed, it infuses Xinyan with <span style=\"color: #FF9999FF;\">Pyro</span>.\n·It has 250% DMG Absorption effectiveness against <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\n\n<i>Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision.</i>",
     "skillLabels": [
       "Swing DMG",
       "Shield Level 1 DMG Absorption",
@@ -1646,6 +1651,8 @@
           18
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

@@ -18569,4 +18569,1839 @@ export const weaponList = {
       },
     ],
   },
+  a_teaspoon_of_transcendence: {
+    id: 'a_teaspoon_of_transcendence',
+    name: 'A Teaspoon of Transcendence',
+    rarity: 5,
+    atk: 48,
+    secondary: 'CRIT DMG',
+    type: weapons.claymore,
+    source: 'Wish',
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.sundered_glory_of_the_far_north_scions,
+            amount: 5,
+          },
+          {
+            item: itemList.fractured_lunar_iron,
+            amount: 5,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 3,
+          },
+        ],
+        mora: 10000,
+      },
+      {
+        items: [
+          {
+            item: itemList.unyielding_delusion_of_the_far_north_scions,
+            amount: 5,
+          },
+          {
+            item: itemList.fractured_lunar_iron,
+            amount: 18,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.unyielding_delusion_of_the_far_north_scions,
+            amount: 9,
+          },
+          {
+            item: itemList.depleted_lunar_iron,
+            amount: 9,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 9,
+          },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          {
+            item: itemList.oblation_of_the_far_north_scions,
+            amount: 5,
+          },
+          {
+            item: itemList.depleted_lunar_iron,
+            amount: 18,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 14,
+          },
+        ],
+        mora: 45000,
+      },
+      {
+        items: [
+          {
+            item: itemList.oblation_of_the_far_north_scions,
+            amount: 9,
+          },
+          {
+            item: itemList.unblemished_lunar_iron,
+            amount: 14,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 9,
+          },
+        ],
+        mora: 55000,
+      },
+      {
+        items: [
+          {
+            item: itemList.aureate_radiance_of_the_far_north_scions,
+            amount: 6,
+          },
+          {
+            item: itemList.unblemished_lunar_iron,
+            amount: 27,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 18,
+          },
+        ],
+        mora: 65000,
+      },
+    ],
+  },
+  blackmarrow_lantern: {
+    name: 'Blackmarrow Lantern',
+    id: 'blackmarrow_lantern',
+    rarity: 4,
+    atk: 41,
+    secondary: 'Elemental Mastery',
+    type: weapons.catalyst,
+    ascension: [
+      {
+        items: [
+          { item: itemList.artful_device_fragment, amount: 3 },
+          { item: itemList.frostnights_glimmer, amount: 3 },
+          { item: itemList.tattered_warrant, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.artful_device_replica, amount: 3 },
+          { item: itemList.frostnights_glimmer, amount: 12 },
+          { item: itemList.tattered_warrant, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.artful_device_replica, amount: 6 },
+          { item: itemList.frostnights_glow, amount: 6 },
+          { item: itemList.immaculate_warrant, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.artful_device_inheritance, amount: 3 },
+          { item: itemList.frostnights_glow, amount: 12 },
+          { item: itemList.immaculate_warrant, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.artful_device_inheritance, amount: 6 },
+          { item: itemList.frostnights_glory, amount: 9 },
+          { item: itemList.frost_etched_warrant, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.artful_device_wish, amount: 4 },
+          { item: itemList.frostnights_glory, amount: 18 },
+          { item: itemList.frost_etched_warrant, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  blade_of_atonement: {
+    name: 'Blade of Atonement',
+    id: 'blade_of_atonement',
+    rarity: 4,
+    atk: 44,
+    secondary: 'ATK%',
+    type: weapons.claymore,
+    ascension: [
+      {
+        items: [
+          { item: itemList.rise_of_the_pale_star_army, amount: 3 },
+          { item: itemList.hollow_root_of_life, amount: 3 },
+          { item: itemList.chimeric_core, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.muster_of_the_pale_star_army, amount: 3 },
+          { item: itemList.hollow_root_of_life, amount: 12 },
+          { item: itemList.chimeric_core, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.muster_of_the_pale_star_army, amount: 6 },
+          { item: itemList.sprout_node_of_life, amount: 6 },
+          { item: itemList.symbiotic_chimeric_nucleus, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.clarion_of_the_pale_star_army, amount: 3 },
+          { item: itemList.sprout_node_of_life, amount: 12 },
+          { item: itemList.symbiotic_chimeric_nucleus, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.clarion_of_the_pale_star_army, amount: 6 },
+          { item: itemList.coiled_core_of_life, amount: 9 },
+          { item: itemList.prime_chimeric_nexus, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.triumph_of_the_pale_star_army, amount: 4 },
+          { item: itemList.coiled_core_of_life, amount: 18 },
+          { item: itemList.prime_chimeric_nexus, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  clash_of_kings: {
+    name: 'Clash of Kings',
+    id: 'clash_of_kings',
+    rarity: 4,
+    atk: 42,
+    secondary: 'CRIT Rate',
+    type: weapons.catalyst,
+    ascension: [
+      {
+        items: [
+          { item: itemList.copper_talisman_of_the_forest_dew, amount: 3 },
+          { item: itemList.damaged_prism, amount: 3 },
+          { item: itemList.faded_red_satin, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.iron_talisman_of_the_forest_dew, amount: 3 },
+          { item: itemList.damaged_prism, amount: 12 },
+          { item: itemList.faded_red_satin, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.iron_talisman_of_the_forest_dew, amount: 6 },
+          { item: itemList.turbid_prism, amount: 6 },
+          { item: itemList.trimmed_red_silk, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.silver_talisman_of_the_forest_dew, amount: 3 },
+          { item: itemList.turbid_prism, amount: 12 },
+          { item: itemList.trimmed_red_silk, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.silver_talisman_of_the_forest_dew, amount: 6 },
+          { item: itemList.radiant_prism, amount: 9 },
+          { item: itemList.rich_red_brocade, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.golden_talisman_of_the_forest_dew, amount: 4 },
+          { item: itemList.radiant_prism, amount: 18 },
+          { item: itemList.rich_red_brocade, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  echoes_of_the_heart: {
+    name: 'Echoes of the Heart',
+    id: 'echoes_of_the_heart',
+    rarity: 4,
+    atk: 44,
+    secondary: 'ATK%',
+    type: weapons.catalyst,
+    ascension: [
+      {
+        items: [
+          { item: itemList.rise_of_the_pale_star_army, amount: 3 },
+          { item: itemList.accreted_fragment, amount: 3 },
+          { item: itemList.ethereal_glimmershard, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.muster_of_the_pale_star_army, amount: 3 },
+          { item: itemList.accreted_fragment, amount: 12 },
+          { item: itemList.ethereal_glimmershard, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.muster_of_the_pale_star_army, amount: 6 },
+          { item: itemList.accreted_mass, amount: 6 },
+          { item: itemList.ethereal_crystal, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.clarion_of_the_pale_star_army, amount: 3 },
+          { item: itemList.accreted_mass, amount: 12 },
+          { item: itemList.ethereal_crystal, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.clarion_of_the_pale_star_army, amount: 6 },
+          { item: itemList.accreted_growth, amount: 9 },
+          { item: itemList.ethereal_crystalscale_stone, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.triumph_of_the_pale_star_army, amount: 4 },
+          { item: itemList.accreted_growth, amount: 18 },
+          { item: itemList.ethereal_crystalscale_stone, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  covenant_of_frost_and_snow: {
+    name: 'Covenant of Frost and Snow',
+    id: 'covenant_of_frost_and_snow',
+    rarity: 4,
+    atk: 42,
+    secondary: 'DEF%',
+    type: weapons.bow,
+    ascension: [
+      {
+        items: [
+          { item: itemList.rise_of_the_pale_star_army, amount: 3 },
+          { item: itemList.hollow_root_of_life, amount: 3 },
+          { item: itemList.chimeric_core, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.muster_of_the_pale_star_army, amount: 3 },
+          { item: itemList.hollow_root_of_life, amount: 12 },
+          { item: itemList.chimeric_core, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.muster_of_the_pale_star_army, amount: 6 },
+          { item: itemList.sprout_node_of_life, amount: 6 },
+          { item: itemList.symbiotic_chimeric_nucleus, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.clarion_of_the_pale_star_army, amount: 3 },
+          { item: itemList.sprout_node_of_life, amount: 12 },
+          { item: itemList.symbiotic_chimeric_nucleus, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.clarion_of_the_pale_star_army, amount: 6 },
+          { item: itemList.coiled_core_of_life, amount: 9 },
+          { item: itemList.prime_chimeric_nexus, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.triumph_of_the_pale_star_army, amount: 4 },
+          { item: itemList.coiled_core_of_life, amount: 18 },
+          { item: itemList.prime_chimeric_nexus, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  heretics_molten_blade: {
+    name: "Heretic's Molten Blade",
+    id: 'heretics_molten_blade',
+    rarity: 4,
+    atk: 42,
+    secondary: 'CRIT Rate',
+    type: weapons.sword,
+    ascension: [
+      {
+        items: [
+          { item: itemList.blazing_sacrificial_hearts_terror, amount: 3 },
+          { item: itemList.cold_cracked_shellshard, amount: 3 },
+          { item: itemList.sentrys_wooden_whistle, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.blazing_sacrificial_hearts_hesitance, amount: 3 },
+          { item: itemList.cold_cracked_shellshard, amount: 12 },
+          { item: itemList.sentrys_wooden_whistle, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.blazing_sacrificial_hearts_hesitance, amount: 6 },
+          { item: itemList.warm_back_shell, amount: 6 },
+          { item: itemList.warriors_metal_whistle, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.blazing_sacrificial_hearts_resolve, amount: 3 },
+          { item: itemList.warm_back_shell, amount: 12 },
+          { item: itemList.warriors_metal_whistle, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.blazing_sacrificial_hearts_resolve, amount: 6 },
+          { item: itemList.blazing_prismshell, amount: 9 },
+          { item: itemList.saurian_crowned_warriors_golden_whistle, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.blazing_sacrificial_hearts_splendor, amount: 4 },
+          { item: itemList.blazing_prismshell, amount: 18 },
+          { item: itemList.saurian_crowned_warriors_golden_whistle, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  jade_vista: {
+    name: 'Jade Vista',
+    id: 'jade_vista',
+    rarity: 4,
+    atk: 42,
+    secondary: 'CRIT Rate',
+    type: weapons.bow,
+    ascension: [
+      {
+        items: [
+          { item: itemList.grain_of_aerosiderite, amount: 3 },
+          { item: itemList.fragile_bone_shard, amount: 3 },
+          { item: itemList.recruits_insignia, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.piece_of_aerosiderite, amount: 3 },
+          { item: itemList.fragile_bone_shard, amount: 12 },
+          { item: itemList.recruits_insignia, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.piece_of_aerosiderite, amount: 6 },
+          { item: itemList.sturdy_bone_shard, amount: 6 },
+          { item: itemList.sergeants_insignia, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.bit_of_aerosiderite, amount: 3 },
+          { item: itemList.sturdy_bone_shard, amount: 12 },
+          { item: itemList.sergeants_insignia, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.bit_of_aerosiderite, amount: 6 },
+          { item: itemList.fossilized_bone_shard, amount: 9 },
+          { item: itemList.lieutenants_insignia, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.chunk_of_aerosiderite, amount: 4 },
+          { item: itemList.fossilized_bone_shard, amount: 18 },
+          { item: itemList.lieutenants_insignia, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  master_key: {
+    name: 'Master Key',
+    id: 'master_key',
+    rarity: 4,
+    atk: 41,
+    secondary: 'Energy Recharge',
+    type: weapons.claymore,
+    ascension: [
+      {
+        items: [
+          { item: itemList.sundered_glory_of_the_far_north_scions, amount: 3 },
+          { item: itemList.lightless_bone, amount: 3 },
+          { item: itemList.broken_drive_shaft, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.unyielding_delusion_of_the_far_north_scions, amount: 3 },
+          { item: itemList.lightless_bone, amount: 12 },
+          { item: itemList.broken_drive_shaft, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.unyielding_delusion_of_the_far_north_scions, amount: 6 },
+          { item: itemList.glowing_remains, amount: 6 },
+          { item: itemList.reinforced_drive_shaft, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.oblation_of_the_far_north_scions, amount: 3 },
+          { item: itemList.glowing_remains, amount: 12 },
+          { item: itemList.reinforced_drive_shaft, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.oblation_of_the_far_north_scions, amount: 6 },
+          { item: itemList.radiant_exoskeleton, amount: 9 },
+          { item: itemList.precision_drive_shaft, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.aureate_radiance_of_the_far_north_scions, amount: 4 },
+          { item: itemList.radiant_exoskeleton, amount: 18 },
+          { item: itemList.precision_drive_shaft, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  emberwell: {
+    name: 'Emberwell',
+    id: 'emberwell',
+    rarity: 4,
+    atk: 42,
+    secondary: 'Elemental Mastery',
+    type: weapons.sword,
+    ascension: [
+      {
+        items: [
+          { item: itemList.rise_of_the_pale_star_army, amount: 3 },
+          { item: itemList.accreted_fragment, amount: 3 },
+          { item: itemList.ethereal_glimmershard, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.muster_of_the_pale_star_army, amount: 3 },
+          { item: itemList.accreted_fragment, amount: 12 },
+          { item: itemList.ethereal_glimmershard, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.muster_of_the_pale_star_army, amount: 6 },
+          { item: itemList.accreted_mass, amount: 6 },
+          { item: itemList.ethereal_crystal, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.clarion_of_the_pale_star_army, amount: 3 },
+          { item: itemList.accreted_mass, amount: 12 },
+          { item: itemList.ethereal_crystal, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.clarion_of_the_pale_star_army, amount: 6 },
+          { item: itemList.accreted_growth, amount: 9 },
+          { item: itemList.ethereal_crystalscale_stone, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.triumph_of_the_pale_star_army, amount: 4 },
+          { item: itemList.accreted_growth, amount: 18 },
+          { item: itemList.ethereal_crystalscale_stone, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  exaiphanes_blade: {
+    name: 'Exaiphanes Blade',
+    id: 'exaiphanes_blade',
+    rarity: 5,
+    atk: 46,
+    secondary: 'CRIT Rate',
+    type: weapons.sword,
+    ascension: [
+      {
+        items: [
+          { item: itemList.the_frost_emperors_revival, amount: 5 },
+          { item: itemList.accreted_fragment, amount: 5 },
+          { item: itemList.ethereal_glimmershard, amount: 3 },
+        ],
+        mora: 10000,
+      },
+      {
+        items: [
+          { item: itemList.the_frost_emperors_ceremony, amount: 5 },
+          { item: itemList.accreted_fragment, amount: 18 },
+          { item: itemList.ethereal_glimmershard, amount: 12 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.the_frost_emperors_ceremony, amount: 9 },
+          { item: itemList.accreted_mass, amount: 9 },
+          { item: itemList.ethereal_crystal, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.the_frost_emperors_lament, amount: 5 },
+          { item: itemList.accreted_mass, amount: 18 },
+          { item: itemList.ethereal_crystal, amount: 14 },
+        ],
+        mora: 45000,
+      },
+      {
+        items: [
+          { item: itemList.the_frost_emperors_lament, amount: 9 },
+          { item: itemList.accreted_growth, amount: 14 },
+          { item: itemList.ethereal_crystalscale_stone, amount: 9 },
+        ],
+        mora: 55000,
+      },
+      {
+        items: [
+          { item: itemList.the_frost_emperors_farewell, amount: 6 },
+          { item: itemList.accreted_growth, amount: 27 },
+          { item: itemList.ethereal_crystalscale_stone, amount: 18 },
+        ],
+        mora: 65000,
+      },
+    ],
+  },
+  forged_by_the_golden_melody: {
+    name: 'Forged by the Golden Melody',
+    id: 'forged_by_the_golden_melody',
+    rarity: 4,
+    atk: 42,
+    secondary: 'CRIT Rate',
+    type: weapons.claymore,
+    ascension: [
+      {
+        items: [
+          { item: itemList.dross_of_pure_sacred_dewdrop, amount: 3 },
+          { item: itemList.ruined_hilt, amount: 3 },
+          { item: itemList.transoceanic_pearl, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.sublimation_of_pure_sacred_dewdrop, amount: 3 },
+          { item: itemList.ruined_hilt, amount: 12 },
+          { item: itemList.transoceanic_pearl, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.sublimation_of_pure_sacred_dewdrop, amount: 6 },
+          { item: itemList.splintered_hilt, amount: 6 },
+          { item: itemList.transoceanic_chunk, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.spring_of_pure_sacred_dewdrop, amount: 3 },
+          { item: itemList.splintered_hilt, amount: 12 },
+          { item: itemList.transoceanic_chunk, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.spring_of_pure_sacred_dewdrop, amount: 6 },
+          { item: itemList.still_smoldering_hilt, amount: 9 },
+          { item: itemList.xenochromatic_crystal, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.essence_of_pure_sacred_dewdrop, amount: 4 },
+          { item: itemList.still_smoldering_hilt, amount: 18 },
+          { item: itemList.xenochromatic_crystal, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  frostbreath: {
+    name: 'Frostbreath',
+    id: 'frostbreath',
+    rarity: 4,
+    atk: 42,
+    secondary: 'Energy Recharge',
+    type: weapons.polearm,
+    ascension: [
+      {
+        items: [
+          { item: itemList.measured_pour_of_the_cellared_spiritual_nectar, amount: 3 },
+          { item: itemList.accreted_fragment, amount: 3 },
+          { item: itemList.chimeric_core, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.intoxication_of_the_cellared_spiritual_nectar, amount: 3 },
+          { item: itemList.accreted_fragment, amount: 12 },
+          { item: itemList.chimeric_core, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.intoxication_of_the_cellared_spiritual_nectar, amount: 6 },
+          { item: itemList.accreted_mass, amount: 6 },
+          { item: itemList.symbiotic_chimeric_nucleus, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.exhilaration_of_the_cellared_spiritual_nectar, amount: 3 },
+          { item: itemList.accreted_mass, amount: 12 },
+          { item: itemList.symbiotic_chimeric_nucleus, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.exhilaration_of_the_cellared_spiritual_nectar, amount: 6 },
+          { item: itemList.accreted_growth, amount: 9 },
+          { item: itemList.prime_chimeric_nexus, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.revelry_of_the_cellared_spiritual_nectar, amount: 4 },
+          { item: itemList.accreted_growth, amount: 18 },
+          { item: itemList.prime_chimeric_nexus, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  serenitys_call: {
+    name: "Serenity's Call",
+    id: 'serenitys_call',
+    rarity: 4,
+    atk: 41,
+    secondary: 'Energy Recharge',
+    type: weapons.sword,
+    ascension: [
+      {
+        items: [
+          { item: itemList.artful_device_fragment, amount: 3 },
+          { item: itemList.frostnights_glimmer, amount: 3 },
+          { item: itemList.tattered_warrant, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.artful_device_replica, amount: 3 },
+          { item: itemList.frostnights_glimmer, amount: 12 },
+          { item: itemList.tattered_warrant, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.artful_device_replica, amount: 6 },
+          { item: itemList.frostnights_glow, amount: 6 },
+          { item: itemList.immaculate_warrant, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.artful_device_inheritance, amount: 3 },
+          { item: itemList.frostnights_glow, amount: 12 },
+          { item: itemList.immaculate_warrant, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.artful_device_inheritance, amount: 6 },
+          { item: itemList.frostnights_glory, amount: 9 },
+          { item: itemList.frost_etched_warrant, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.artful_device_wish, amount: 4 },
+          { item: itemList.frostnights_glory, amount: 18 },
+          { item: itemList.frost_etched_warrant, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  prospectors_shovel: {
+    name: "Prospector's Shovel",
+    id: 'prospectors_shovel',
+    rarity: 4,
+    atk: 42,
+    secondary: 'ATK%',
+    type: weapons.polearm,
+    ascension: [
+      {
+        items: [
+          { item: itemList.ember_of_long_night_flint, amount: 3 },
+          { item: itemList.mistshroud_manifestation, amount: 3 },
+          { item: itemList.broken_drive_shaft, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.afterglow_of_long_night_flint, amount: 3 },
+          { item: itemList.mistshroud_manifestation, amount: 12 },
+          { item: itemList.broken_drive_shaft, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.afterglow_of_long_night_flint, amount: 6 },
+          { item: itemList.mistshroud_plate, amount: 6 },
+          { item: itemList.reinforced_drive_shaft, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.flare_of_long_night_flint, amount: 3 },
+          { item: itemList.mistshroud_plate, amount: 12 },
+          { item: itemList.reinforced_drive_shaft, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.flare_of_long_night_flint, amount: 6 },
+          { item: itemList.mistshroud_helmet, amount: 9 },
+          { item: itemList.precision_drive_shaft, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.blaze_of_long_night_flint, amount: 4 },
+          { item: itemList.mistshroud_helmet, amount: 18 },
+          { item: itemList.precision_drive_shaft, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  snare_hook: {
+    name: 'Snare Hook',
+    id: 'snare_hook',
+    rarity: 4,
+    atk: 41,
+    secondary: 'Energy Recharge',
+    type: weapons.bow,
+    ascension: [
+      {
+        items: [
+          { item: itemList.ember_of_long_night_flint, amount: 3 },
+          { item: itemList.mistshroud_manifestation, amount: 3 },
+          { item: itemList.firm_arrowhead, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.afterglow_of_long_night_flint, amount: 3 },
+          { item: itemList.mistshroud_manifestation, amount: 12 },
+          { item: itemList.firm_arrowhead, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.afterglow_of_long_night_flint, amount: 6 },
+          { item: itemList.mistshroud_plate, amount: 6 },
+          { item: itemList.sharp_arrowhead, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.flare_of_long_night_flint, amount: 3 },
+          { item: itemList.mistshroud_plate, amount: 12 },
+          { item: itemList.sharp_arrowhead, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.flare_of_long_night_flint, amount: 6 },
+          { item: itemList.mistshroud_helmet, amount: 9 },
+          { item: itemList.weathered_arrowhead, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.blaze_of_long_night_flint, amount: 4 },
+          { item: itemList.mistshroud_helmet, amount: 18 },
+          { item: itemList.weathered_arrowhead, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  song_of_the_vigil: {
+    name: 'Song of the Vigil',
+    id: 'song_of_the_vigil',
+    rarity: 4,
+    atk: 44,
+    secondary: 'Elemental Mastery',
+    type: weapons.polearm,
+    ascension: [
+      {
+        items: [
+          { item: itemList.the_frost_emperors_revival, amount: 3 },
+          { item: itemList.hollow_root_of_life, amount: 3 },
+          { item: itemList.ethereal_glimmershard, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.the_frost_emperors_ceremony, amount: 3 },
+          { item: itemList.hollow_root_of_life, amount: 12 },
+          { item: itemList.ethereal_glimmershard, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.the_frost_emperors_ceremony, amount: 6 },
+          { item: itemList.sprout_node_of_life, amount: 6 },
+          { item: itemList.ethereal_crystal, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.the_frost_emperors_lament, amount: 3 },
+          { item: itemList.sprout_node_of_life, amount: 12 },
+          { item: itemList.ethereal_crystal, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.the_frost_emperors_lament, amount: 6 },
+          { item: itemList.coiled_core_of_life, amount: 9 },
+          { item: itemList.ethereal_crystalscale_stone, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.the_frost_emperors_farewell, amount: 4 },
+          { item: itemList.coiled_core_of_life, amount: 18 },
+          { item: itemList.ethereal_crystalscale_stone, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  whitelake_frostfeather: {
+    name: 'Whitelake Frostfeather',
+    id: 'whitelake_frostfeather',
+    rarity: 5,
+    atk: 48,
+    secondary: 'CRIT Rate',
+    type: weapons.sword,
+    ascension: [
+      {
+        items: [
+          { item: itemList.measured_pour_of_the_cellared_spiritual_nectar, amount: 5 },
+          { item: itemList.hollow_root_of_life, amount: 5 },
+          { item: itemList.chimeric_core, amount: 3 },
+        ],
+        mora: 10000,
+      },
+      {
+        items: [
+          { item: itemList.intoxication_of_the_cellared_spiritual_nectar, amount: 5 },
+          { item: itemList.hollow_root_of_life, amount: 18 },
+          { item: itemList.chimeric_core, amount: 12 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.intoxication_of_the_cellared_spiritual_nectar, amount: 9 },
+          { item: itemList.sprout_node_of_life, amount: 9 },
+          { item: itemList.symbiotic_chimeric_nucleus, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.exhilaration_of_the_cellared_spiritual_nectar, amount: 5 },
+          { item: itemList.sprout_node_of_life, amount: 18 },
+          { item: itemList.symbiotic_chimeric_nucleus, amount: 14 },
+        ],
+        mora: 45000,
+      },
+      {
+        items: [
+          { item: itemList.exhilaration_of_the_cellared_spiritual_nectar, amount: 9 },
+          { item: itemList.coiled_core_of_life, amount: 14 },
+          { item: itemList.prime_chimeric_nexus, amount: 9 },
+        ],
+        mora: 55000,
+      },
+      {
+        items: [
+          { item: itemList.revelry_of_the_cellared_spiritual_nectar, amount: 6 },
+          { item: itemList.coiled_core_of_life, amount: 27 },
+          { item: itemList.prime_chimeric_nexus, amount: 18 },
+        ],
+        mora: 65000,
+      },
+    ],
+  },
+  sword_of_narzissenkreuz: {
+    name: 'Sword of Narzissenkreuz',
+    id: 'sword_of_narzissenkreuz',
+    rarity: 4,
+    atk: 42,
+    secondary: 'ATK%',
+    type: weapons.sword,
+    ascension: [
+      {
+        items: [
+          { item: itemList.fragment_of_an_ancient_chord, amount: 3 },
+          { item: itemList.old_operatives_pocket_watch, amount: 3 },
+          { item: itemList.transoceanic_pearl, amount: 2 },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          { item: itemList.chapter_of_an_ancient_chord, amount: 3 },
+          { item: itemList.old_operatives_pocket_watch, amount: 12 },
+          { item: itemList.transoceanic_pearl, amount: 8 },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          { item: itemList.chapter_of_an_ancient_chord, amount: 6 },
+          { item: itemList.operatives_standard_pocket_watch, amount: 6 },
+          { item: itemList.transoceanic_chunk, amount: 6 },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          { item: itemList.movement_of_an_ancient_chord, amount: 3 },
+          { item: itemList.operatives_standard_pocket_watch, amount: 12 },
+          { item: itemList.transoceanic_chunk, amount: 9 },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          { item: itemList.movement_of_an_ancient_chord, amount: 6 },
+          { item: itemList.operatives_constancy, amount: 9 },
+          { item: itemList.xenochromatic_crystal, amount: 6 },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          { item: itemList.echo_of_an_ancient_chord, amount: 4 },
+          { item: itemList.operatives_constancy, amount: 18 },
+          { item: itemList.xenochromatic_crystal, amount: 12 },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  beyond_the_chrysalis: {
+    id: 'beyond_the_chrysalis',
+    name: 'Beyond the Chrysalis',
+    rarity: 5,
+    atk: 48,
+    secondary: 'CRIT DMG',
+    type: weapons.sword,
+    source: 'wish',
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.rise_of_the_pale_star_army,
+            amount: 5,
+          },
+          {
+            item: itemList.hollow_root_of_life,
+            amount: 5,
+          },
+          {
+            item: itemList.chimeric_core,
+            amount: 3,
+          },
+        ],
+        mora: 10000,
+      },
+      {
+        items: [
+          {
+            item: itemList.muster_of_the_pale_star_army,
+            amount: 5,
+          },
+          {
+            item: itemList.hollow_root_of_life,
+            amount: 18,
+          },
+          {
+            item: itemList.chimeric_core,
+            amount: 12,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.muster_of_the_pale_star_army,
+            amount: 9,
+          },
+          {
+            item: itemList.sprout_node_of_life,
+            amount: 9,
+          },
+          {
+            item: itemList.symbiotic_chimeric_nucleus,
+            amount: 9,
+          },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          {
+            item: itemList.clarion_of_the_pale_star_army,
+            amount: 5,
+          },
+          {
+            item: itemList.sprout_node_of_life,
+            amount: 18,
+          },
+          {
+            item: itemList.symbiotic_chimeric_nucleus,
+            amount: 14,
+          },
+        ],
+        mora: 45000,
+      },
+      {
+        items: [
+          {
+            item: itemList.clarion_of_the_pale_star_army,
+            amount: 9,
+          },
+          {
+            item: itemList.coiled_core_of_life,
+            amount: 14,
+          },
+          {
+            item: itemList.prime_chimeric_nexus,
+            amount: 9,
+          },
+        ],
+        mora: 55000,
+      },
+      {
+        items: [
+          {
+            item: itemList.triumph_of_the_pale_star_army,
+            amount: 6,
+          },
+          {
+            item: itemList.coiled_core_of_life,
+            amount: 27,
+          },
+          {
+            item: itemList.prime_chimeric_nexus,
+            amount: 18,
+          },
+        ],
+        mora: 65000,
+      },
+    ],
+  },
+  breezeborne_refrain: {
+    id: 'breezeborne_refrain',
+    name: 'Breezeborne Refrain',
+    rarity: 4,
+    atk: 42,
+    secondary: 'CRIT Rate',
+    type: weapons.bow,
+    source: 'wish',
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.the_frost_emperors_revival,
+            amount: 3,
+          },
+          {
+            item: itemList.accreted_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.chimeric_core,
+            amount: 2,
+          },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          {
+            item: itemList.the_frost_emperors_ceremony,
+            amount: 3,
+          },
+          {
+            item: itemList.accreted_fragment,
+            amount: 12,
+          },
+          {
+            item: itemList.chimeric_core,
+            amount: 8,
+          },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          {
+            item: itemList.the_frost_emperors_ceremony,
+            amount: 6,
+          },
+          {
+            item: itemList.accreted_mass,
+            amount: 6,
+          },
+          {
+            item: itemList.symbiotic_chimeric_nucleus,
+            amount: 6,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.the_frost_emperors_lament,
+            amount: 3,
+          },
+          {
+            item: itemList.accreted_mass,
+            amount: 12,
+          },
+          {
+            item: itemList.symbiotic_chimeric_nucleus,
+            amount: 9,
+          },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          {
+            item: itemList.the_frost_emperors_lament,
+            amount: 6,
+          },
+          {
+            item: itemList.accreted_growth,
+            amount: 9,
+          },
+          {
+            item: itemList.prime_chimeric_nexus,
+            amount: 6,
+          },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          {
+            item: itemList.the_frost_emperors_farewell,
+            amount: 4,
+          },
+          {
+            item: itemList.accreted_growth,
+            amount: 18,
+          },
+          {
+            item: itemList.prime_chimeric_nexus,
+            amount: 12,
+          },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  hymn_of_the_maelstrom: {
+    id: 'hymn_of_the_maelstrom',
+    name: 'Hymn of the Maelstrom',
+    rarity: 5,
+    atk: 44,
+    secondary: 'HP%',
+    type: weapons.catalyst,
+    source: 'wish',
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.measured_pour_of_the_cellared_spiritual_nectar,
+            amount: 5,
+          },
+          {
+            item: itemList.accreted_fragment,
+            amount: 5,
+          },
+          {
+            item: itemList.ethereal_glimmershard,
+            amount: 3,
+          },
+        ],
+        mora: 10000,
+      },
+      {
+        items: [
+          {
+            item: itemList.intoxication_of_the_cellared_spiritual_nectar,
+            amount: 5,
+          },
+          {
+            item: itemList.accreted_fragment,
+            amount: 18,
+          },
+          {
+            item: itemList.ethereal_glimmershard,
+            amount: 12,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.intoxication_of_the_cellared_spiritual_nectar,
+            amount: 9,
+          },
+          {
+            item: itemList.accreted_mass,
+            amount: 9,
+          },
+          {
+            item: itemList.ethereal_crystal,
+            amount: 9,
+          },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          {
+            item: itemList.exhilaration_of_the_cellared_spiritual_nectar,
+            amount: 5,
+          },
+          {
+            item: itemList.accreted_mass,
+            amount: 18,
+          },
+          {
+            item: itemList.ethereal_crystal,
+            amount: 14,
+          },
+        ],
+        mora: 45000,
+      },
+      {
+        items: [
+          {
+            item: itemList.exhilaration_of_the_cellared_spiritual_nectar,
+            amount: 9,
+          },
+          {
+            item: itemList.accreted_growth,
+            amount: 14,
+          },
+          {
+            item: itemList.ethereal_crystalscale_stone,
+            amount: 9,
+          },
+        ],
+        mora: 55000,
+      },
+      {
+        items: [
+          {
+            item: itemList.revelry_of_the_cellared_spiritual_nectar,
+            amount: 6,
+          },
+          {
+            item: itemList.accreted_growth,
+            amount: 27,
+          },
+          {
+            item: itemList.ethereal_crystalscale_stone,
+            amount: 18,
+          },
+        ],
+        mora: 65000,
+      },
+    ],
+  },
+  new_bough: {
+    id: 'new_bough',
+    name: 'New Bough',
+    rarity: 4,
+    atk: 42,
+    secondary: 'CRIT DMG',
+    type: weapons.sword,
+    source: 'wish',
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.measured_pour_of_the_cellared_spiritual_nectar,
+            amount: 3,
+          },
+          {
+            item: itemList.hollow_root_of_life,
+            amount: 3,
+          },
+          {
+            item: itemList.chimeric_core,
+            amount: 2,
+          },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          {
+            item: itemList.intoxication_of_the_cellared_spiritual_nectar,
+            amount: 3,
+          },
+          {
+            item: itemList.hollow_root_of_life,
+            amount: 12,
+          },
+          {
+            item: itemList.chimeric_core,
+            amount: 8,
+          },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          {
+            item: itemList.intoxication_of_the_cellared_spiritual_nectar,
+            amount: 6,
+          },
+          {
+            item: itemList.sprout_node_of_life,
+            amount: 6,
+          },
+          {
+            item: itemList.symbiotic_chimeric_nucleus,
+            amount: 6,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.exhilaration_of_the_cellared_spiritual_nectar,
+            amount: 3,
+          },
+          {
+            item: itemList.sprout_node_of_life,
+            amount: 12,
+          },
+          {
+            item: itemList.symbiotic_chimeric_nucleus,
+            amount: 9,
+          },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          {
+            item: itemList.exhilaration_of_the_cellared_spiritual_nectar,
+            amount: 6,
+          },
+          {
+            item: itemList.coiled_core_of_life,
+            amount: 9,
+          },
+          {
+            item: itemList.prime_chimeric_nexus,
+            amount: 6,
+          },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          {
+            item: itemList.revelry_of_the_cellared_spiritual_nectar,
+            amount: 4,
+          },
+          {
+            item: itemList.coiled_core_of_life,
+            amount: 18,
+          },
+          {
+            item: itemList.prime_chimeric_nexus,
+            amount: 12,
+          },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  silver_light: {
+    id: 'silver_light',
+    name: 'Silver Light',
+    rarity: 4,
+    atk: 42,
+    secondary: 'ATK%',
+    type: weapons.sword,
+    source: 'event',
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.grain_of_aerosiderite,
+            amount: 3,
+          },
+          {
+            item: itemList.fragile_bone_shard,
+            amount: 3,
+          },
+          {
+            item: itemList.recruits_insignia,
+            amount: 2,
+          },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          {
+            item: itemList.piece_of_aerosiderite,
+            amount: 3,
+          },
+          {
+            item: itemList.fragile_bone_shard,
+            amount: 12,
+          },
+          {
+            item: itemList.recruits_insignia,
+            amount: 8,
+          },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          {
+            item: itemList.piece_of_aerosiderite,
+            amount: 6,
+          },
+          {
+            item: itemList.sturdy_bone_shard,
+            amount: 6,
+          },
+          {
+            item: itemList.sergeants_insignia,
+            amount: 6,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.bit_of_aerosiderite,
+            amount: 3,
+          },
+          {
+            item: itemList.sturdy_bone_shard,
+            amount: 12,
+          },
+          {
+            item: itemList.sergeants_insignia,
+            amount: 9,
+          },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          {
+            item: itemList.bit_of_aerosiderite,
+            amount: 6,
+          },
+          {
+            item: itemList.fossilized_bone_shard,
+            amount: 9,
+          },
+          {
+            item: itemList.lieutenants_insignia,
+            amount: 6,
+          },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          {
+            item: itemList.chunk_of_aerosiderite,
+            amount: 4,
+          },
+          {
+            item: itemList.fossilized_bone_shard,
+            amount: 18,
+          },
+          {
+            item: itemList.lieutenants_insignia,
+            amount: 12,
+          },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
+  winters_heavy_heart: {
+    id: 'winters_heavy_heart',
+    name: "Winter's Heavy Heart",
+    rarity: 4,
+    atk: 42,
+    secondary: 'CRIT DMG',
+    type: weapons.catalyst,
+    source: 'wish',
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.the_frost_emperors_revival,
+            amount: 3,
+          },
+          {
+            item: itemList.hollow_root_of_life,
+            amount: 3,
+          },
+          {
+            item: itemList.ethereal_glimmershard,
+            amount: 2,
+          },
+        ],
+        mora: 5000,
+      },
+      {
+        items: [
+          {
+            item: itemList.the_frost_emperors_ceremony,
+            amount: 3,
+          },
+          {
+            item: itemList.hollow_root_of_life,
+            amount: 12,
+          },
+          {
+            item: itemList.ethereal_glimmershard,
+            amount: 8,
+          },
+        ],
+        mora: 15000,
+      },
+      {
+        items: [
+          {
+            item: itemList.the_frost_emperors_ceremony,
+            amount: 6,
+          },
+          {
+            item: itemList.sprout_node_of_life,
+            amount: 6,
+          },
+          {
+            item: itemList.ethereal_crystal,
+            amount: 6,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.the_frost_emperors_lament,
+            amount: 3,
+          },
+          {
+            item: itemList.sprout_node_of_life,
+            amount: 12,
+          },
+          {
+            item: itemList.ethereal_crystal,
+            amount: 9,
+          },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          {
+            item: itemList.the_frost_emperors_lament,
+            amount: 6,
+          },
+          {
+            item: itemList.coiled_core_of_life,
+            amount: 9,
+          },
+          {
+            item: itemList.ethereal_crystalscale_stone,
+            amount: 6,
+          },
+        ],
+        mora: 35000,
+      },
+      {
+        items: [
+          {
+            item: itemList.the_frost_emperors_farewell,
+            amount: 4,
+          },
+          {
+            item: itemList.coiled_core_of_life,
+            amount: 18,
+          },
+          {
+            item: itemList.ethereal_crystalscale_stone,
+            amount: 12,
+          },
+        ],
+        mora: 45000,
+      },
+    ],
+  },
 };

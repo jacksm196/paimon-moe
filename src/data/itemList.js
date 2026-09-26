@@ -857,9 +857,10 @@ export const itemList = {
   gloomy_statuette: { id: 'gloomy_statuette', name: 'Gloomy Statuette' },
   dark_statuette: { id: 'dark_statuette', name: 'Dark Statuette' },
   deathly_statuette: { id: 'deathly_statuette', name: 'Deathly Statuette' },
-  tears_of_the_calamitous_god: { id: 'tears_of_the_calamitous_god', name: 'Tears of the Calamitous God' },
-
-  runic_fang: { id: 'runic_fang', name: 'Runic Fang', rarity: 4 },
+  tears_of_the_calamitous_god: {
+    id: 'tears_of_the_calamitous_god',
+    name: 'Tears of the Calamitous God',
+  },
 
   runic_fang: { id: 'runic_fang', name: 'Runic Fang', rarity: 4 },
 
@@ -993,7 +994,10 @@ export const itemList = {
     parent: 'echo_of_scorching_might',
   },
 
-  inactivated_fungal_nucleus: { id: 'inactivated_fungal_nucleus', name: 'Inactivated Fungal Nucleus' },
+  inactivated_fungal_nucleus: {
+    id: 'inactivated_fungal_nucleus',
+    name: 'Inactivated Fungal Nucleus',
+  },
   dormant_fungal_nucleus: { id: 'dormant_fungal_nucleus', name: 'Dormant Fungal Nucleus' },
   robust_fungal_nucleus: { id: 'robust_fungal_nucleus', name: 'Robust Fungal Nucleus' },
 
@@ -2189,5 +2193,250 @@ export const itemList = {
   the_cornerstone_of_stars_and_flames: {
     id: 'the_cornerstone_of_stars_and_flames',
     name: 'The Cornerstone of Stars and Flames',
+  },
+  madmans_restraint: { id: 'madmans_restraint', name: "Madman's Restraint" },
+  sundered_glory_of_the_far_north_scions: {
+    id: 'sundered_glory_of_the_far_north_scions',
+    name: 'Sundered Glory of the Far-North Scions',
+    rarity: 2,
+  },
+  unyielding_delusion_of_the_far_north_scions: {
+    id: 'unyielding_delusion_of_the_far_north_scions',
+    name: 'Unyielding Delusion of the Far-North Scions',
+    rarity: 3,
+  },
+  oblation_of_the_far_north_scions: {
+    id: 'oblation_of_the_far_north_scions',
+    name: 'Oblation of the Far-North Scions',
+    rarity: 4,
+  },
+  aureate_radiance_of_the_far_north_scions: {
+    id: 'aureate_radiance_of_the_far_north_scions',
+    name: 'Aureate Radiance of the Far-North Scions',
+    rarity: 5,
+  },
+  fractured_lunar_iron: {
+    id: 'fractured_lunar_iron',
+    name: 'Fractured Lunar Iron',
+    rarity: 2,
+  },
+  depleted_lunar_iron: {
+    id: 'depleted_lunar_iron',
+    name: 'Depleted Lunar Iron',
+    rarity: 3,
+  },
+  unblemished_lunar_iron: {
+    id: 'unblemished_lunar_iron',
+    name: 'Unblemished Lunar Iron',
+    rarity: 4,
+  },
+  flockingweed: {
+    id: 'flockingweed',
+    name: 'Flockingweed',
+  },
+  symbiotic_chimeric_nucleus: {
+    id: 'symbiotic_chimeric_nucleus',
+    name: 'Symbiotic Chimeric Nucleus',
+    rarity: 2,
+  },
+  prime_chimeric_nexus: {
+    id: 'prime_chimeric_nexus',
+    name: 'Prime Chimeric Nexus',
+    rarity: 3,
+  },
+  chimeric_core: {
+    id: 'chimeric_core',
+    name: 'Chimeric Core',
+    rarity: 1,
+  },
+  frostfairy_flower: {
+    id: 'frostfairy_flower',
+    name: 'Frostfairy Flower',
+  },
+  severed_tail_of_the_sky_roamer: {
+    id: 'severed_tail_of_the_sky_roamer',
+    name: 'Severed Tail of the Sky-Roamer',
+    rarity: 4,
+  },
+  unscorched_blossom_branch: {
+    id: 'unscorched_blossom_branch',
+    name: 'Unscorched Blossom Branch',
+    rarity: 4,
+  },
+  ethereal_crystal: {
+    id: 'ethereal_crystal',
+    name: 'Ethereal Crystal',
+    rarity: 2,
+  },
+  ethereal_crystalscale_stone: {
+    id: 'ethereal_crystalscale_stone',
+    name: 'Ethereal Crystalscale Stone',
+    rarity: 3,
+  },
+  ethereal_glimmershard: {
+    id: 'ethereal_glimmershard',
+    name: 'Ethereal Glimmershard',
+    rarity: 1,
+  },
+  twisted_withered_branch: { id: 'twisted_withered_branch', name: 'Twisted Withered Branch' },
+  teachings_of_charity: {
+    id: 'teachings_of_charity',
+    name: 'Teachings of Charity',
+    day: ['monday', 'thursday'],
+    rarity: 2,
+  },
+  guide_to_charity: {
+    id: 'guide_to_charity',
+    name: 'Guide to Charity',
+    day: ['monday', 'thursday'],
+    rarity: 3,
+    parent: 'teachings_of_charity',
+  },
+  philosophies_of_charity: {
+    id: 'philosophies_of_charity',
+    name: 'Philosophies of Charity',
+    day: ['monday', 'thursday'],
+    rarity: 4,
+    parent: 'teachings_of_charity',
+  },
+  teachings_of_fortitude: {
+    id: 'teachings_of_fortitude',
+    name: 'Teachings of Fortitude',
+    day: ['tuesday', 'friday'],
+    rarity: 2,
+  },
+  guide_to_fortitude: {
+    id: 'guide_to_fortitude',
+    name: 'Guide to Fortitude',
+    day: ['tuesday', 'friday'],
+    rarity: 3,
+    parent: 'teachings_of_fortitude',
+  },
+  philosophies_of_fortitude: {
+    id: 'philosophies_of_fortitude',
+    name: 'Philosophies of Fortitude',
+    day: ['tuesday', 'friday'],
+    rarity: 4,
+    parent: 'teachings_of_fortitude',
+  },
+  rise_of_the_pale_star_army: {
+    id: 'rise_of_the_pale_star_army',
+    name: 'Rise of the Pale Star Army',
+    rarity: 2,
+  },
+  muster_of_the_pale_star_army: {
+    id: 'muster_of_the_pale_star_army',
+    name: 'Muster of the Pale Star Army',
+    rarity: 3,
+  },
+  clarion_of_the_pale_star_army: {
+    id: 'clarion_of_the_pale_star_army',
+    name: 'Clarion of the Pale Star Army',
+    rarity: 4,
+  },
+  triumph_of_the_pale_star_army: {
+    id: 'triumph_of_the_pale_star_army',
+    name: 'Triumph of the Pale Star Army',
+    rarity: 5,
+  },
+  hollow_root_of_life: {
+    id: 'hollow_root_of_life',
+    name: 'Hollow Root of Life',
+    rarity: 2,
+  },
+  sprout_node_of_life: {
+    id: 'sprout_node_of_life',
+    name: 'Sprout Node of Life',
+    rarity: 3,
+  },
+  coiled_core_of_life: {
+    id: 'coiled_core_of_life',
+    name: 'Coiled Core of Life',
+    rarity: 4,
+  },
+  accreted_fragment: {
+    id: 'accreted_fragment',
+    name: 'Accreted Fragment',
+    rarity: 2,
+  },
+  accreted_mass: {
+    id: 'accreted_mass',
+    name: 'Accreted Mass',
+    rarity: 3,
+  },
+  accreted_growth: {
+    id: 'accreted_growth',
+    name: 'Accreted Growth',
+    rarity: 4,
+  },
+  the_frost_emperors_revival: {
+    id: 'the_frost_emperors_revival',
+    name: "The Frost Emperor's Revival",
+    rarity: 2,
+  },
+  the_frost_emperors_ceremony: {
+    id: 'the_frost_emperors_ceremony',
+    name: "The Frost Emperor's Ceremony",
+    rarity: 3,
+  },
+  the_frost_emperors_lament: {
+    id: 'the_frost_emperors_lament',
+    name: "The Frost Emperor's Lament",
+    rarity: 4,
+  },
+  the_frost_emperors_farewell: {
+    id: 'the_frost_emperors_farewell',
+    name: "The Frost Emperor's Farewell",
+    rarity: 5,
+  },
+  measured_pour_of_the_cellared_spiritual_nectar: {
+    id: 'measured_pour_of_the_cellared_spiritual_nectar',
+    name: 'Measured Pour of the Cellared Spiritual Nectar',
+    rarity: 2,
+  },
+  intoxication_of_the_cellared_spiritual_nectar: {
+    id: 'intoxication_of_the_cellared_spiritual_nectar',
+    name: 'Intoxication of the Cellared Spiritual Nectar',
+    rarity: 3,
+  },
+  exhilaration_of_the_cellared_spiritual_nectar: {
+    id: 'exhilaration_of_the_cellared_spiritual_nectar',
+    name: 'Exhilaration of the Cellared Spiritual Nectar',
+    rarity: 4,
+  },
+  revelry_of_the_cellared_spiritual_nectar: {
+    id: 'revelry_of_the_cellared_spiritual_nectar',
+    name: 'Revelry of the Cellared Spiritual Nectar',
+    rarity: 5,
+  },
+  teachings_of_glory: {
+    id: 'teachings_of_glory',
+    name: 'Teachings of Glory',
+    day: ['wednesday', 'saturday'],
+    rarity: 2,
+  },
+  guide_to_glory: {
+    id: 'guide_to_glory',
+    name: 'Guide to Glory',
+    day: ['wednesday', 'saturday'],
+    rarity: 3,
+    parent: 'teachings_of_glory',
+  },
+  philosophies_of_glory: {
+    id: 'philosophies_of_glory',
+    name: 'Philosophies of Glory',
+    day: ['wednesday', 'saturday'],
+    rarity: 4,
+    parent: 'teachings_of_glory',
+  },
+  profaned_sprout: { id: 'profaned_sprout', name: 'Profaned Sprout' },
+  golden_fern: {
+    id: 'golden_fern',
+    name: 'Golden Fern',
+  },
+  vagabonds_cracked_armor: {
+    id: 'vagabonds_cracked_armor',
+    name: "Vagabond's Cracked Armor",
+    rarity: 4,
   },
 };

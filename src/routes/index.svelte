@@ -1,6 +1,6 @@
 <script context="module">
   export async function load({ fetch }) {
-    const promoted = ['bennett', 'xiangling'];
+    const promoted = ['diona', 'chongyun', 'faruzan'];
     const builds = {};
     for (const p of promoted) {
       const response = await fetch(`/characters/build/${p}.json`);
@@ -83,6 +83,7 @@
       </div>
     {/if}
     <Build on:done={onDone} {builds} />
+    <div />
     <div />
     <Event on:done={onDone} />
     <Item on:done={onDone} />

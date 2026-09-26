@@ -443,7 +443,7 @@
   "constellations": [
     {
       "name": "\"As One Might Stride Betwixt the Clouds\"",
-      "description": "After triggering the Elemental Absorption from the Ascension Talent \"Four Sealing Divination Charms,\" this instance of Lan Yan's Elemental Skill <span style=\"color: #FFD780FF;\">Swallow-Wisp Pinion Dance</span> will produce another Feathermoon Ring when they are thrown at opponents.\\nYou must first unlock the Ascension Talent \"Four Sealing Divination Charms.\""
+      "description": "After triggering the Elemental Absorption from the Ascension Talent \"Four Sealing Divination Charms,\" this instance of Lan Yan's Elemental Skill <span style=\"color: #FFD780FF;\">Swallow-Wisp Pinion Dance</span> will produce another Feathermoon Ring when they are thrown at opponents.\nYou must first unlock the Ascension Talent \"Four Sealing Divination Charms.\""
     },
     {
       "name": "\"Dance Vestments Billow Like Rainbow Jade\"",
@@ -451,7 +451,7 @@
     },
     {
       "name": "\"On White Wings Pierce Through Cloud and Fog\"",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Swallow-Wisp Pinion Dance</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Swallow-Wisp Pinion Dance</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "\"With Drakefalcon's Blood-Pearls Adorned\"",
@@ -459,7 +459,7 @@
     },
     {
       "name": "\"Having Met You, My Heart is Gladdened\"",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Lustrous Moonrise</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Lustrous Moonrise</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "\"Let Us Away on Sylphic Wing, the Silvered Ornaments to Ring\"",
@@ -469,7 +469,7 @@
   "passives": [
     {
       "name": "Four Sealing Divination Charms",
-      "description": "When the dash from the Elemental Skill <span style=\"color: #FFD780FF;\">Swallow-Wisp Pinion Dance</span> hits a target, if it interacts with <span style=\"color: #80C0FFFF;\">Hydro</span>/<span style=\"color: #FF9999FF;\">Pyro</span>/<span style=\"color: #99FFFFFF;\">Cryo</span>/<span style=\"color: #FFACFFFF;\">Electro</span>, the Swallow-Wisp Shield will undergo Elemental Absorption, with the converted shield absorbing DMG from the corresponding element with 250% efficiency.\\nAdditionally, if this use of <span style=\"color: #FFD780FF;\">Swallow-Wisp Pinion Dance</span> causes the Swallow-Wisp Shield to undergo Elemental Absorption, the Feathermoon Rings that Lan Yan throws at her foes additionally deal Elemental DMG equal to 50% of the original in the corresponding Elemental Type. This DMG is considered Elemental Skill DMG."
+      "description": "When the dash from the Elemental Skill <span style=\"color: #FFD780FF;\">Swallow-Wisp Pinion Dance</span> hits a target, if it interacts with <span style=\"color: #80C0FFFF;\">Hydro</span>/<span style=\"color: #FF9999FF;\">Pyro</span>/<span style=\"color: #99FFFFFF;\">Cryo</span>/<span style=\"color: #FFACFFFF;\">Electro</span>, the Swallow-Wisp Shield will undergo Elemental Absorption, with the converted shield absorbing DMG from the corresponding element with 250% efficiency.\nAdditionally, if this use of <span style=\"color: #FFD780FF;\">Swallow-Wisp Pinion Dance</span> causes the Swallow-Wisp Shield to undergo Elemental Absorption, the Feathermoon Rings that Lan Yan throws at her foes additionally deal Elemental DMG equal to 50% of the original in the corresponding Elemental Type. This DMG is considered Elemental Skill DMG."
     },
     {
       "name": "Skyfeather Evil-Subduing Charm",
@@ -477,12 +477,13 @@
     },
     {
       "name": "Thought and Intent, Like Silken Scent",
-      "description": "When Lan Yan is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on."
+      "description": "When Lan Yan is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Lustrous Moonrise",
-    "description": "Lan Yan creates a Feathermoon Swallow Array, pulling in nearby opponents and objects and dealing multiple instances of <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span>.\\n\\n<i>Strictly speaking, with only Lan Yan herself present, it cannot properly be called an \"array.\" However, if her Rattan Figures are brought into the picture, she can sort of fulfill the requirements... Probably.</i>",
+    "description": "Lan Yan creates a Feathermoon Swallow Array, pulling in nearby opponents and objects and dealing multiple instances of <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span>.\n\n<i>Strictly speaking, with only Lan Yan herself present, it cannot properly be called an \"array.\" However, if her Rattan Figures are brought into the picture, she can sort of fulfill the requirements... Probably.</i>",
     "skillLabels": [
       "Skill DMG",
       "CD",
@@ -635,11 +636,13 @@
           60
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Black Pheasant Strides on Water",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nWields her Feathermoon Rings to perform up to 4 attacks, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to throw out a Feathermoon Ring, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nGathers the power of Anemo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span> upon impact with the ground.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nWields her Feathermoon Rings to perform up to 4 attacks, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to throw out a Feathermoon Ring, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nGathers the power of Anemo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span> upon impact with the ground.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1082,11 +1085,13 @@
           3.79592
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Swallow-Wisp Pinion Dance",
-    "description": "Summoning forth the Swallow-Wisp Shield, a secret art passed down across generations, Lan Yan dashes forward and, upon making contact with her target, will leap back into the air.\\nThe Swallow-Wisp Shield's DMG absorption scales based on her ATK, and has a 250% absorption efficiency against <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\\nWhile in mid-air due to the effects of her Elemental Skill: Swallow-Wisp Pinion Dance, pressing her Elemental Skill again or pressing Normal Attack will cause Lan Yan to hurl her Feathermoon Rings at an opponent, and they will spin between nearby opponents twice upon hit, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\\nHolding the Skill will cause it to behave differently.\\n\\n<span style=\"color: #FFD780FF;\">Hold</span>\\nEnter Aiming Mode to adjust the dash direction.\\n\\n<i>\"The clouds cut the lunar light, like shadows silver gracing one's sight.\"</i>",
+    "description": "Summoning forth the Swallow-Wisp Shield, a secret art passed down across generations, Lan Yan dashes forward and, upon making contact with her target, will leap back into the air.\nThe Swallow-Wisp Shield's DMG absorption scales based on her ATK, and has a 250% absorption efficiency against <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\nWhile in mid-air due to the effects of her Elemental Skill: Swallow-Wisp Pinion Dance, pressing her Elemental Skill again or pressing Normal Attack will cause Lan Yan to hurl her Feathermoon Rings at an opponent, and they will spin between nearby opponents twice upon hit, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\nHolding the Skill will cause it to behave differently.\n\n<span style=\"color: #FFD780FF;\">Hold</span>\nEnter Aiming Mode to adjust the dash direction.\n\n<i>\"The clouds cut the lunar light, like shadows silver gracing one's sight.\"</i>",
     "skillLabels": [
       "Feathermoon Ring DMG",
       "Shield DMG Absorption",
@@ -1303,6 +1308,8 @@
           16
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

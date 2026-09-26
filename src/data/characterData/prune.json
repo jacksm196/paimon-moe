@@ -443,46 +443,56 @@
   "constellations": [
     {
       "name": "With a Vow to Rescue, the Journey Begins",
-      "description": "After the <span style=\"color: #FFD780FF;\">Banehunter Oathhammer</span> that has undergone Elemental Conversion hits an opponent, Prune will regain 2 Energy. This effect can occur once every 1.8s."
+      "description": "After the <button data-link=\"11320001\"><span style=\"color: #FFD780FF;\">Banehunter Oathhammer</span></button> that has undergone Elemental Conversion hits an opponent, Prune will regain 2 Energy. This effect can occur once every 1.8s."
     },
     {
       "name": "Useful for Cleaning Messy Baggage, Elemental Powers Are Indeed",
-      "description": "During the Elemental Burst <span style=\"color: #FFD780FF;\">The Bell Tolls! The Hunt Is On!</span>, when the Witchlure Bell is in Hunter-Seeker mode, Prune gains the Hunt the Witch effect: Prune's ATK increases by 10%, and when the Witchlure Bell and the <span style=\"color: #FFD780FF;\">Banehunter Oathhammer</span> that has undergone Elemental Conversion hits an opponent, it further increases her ATK by 5%. Prune's ATK can be increased by up to 40% in this way.\\nThe original instance of the above effect will be removed if \"The Bell Tolls! The Hunt Is On!\" is used again during this time."
+      "description": "During the Elemental Burst <span style=\"color: #FFD780FF;\"><button data-link-s=\"The Bell Tolls! The Hunt Is On!\">The Bell Tolls! The Hunt Is On!</button></span>, when the Witchlure Bell is in Hunter-Seeker mode, Prune gains the Hunt the Witch effect: Prune's ATK increases by 10%, and when the Witchlure Bell and the <button data-link=\"11320001\"><span style=\"color: #FFD780FF;\">Banehunter Oathhammer</span></button> that has undergone Elemental Conversion hits an opponent, it further increases her ATK by 5%. Prune's ATK can be increased by up to 40% in this way.\nThe original instance of the above effect will be removed if \"The Bell Tolls! The Hunt Is On!\" is used again during this time."
     },
     {
       "name": "The Caravan Exits the Mountain Pass, the Scenery Once More Changed",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">The Bell Tolls! The Hunt Is On!</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\"><button data-link-s=\"The Bell Tolls! The Hunt Is On!\">The Bell Tolls! The Hunt Is On!</button></span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Looking Back Following the Wind, One's Shadow Still Halved",
-      "description": "After the <span style=\"color: #FFD780FF;\">Banehunter Oathhammer</span> that has undergone Elemental Conversion hits an opponent, it will ricochet and land on a nearby opponent, dealing 80% ATK as DMG of the corresponding Elemental Type."
+      "description": "After the <button data-link=\"11320001\"><span style=\"color: #FFD780FF;\">Banehunter Oathhammer</span></button> that has undergone Elemental Conversion hits an opponent, it will ricochet and land on a nearby opponent, dealing 80% ATK as DMG of the corresponding Elemental Type."
     },
     {
       "name": "100 Defeats? No Problem, Tomorrow, We Go Again",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Ring-A-Ding-Ding! Hexhunter Chime</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\"><button data-link-s=\"Ring-A-Ding-Ding! Hexhunter Chime\">Ring-A-Ding-Ding! Hexhunter Chime</button></span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "And That's the Story! Share It With Your Friends!",
-      "description": "The duration of the Witchlure Bell's Hunter-Seeker mode from the Elemental Burst <span style=\"color: #FFD780FF;\">The Bell Tolls! The Hunt Is On!</span> is extended by 4s.\\nAdditionally, after party members affected by Tolling Rally trigger any Elemental Reaction, they will cause Prune and the other current active character(s) affected by Tolling Rally to gain 350 ATK for 5s."
+      "description": "The duration of the Witchlure Bell's Hunter-Seeker mode from the Elemental Burst <span style=\"color: #FFD780FF;\"><button data-link-s=\"The Bell Tolls! The Hunt Is On!\">The Bell Tolls! The Hunt Is On!</button></span> is extended by 4s.\nAdditionally, after party members affected by Tolling Rally trigger any Elemental Reaction, they will cause Prune and the other current active character(s) affected by Tolling Rally to gain 350 ATK for 5s."
     }
   ],
   "passives": [
     {
+      "name": "Witch's Eve Rite: Witchseeker's Vow",
+      "description": "After completing <span style=\"color: #FFD780FF;\">Witch's Homework: Of What Is Contested</span>, Prune becomes a <span style=\"color: #FFD780FF;\">Hexerei</span> character. When the party includes at least 2 Hexerei characters, you gain the <span style=\"color: #FFD780FF;\">Hexerei: Secret Rite</span> effect, which enhances Hexerei characters.\n\n<span style=\"color: #FFD780FF;\">Hexerei: Secret Rite</span>\nAfter a Hexerei character in the party affected by the Tolling Rally effect triggers an Elemental Reaction on an opponent, Prune's ATK is increased by 60% for 5s. If the Elemental Reaction triggered is a Swirl or Stellar Swirl reaction, the triggering character's ATK will additionally be increased by 30% for 5s."
+    },
+    {
       "name": "Verdict and Punishment",
-      "description": "During the Elemental Burst <span style=\"color: #FFD780FF;\">The Bell Tolls! The Hunt Is On!</span>, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl on an opponent, it will also summon a <span style=\"color: #FFD780FF;\">Banehunter Oathhammer</span> that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG."
+      "description": "During the Elemental Burst <span style=\"color: #FFD780FF;\"><button data-link-s=\"The Bell Tolls! The Hunt Is On!\">The Bell Tolls! The Hunt Is On!</button></span>, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Stellar Swirl in an opponent, it will also summon a <button data-link=\"11320001\"><span style=\"color: #FFD780FF;\">Banehunter Oathhammer</span></button> that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl or Stellar Swirl. This DMG is considered Elemental Burst DMG."
     },
     {
       "name": "Tolling Synchronicity",
-      "description": "After Prune hits an opponent with the <span style=\"color: #FFD780FF;\">Banehunter Oathhammer</span> that has undergone Elemental Conversion, other nearby party members will gain the Tolling Rally effect for 5s: When Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts deal DMG to opponents, that attack's DMG will be increased based on the portion of Prune's ATK in excess of 2,000 when they become affected by the Tolling Rally effect. Every excess ATK point increases that instance of DMG by 0.025%, up to a total of 50% max."
+      "description": "After Prune hits an opponent with the <button data-link=\"11320001\"><span style=\"color: #FFD780FF;\">Banehunter Oathhammer</span></button> that has undergone Elemental Conversion, other nearby party members will gain the Tolling Rally effect for 5s: When Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts deal DMG to opponents, that attack's DMG will be increased based on the portion of Prune's ATK in excess of 2,000 when they become affected by the Tolling Rally effect. Every excess ATK point increases that instance of DMG by 0.025%, up to a total of 50% max."
     },
     {
       "name": "Tinker-Tink, Clank, and Bang!",
       "description": "Has a 10% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is the same as the resulting material."
     }
   ],
+  "links": {
+    "11320001": {
+      "title": "Banehunter Oathhammer",
+      "desc": "A witchhunter's trusty companion! Under the right conditions, the Banehunter Oathhammer undergoes Elemental Conversion, turning all its DMG into DMG of the corresponding Elemental Type.\nPrune can summon the Banehunter Oathhammer that has undergone Elemental Conversion in the following ways:\n· For a certain time after triggering a Swirl or Stellar Swirl Reaction on an opponent with the Elemental Skill <span style=\"color: #FFD780FF;\">Ring-A-Ding-Ding! Hexhunter Chime</span>, Prune can unleash the special Elemental Skill <span style=\"color: #FFD780FF;\">Clang Clang! Witch-tribution Comes!</span>. When using this special Elemental Skill, the Banehunter Oathhammer will be converted to the other Elemental Type involved in the aforementioned Swirl or Stellar Swirl Reaction.\n· After the Ascension Talent \"Verdict and Punishment\" is unlocked, when the Witchlure Bell in Hunter-Seeker mode triggers Swirl or Stellar Swirl on an opponent, it will summon a Banehunter Oathhammer that has undergone the corresponding Elemental Conversion to attack the opponent."
+    }
+  },
   "burst": {
     "name": "The Bell Tolls! The Hunt Is On!",
-    "description": "Prune gently swings the Witchlure Bell, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span> to nearby opponents. After this, the Bell will enter the Hunter-Seeker mode.\\n\\n<span style=\"color: #FFD780FF;\">Witchlure Bell: Hunter-Seeker</span>\\nIn this mode, the Witchlure Bell will follow the current active character, attacking surrounding opponents at intervals and dealing <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span>. This DMG is considered Elemental Burst DMG.\\n\\n<i>\"Descartes might be an imaginary friend, but that doesn't mean he's 'fake.' He's 'my' imaginary friend, and that's exactly how he exists in truth.\"</i>",
+    "description": "Prune gently swings the Witchlure Bell, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span> to nearby opponents. After this, the Bell will enter the Hunter-Seeker mode.\n\n<span style=\"color: #FFD780FF;\">Witchlure Bell: Hunter-Seeker</span>\nIn this mode, the Witchlure Bell will follow the current active character, attacking surrounding opponents at intervals and dealing <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span>. This DMG is considered Elemental Burst DMG.\n\n<i>\"Descartes might be an imaginary friend, but that doesn't mean he's 'fake.' He's 'my' imaginary friend, and that's exactly how he exists in truth.\"</i>",
     "skillLabels": [
       "Skill DMG",
       "Witchlure Bell DMG",
@@ -733,11 +743,13 @@
           70
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Badaboom! Hexbuster Hammer",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 3 attacks by swinging the Banehunter Oathhammer, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina and performs an upward hammer swing, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span> to opponents in front.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nCalling upon the power of Anemo, she plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span> upon impact with the ground.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 3 attacks by swinging the Banehunter Oathhammer, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina and performs an upward hammer swing, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span> to opponents in front.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nCalling upon the power of Anemo, she plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span> upon impact with the ground.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1101,17 +1113,13 @@
           3.79592
         ]
       ]
-    ]
-  },
-  "links": {
-    "11320001": {
-      "title": "Banehunter Oathhammer",
-      "desc": "A witchhunter's trusty companion! Under the right conditions, the Banehunter Oathhammer undergoes Elemental Conversion, turning all its DMG into DMG of the corresponding Elemental Type.\\nPrune can summon the Banehunter Oathhammer that has undergone Elemental Conversion in the following ways:\\n· For a certain time after triggering a Swirl Reaction on an opponent with the Elemental Skill <span style=\"color: #FFD780FF;\">Ring-A-Ding-Ding! Hexhunter Chime</span>, Prune can unleash the special Elemental Skill <span style=\"color: #FFD780FF;\">Clang Clang! Witch-tribution Comes!</span>. When using this special Elemental Skill, the Banehunter Oathhammer will be converted to the other Elemental Type involved in the aforementioned Swirl Reaction.\\n· After the Ascension Talent \"Verdict and Punishment\" is unlocked, when the Witchlure Bell in Hunter-Seeker mode triggers Swirl on an opponent, it will summon a Banehunter Oathhammer that has undergone the corresponding Elemental Conversion to attack the opponent."
-    }
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Ring-A-Ding-Ding! Hexhunter Chime",
-    "description": "Unleash the wind's might to defeat the evil witch and save Descartes! Prune strikes the Witchlure Bell with her Banehunter Oathhammer, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\\nIf Prune triggers Swirl on an opponent using this attack, <span style=\"color: #FFD780FF;\">Ring-A-Ding-Ding! Hexhunter Chime</span> will be changed to <span style=\"color: #FFD780FF;\">Clang Clang! Witch-tribution Comes!</span> for the next 6s.\\n\\n<span style=\"color: #FFD780FF;\">Clang Clang! Witch-tribution Comes!</span>\\nPrune's hammer is now enshrouded by the element involved in the previous Swirl reaction, causing <button data-link=\"11320001\"><span style=\"color: #FFD780FF;\">Banehunter Oathhammer</span></button> to undergo Elemental Conversion. When activated with a Press, Prune will leap up and kick the Banehunter Oathhammer forward, dealing Elemental DMG of the corresponding type to opponents in front of her.\\n\\n<i>\"Do you know a wicked witch who wears a hollowed-out hat and bullies little kids for fun? She's my ultimate target. The Witch Hunter's mortal enemy!\"</i>",
+    "description": "Determined to take down the \"evil\" witch and save her beloved Descartes, Prune unleashes the power of the wind! She strikes at the Witchlure Bell using her Banehunter Oathhammer, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\nIf Prune triggers a Swirl or Stellar Swirl reaction in the opponent with this attack, her <span style=\"color: #FFD780FF;\">Ring-A-Ding-Ding! Hexhunter Chime</span> is changed to <span style=\"color: #FFD780FF;\">Clang Clang! Witch-tribution Comes!</span> for the next 6s.\n\n<span style=\"color: #FFD780FF;\">Clang Clang! Witch-tribution Comes!</span>\nEnsconces the <button data-link=\"11320001\"><span style=\"color: #FFD780FF;\">Banehunter Oathhammer</span></button> in the element involved in the earlier Swirl or Stellar Swirl reaction. After tapping to unleash, Prune will launch a midair kick at the Banehunter Oathhammer, dealing DMG to opponents in front of her of the corresponding elemental type.\n\n<i>\"Do you know a wicked witch who wears a hollowed-out hat and bullies little kids for fun? She's my ultimate target. The Witch Hunter's mortal enemy!\"</i>",
     "skillLabels": [
       "Ring-A-Ding-Ding! Hexhunter Chime DMG",
       "Clang Clang! Witch-tribution Comes! DMG",
@@ -1264,6 +1272,8 @@
           15
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

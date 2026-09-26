@@ -443,27 +443,27 @@
   "constellations": [
     {
       "name": "Parrot's Beak",
-      "description": "After Kinich lands from <span style=\"color: #FFD780FF;\">Canopy Hunter: Riding High</span>'s mid-air swing, his Movement SPD will increase by 30% for 6s.\\nAdditionally, Scalespiker Cannon's CRIT DMG is increased by 100%."
+      "description": "After Kinich lands from <span style=\"color: #FFD780FF;\">Canopy Hunter: Riding High</span>'s mid-air swing, his Movement SPD will increase by 30% for 6s.\nAdditionally, Scalespiker Cannon's CRIT DMG is increased by 100%."
     },
     {
       "name": "Tiger Beetle's Palm",
-      "description": "When Kinich's Elemental Skill hits an opponent, it will decrease their <span style=\"color: #99FF88FF;\">Dendro RES</span> by 30% for 6s.\\nAdditionally, the first Scalespiker Cannon Kinich fires after entering Nightsoul's Blessing has increased AoE, and its DMG increases by 100%."
+      "description": "When Kinich's Elemental Skill hits an opponent, it will decrease their <span style=\"color: #99FF88FF;\">Dendro RES</span> by 30% for 6s.\nAdditionally, the first Scalespiker Cannon Kinich fires after entering Nightsoul's Blessing has increased AoE, and its DMG increases by 100%."
     },
     {
       "name": "Protosuchian's Claw",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Canopy Hunter: Riding High</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Canopy Hunter: Riding High</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Hummingbird's Feather",
-      "description": "When in Nightsoul's Blessing, Kinich will restore 5 Energy after using his Loop Shots or after unleashing the Scalespiker Cannon. Energy can be regenerated this way once every 2.8s.\\nAdditionally, <span style=\"color: #FFD780FF;\">Hail to the Almighty Dragonlord</span> deals 70% more DMG."
+      "description": "When in Nightsoul's Blessing, Kinich will restore 5 Energy after using his Loop Shots or after unleashing the Scalespiker Cannon. Energy can be regenerated this way once every 2.8s.\nAdditionally, <span style=\"color: #FFD780FF;\">Hail to the Almighty Dragonlord</span> deals 70% more DMG."
     },
     {
       "name": "Howler Monkey's Tail",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Hail to the Almighty Dragonlord</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Hail to the Almighty Dragonlord</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Auspicious Beast's Shape",
-      "description": "After Scalespiker Cannon hits an opponent, it will bounce between opponents once, dealing 700% of Kinich's ATK as <span style=\"color: #99FF88FF;\">Dendro DMG</span>.\\nIf this Scalespiker Cannon triggers the buffs that Ascension Talent \"Flame Spirit Pact\" or the Constellation \"Tiger Beetle's Palm\" grant to the Cannon, the bouncing attack will also obtain the relevant buffs."
+      "description": "After Scalespiker Cannon hits an opponent, it will bounce between opponents once, dealing 700% of Kinich's ATK as <span style=\"color: #99FF88FF;\">Dendro DMG</span>.\nIf this Scalespiker Cannon triggers the buffs that Ascension Talent \"Flame Spirit Pact\" or the Constellation \"Tiger Beetle's Palm\" grant to the Cannon, the bouncing attack will also obtain the relevant buffs."
     }
   ],
   "passives": [
@@ -477,16 +477,17 @@
     },
     {
       "name": "Night Realm's Gift: Repaid in Full",
-      "description": "When Kinich is in the air following <span style=\"color: #FFD780FF;\">Canopy Hunter: Riding High</span>'s mid-air swing, he can consume 10 Phlogiston points to perform another mid-air swing.\\nWhile in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Kinich. When the current active character is sprinting, in movement states that result from specific Talents, or in the air, when you switch to Kinich: Kinich will perform one of the following actions depending on the conditions met:\\n·When facing a Coilgrass Sigil that can be interacted with: He will fire a grappling hook towards it to move;\\n·When there are nearby opponents and you are in combat: Kinich will use Canopy Hunter: Riding High in the direction of the opponents;\\nOtherwise, Kinich will fire a grappling hook and swing, prioritizing valid Coilgrass Sigils as grapple targets.\\nNightsoul Transmission can be triggered once every 10s by your own party.\\n\\nWhen interacting with Coilgrass Sigils and other items that Yumkasaurs can interact with, \"Canopy Hunter: Riding High\" will be converted to \"Yumkasaur Mimesis,\" which causes interactions with such items to follow rules applicable to Yumkasaurs, and which will not put Canopy Hunter: Riding High on CD."
+      "description": "When Kinich is in the air following <span style=\"color: #FFD780FF;\">Canopy Hunter: Riding High</span>'s mid-air swing, he can consume 10 Phlogiston points to perform another mid-air swing.\nWhile in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Kinich. When the current active character is sprinting, in movement states that result from specific Talents, or in the air, when you switch to Kinich: Kinich will perform one of the following actions depending on the conditions met:\n·When facing a Coilgrass Sigil that can be interacted with: He will fire a grappling hook towards it to move;\n·When there are nearby opponents and you are in combat: Kinich will use Canopy Hunter: Riding High in the direction of the opponents;\nOtherwise, Kinich will fire a grappling hook and swing, prioritizing valid Coilgrass Sigils as grapple targets.\nNightsoul Transmission can be triggered once every 10s by your own party.\n\nWhen interacting with Coilgrass Sigils and other items that Yumkasaurs can interact with, \"Canopy Hunter: Riding High\" will be converted to \"Yumkasaur Mimesis,\" which causes interactions with such items to follow rules applicable to Yumkasaurs, and which will not put Canopy Hunter: Riding High on CD."
     },
     {
       "name": "Swift Envoy",
       "description": "While in an area with Phlogiston Mechanics within Natlan, interacting with some harvestable items will increase your own party members' Movement SPD by 15% for 10s. Additionally, the location of nearby <span style=\"color: #FFD780FF;\">resources unique to Natlan</span> will appear on your mini-map."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Hail to the Almighty Dragonlord",
-    "description": "Unleashes the power of the Almighty Dragonlord, K'uhul Ajaw (on a limited, conditional, restricted, contractual, partial, temporary basis), dealing Nightsoul-aligned <span style=\"color: #99FF88FF;\">AoE Dendro DMG</span>. Ajaw will unleash his Dragon Breath at intervals, dealing Nightsoul-aligned <span style=\"color: #99FF88FF;\">AoE Dendro DMG</span>.\\nIf Kinich is in Nightsoul's Blessing when this is used, this Blessing's duration is extended by 1.7s.\\n\\n<i>\"Yes, yes! You stand before K'uhul Ajaw the Almighty Dragonlord! Come forward, then! Kneel, and kiss our feet!\"</i>",
+    "description": "Unleashes the power of the Almighty Dragonlord, K'uhul Ajaw (on a limited, conditional, restricted, contractual, partial, temporary basis), dealing Nightsoul-aligned <span style=\"color: #99FF88FF;\">AoE Dendro DMG</span>. Ajaw will unleash his Dragon Breath at intervals, dealing Nightsoul-aligned <span style=\"color: #99FF88FF;\">AoE Dendro DMG</span>.\nIf Kinich is in Nightsoul's Blessing when this is used, this Blessing's duration is extended by 1.7s.\n\n<i>\"Yes, yes! You stand before K'uhul Ajaw the Almighty Dragonlord! Come forward, then! Kneel, and kiss our feet!\"</i>",
     "skillLabels": [
       "Skill DMG",
       "Dragon Breath DMG",
@@ -737,11 +738,13 @@
           70
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Nightsun Style",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 3 rapid strikes.\\nAfter using his Elemental Skill \"Canopy Hunter: Riding High\"'s mid-air swing, he can perform a Normal Attack in mid-air before landing.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to spin and throw his Claymore forward to attack opponents.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 3 rapid strikes.\nAfter using his Elemental Skill \"Canopy Hunter: Riding High\"'s mid-air swing, he can perform a Normal Attack in mid-air before landing.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to spin and throw his Claymore forward to attack opponents.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1154,11 +1157,13 @@
           4.982145
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Canopy Hunter: Riding High",
-    "description": "Kinich uses his big-game hunting skills to either move swiftly or attack his opponent.\\nWhen there is an opponent or object that can be attacked nearby, he will attach a grappling hook to the target and enter Nightsoul's Blessing with 0 Nightsoul points. If neither is nearby, he fires a grappling hook forward and swings in mid-air, and this Skill's CD is decreased by 60%.\\nThis skill can be Held to release. When it is Held, Kinich can aim the grappling hook.\\n\\n<span style=\"color: #FFD780FF;\">Nightsoul's Blessing: Kinich</span>\\nKinich's Nightsoul's Blessing lasts 10s and generates 2 Nightsoul points every second.\\nIn this state, Kinich will hook onto a nearby opponent and perform a variable attack:\\n·When using a Normal Attack, Kinich will fire Loop Shots as he loops around the grappled target based on his current movement direction, dealing Nightsoul-aligned <span style=\"color: #99FF88FF;\">Dendro DMG</span> and generating 3 Nightsoul points. Loop Shot DMG is considered Elemental Skill DMG.\\n·When Nightsoul points are at max, he can use the Elemental Skill \"Scalespiker Cannon\": Consume all Nightsoul points to deal Nightsoul-aligned <span style=\"color: #99FF88FF;\">Dendro DMG</span>. When \"Scalespiker Cannon\" is Held, Kinich can aim this shot. After firing the Cannon, Kinich will try to grapple to its target.\\nWhile in Nightsoul's Blessing, after grappling an opponent or firing \"Scalespiker Cannon,\" a Blind Spot will be generated next to the opponent. When Kinich enters this Blind Spot, it will disappear and he will generate 4 Nightsoul points.\\nIf the grapple connection should snap due to exceeding the maximum distance or some other reason, using a Normal Attack will establish a new connection with a nearby opponent before performing Loop Shots.\\n\\n<i>\"All things come with a cost. I suggest you make a suitable offer... What? No, I don't do installments.\"</i>",
+    "description": "Kinich uses his big-game hunting skills to either move swiftly or attack his opponent.\nWhen there is an opponent or object that can be attacked nearby, he will attach a grappling hook to the target and enter Nightsoul's Blessing with 0 Nightsoul points. If neither is nearby, he fires a grappling hook forward and swings in mid-air, and this Skill's CD is decreased by 60%.\nThis skill can be Held to release. When it is Held, Kinich can aim the grappling hook.\n\n<span style=\"color: #FFD780FF;\">Nightsoul's Blessing: Kinich</span>\nKinich's Nightsoul's Blessing lasts 10s and generates 2 Nightsoul points every second.\nIn this state, Kinich will hook onto a nearby opponent and perform a variable attack:\n·When using a Normal Attack, Kinich will fire Loop Shots as he loops around the grappled target based on his current movement direction, dealing Nightsoul-aligned <span style=\"color: #99FF88FF;\">Dendro DMG</span> and generating 3 Nightsoul points. Loop Shot DMG is considered Elemental Skill DMG.\n·When Nightsoul points are at max, he can use the Elemental Skill \"Scalespiker Cannon\": Consume all Nightsoul points to deal Nightsoul-aligned <span style=\"color: #99FF88FF;\">Dendro DMG</span>. When \"Scalespiker Cannon\" is Held, Kinich can aim this shot. After firing the Cannon, Kinich will try to grapple to its target.\nWhile in Nightsoul's Blessing, after grappling an opponent or firing \"Scalespiker Cannon,\" a Blind Spot will be generated next to the opponent. When Kinich enters this Blind Spot, it will disappear and he will generate 4 Nightsoul points.\nIf the grapple connection should snap due to exceeding the maximum distance or some other reason, using a Normal Attack will establish a new connection with a nearby opponent before performing Loop Shots.\n\n<i>\"All things come with a cost. I suggest you make a suitable offer... What? No, I don't do installments.\"</i>",
     "skillLabels": [
       "Loop Shot DMG",
       "Scalespiker Cannon DMG",
@@ -1360,6 +1365,8 @@
           18
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

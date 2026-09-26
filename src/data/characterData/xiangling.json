@@ -451,7 +451,7 @@
     },
     {
       "name": "Deepfry",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Pyronado</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Pyronado</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Slowbake",
@@ -459,7 +459,7 @@
     },
     {
       "name": "Guoba Mad",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Guoba Attack</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Guoba Attack</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Condensed Pyronado",
@@ -480,9 +480,10 @@
       "description": "When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Pyronado",
-    "description": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.\\nThe Pyronado will move with your character for the ability's duration, dealing <span style=\"color: #FF9999FF;\">Pyro DMG</span> to all opponents in its path.\\n\\n<i>There will never be enough heat. Never.</i>",
+    "description": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.\nThe Pyronado will move with your character for the ability's duration, dealing <span style=\"color: #FF9999FF;\">Pyro DMG</span> to all opponents in its path.\n\n<i>There will never be enough heat. Never.</i>",
     "skillLabels": [
       "1-Hit Swing DMG",
       "2-Hit Swing DMG",
@@ -831,11 +832,13 @@
           80
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Dough-Fu",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 consecutive spear strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 consecutive spear strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1312,11 +1315,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Guoba Attack",
-    "description": "Summons Guoba, who will continuously breathe fire at opponents, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\\n\\n<i>Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.</i>",
+    "description": "Summons Guoba, who will continuously breathe fire at opponents, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\n\n<i>Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.</i>",
     "skillLabels": [
       "Flame DMG",
       "CD"
@@ -1420,6 +1425,8 @@
           12
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

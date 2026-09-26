@@ -451,38 +451,39 @@
     },
     {
       "name": "Wonders Never Cease",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Alcazarzaray's Exactitude</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Alcazarzaray's Exactitude</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Discretionary Supplement",
-      "description": "The character connected to the <span style=\"color: #FFD780FF;\">Jinni</span> will obtain the following buffs based on their current HP and Energy:\\n·When their HP is lower than 50%, they gain 50% Incoming Healing Bonus.\\n·When their Energy is less than 50%, they gain 30% Energy Recharge."
+      "description": "The character connected to the <span style=\"color: #FFD780FF;\">Jinni</span> will obtain the following buffs based on their current HP and Energy:\n·When their HP is lower than 50%, they gain 50% Incoming Healing Bonus.\n·When their Energy is less than 50%, they gain 30% Energy Recharge."
     },
     {
       "name": "Value for Mora",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Spirit-Warding Lamp: Troubleshooter Cannon</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Spirit-Warding Lamp: Troubleshooter Cannon</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Sprinkling Weight",
-      "description": "Dori gains the following effects for 3s after using <span style=\"color: #FFD780FF;\">Spirit-Warding Lamp: Troubleshooter Cannon</span>:\\n·<span style=\"color: #FFACFFFF;\">Electro Infusion</span>.\\n·When Normal Attacks hit opponents, all nearby party members will heal HP equivalent to 4% of Dori's Max HP. This type of healing can occur once every 0.1s."
+      "description": "Dori gains the following effects for 3s after using <span style=\"color: #FFD780FF;\">Spirit-Warding Lamp: Troubleshooter Cannon</span>:\n·<span style=\"color: #FFACFFFF;\">Electro Infusion</span>.\n·When Normal Attacks hit opponents, all nearby party members will heal HP equivalent to 4% of Dori's Max HP. This type of healing can occur once every 0.1s."
     }
   ],
   "passives": [
     {
       "name": "An Eye for Gold",
-      "description": "After a character connected to the <span style=\"color: #FFD780FF;\">Jinni</span> triggers an Electro-Charged, Lunar-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, Electro Swirl, or Electro Crystallize reaction, the CD of <span style=\"color: #FFD780FF;\">Spirit-Warding Lamp: Troubleshooter Cannon</span> is decreased by 1s.\\nThis effect can be triggered once every 3s."
+      "description": "After a character connected to the <span style=\"color: #FFD780FF;\">Jinni</span> triggers an Electro-Charged, Lunar-Charged, Superconduct, Stellar-Conduct, Overloaded, Quicken, Aggravate, Hyperbloom, Electro Swirl, or Electro Crystallize reaction, the CD of <span style=\"color: #FFD780FF;\">Spirit-Warding Lamp: Troubleshooter Cannon</span> is decreased by 1s.\nThis effect can be triggered once every 3s."
     },
     {
       "name": "Compound Interest",
-      "description": "When the Troubleshooter Shots or After-Sales Service Rounds from <span style=\"color: #FFD780FF;\">Spirit-Warding Lamp: Troubleshooter Cannon</span> hit opponents, Dori will restore 5 Elemental Energy for every 100% Energy Recharge possessed.\\nPer Spirit-Warding Lamp: Troubleshooter Cannon, only one instance of Energy restoration can be triggered and a maximum of 15 Energy can be restored this way."
+      "description": "When the Troubleshooter Shots or After-Sales Service Rounds from <span style=\"color: #FFD780FF;\">Spirit-Warding Lamp: Troubleshooter Cannon</span> hit opponents, Dori will restore 5 Elemental Energy for every 100% Energy Recharge possessed.\nPer Spirit-Warding Lamp: Troubleshooter Cannon, only one instance of Energy restoration can be triggered and a maximum of 15 Energy can be restored this way."
     },
     {
       "name": "Unexpected Order",
       "description": "Has a 25% chance to recover some of the materials used when crafting Character and Weapon Materials."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Alcazarzaray's Exactitude",
-    "description": "Summons forth the Jinni within the lamp to give the client various kinds of aid.\\n\\n<span style=\"color: #FFD780FF;\">Jinni</span>\\nConnects to a nearby character. The connected character will:\\n· Continuously restore HP based on Dori's Max HP.\\n· Continuously regenerate Energy.\\n· Be affected by <span style=\"color: #FFACFFFF;\">Electro</span>.\\nWhen the connector between the Jinni and the character touches opponents, it will deal one instance of <span style=\"color: #FFACFFFF;\">Electro DMG</span> to them every 0.4s.\\n\\nOnly one Jinni can exist at one time.\\n\\n<i>\"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure — comparable, I'd say, to how you will not sell that mascot by your side for any price in the world.\"</i>",
+    "description": "Summons forth the Jinni within the lamp to give the client various kinds of aid.\n\n<span style=\"color: #FFD780FF;\">Jinni</span>\nConnects to a nearby character. The connected character will:\n· Continuously restore HP based on Dori's Max HP.\n· Continuously regenerate Energy.\n· Be affected by <span style=\"color: #FFACFFFF;\">Electro</span>.\nWhen the connector between the Jinni and the character touches opponents, it will deal one instance of <span style=\"color: #FFACFFFF;\">Electro DMG</span> to them every 0.4s.\n\nOnly one Jinni can exist at one time.\n\n<i>\"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure — comparable, I'd say, to how you will not sell that mascot by your side for any price in the world.\"</i>",
     "skillLabels": [
       "Connector DMG",
       "Continuous Healing",
@@ -797,11 +798,13 @@
           80
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Marvelous Sword-Dance (Modified)",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 3 consecutive strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, performs a more powerful slash. \\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 3 consecutive strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1278,11 +1281,13 @@
           4.982145
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Spirit-Warding Lamp: Troubleshooter Cannon",
-    "description": "Directs a Spirit-Warding Lamp to fire off a Troubleshooter Shot at opponents, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span>.\\nAfter the Troubleshooter Shot hits, it will create 2 After-Sales Service Rounds that will automatically track nearby opponents and deal <span style=\"color: #FFACFFFF;\">Electro DMG</span>.\\n\\n<i>It is said that Dori can fix any problem for you... for the right price.</i>",
+    "description": "Directs a Spirit-Warding Lamp to fire off a Troubleshooter Shot at opponents, dealing <span style=\"color: #FFACFFFF;\">Electro DMG</span>.\nAfter the Troubleshooter Shot hits, it will create 2 After-Sales Service Rounds that will automatically track nearby opponents and deal <span style=\"color: #FFACFFFF;\">Electro DMG</span>.\n\n<i>It is said that Dori can fix any problem for you... for the right price.</i>",
     "skillLabels": [
       "Troubleshooter Shot DMG",
       "After-Sales Service Round DMG",
@@ -1435,6 +1440,8 @@
           9
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

@@ -584,6 +584,151 @@ export const characters = {
     },
     element: elements.cryo,
   },
+  alyosha: {
+    id: 'alyosha',
+    name: 'Alyosha',
+    rarity: 4,
+    weapon: weapons.polearm,
+    stats: {
+      hp: 11962,
+      atk: 265,
+      def: 703,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.flockingweed,
+            amount: 3,
+          },
+          {
+            item: itemList.chimeric_core,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.severed_tail_of_the_sky_roamer,
+            amount: 2,
+          },
+          {
+            item: itemList.flockingweed,
+            amount: 10,
+          },
+          {
+            item: itemList.chimeric_core,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.severed_tail_of_the_sky_roamer,
+            amount: 4,
+          },
+          {
+            item: itemList.flockingweed,
+            amount: 20,
+          },
+          {
+            item: itemList.symbiotic_chimeric_nucleus,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.severed_tail_of_the_sky_roamer,
+            amount: 8,
+          },
+          {
+            item: itemList.flockingweed,
+            amount: 30,
+          },
+          {
+            item: itemList.symbiotic_chimeric_nucleus,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.severed_tail_of_the_sky_roamer,
+            amount: 12,
+          },
+          {
+            item: itemList.flockingweed,
+            amount: 45,
+          },
+          {
+            item: itemList.prime_chimeric_nexus,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vajrada_amethyst_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.severed_tail_of_the_sky_roamer,
+            amount: 20,
+          },
+          {
+            item: itemList.flockingweed,
+            amount: 60,
+          },
+          {
+            item: itemList.prime_chimeric_nexus,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.chimeric_core, itemList.symbiotic_chimeric_nucleus, itemList.prime_chimeric_nexus],
+      book: [itemList.teachings_of_fortitude, itemList.guide_to_fortitude, itemList.philosophies_of_fortitude],
+      boss: itemList.elixir_of_the_heretic,
+    },
+    element: elements.electro,
+  },
   amber: {
     id: 'amber',
     name: 'Amber',
@@ -9296,7 +9441,6 @@ export const characters = {
       boss: itemList.ascended_sample_knight,
     },
     element: elements.cryo,
-    new: true,
   },
   lynette: {
     id: 'lynette',
@@ -10900,7 +11044,6 @@ export const characters = {
       boss: itemList.counterfeit_resin,
     },
     element: elements.pyro,
-    new: true,
   },
   nilou: {
     id: 'nilou',
@@ -11337,6 +11480,151 @@ export const characters = {
     },
     element: elements.geo,
   },
+  odette: {
+    id: 'odette',
+    name: 'Odette',
+    rarity: 5,
+    weapon: weapons.sword,
+    stats: {
+      hp: 12981,
+      atk: 335,
+      def: 787,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.frostfairy_flower,
+            amount: 3,
+          },
+          {
+            item: itemList.ethereal_glimmershard,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.unscorched_blossom_branch,
+            amount: 2,
+          },
+          {
+            item: itemList.frostfairy_flower,
+            amount: 10,
+          },
+          {
+            item: itemList.ethereal_glimmershard,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.unscorched_blossom_branch,
+            amount: 4,
+          },
+          {
+            item: itemList.frostfairy_flower,
+            amount: 20,
+          },
+          {
+            item: itemList.ethereal_crystal,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.unscorched_blossom_branch,
+            amount: 8,
+          },
+          {
+            item: itemList.frostfairy_flower,
+            amount: 30,
+          },
+          {
+            item: itemList.ethereal_crystal,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.unscorched_blossom_branch,
+            amount: 12,
+          },
+          {
+            item: itemList.frostfairy_flower,
+            amount: 45,
+          },
+          {
+            item: itemList.ethereal_crystalscale_stone,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.unscorched_blossom_branch,
+            amount: 20,
+          },
+          {
+            item: itemList.frostfairy_flower,
+            amount: 60,
+          },
+          {
+            item: itemList.ethereal_crystalscale_stone,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.ethereal_glimmershard, itemList.ethereal_crystal, itemList.ethereal_crystalscale_stone],
+      book: [itemList.teachings_of_charity, itemList.guide_to_charity, itemList.philosophies_of_charity],
+      boss: itemList.twisted_withered_branch,
+    },
+    element: elements.cryo,
+  },
   ororon: {
     id: 'ororon',
     name: 'Ororon',
@@ -11626,7 +11914,6 @@ export const characters = {
       boss: itemList.mask_of_the_virtuous_doctor,
     },
     element: elements.anemo,
-    new: true,
   },
   qiqi: {
     id: 'qiqi',
@@ -12205,6 +12492,151 @@ export const characters = {
       material: [itemList.recruits_insignia, itemList.sergeants_insignia, itemList.lieutenants_insignia],
       book: [itemList.teachings_of_ballad, itemList.guide_to_ballad, itemList.philosophies_of_ballad],
       boss: itemList.shadow_of_the_warrior,
+    },
+    element: elements.cryo,
+  },
+  sandrone: {
+    id: 'sandrone',
+    name: 'Sandrone',
+    rarity: 5,
+    weapon: weapons.claymore,
+    stats: {
+      hp: 13226,
+      atk: 342,
+      def: 752,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.subdetection_unit,
+            amount: 3,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 2,
+          },
+          {
+            item: itemList.subdetection_unit,
+            amount: 10,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 4,
+          },
+          {
+            item: itemList.subdetection_unit,
+            amount: 20,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 8,
+          },
+          {
+            item: itemList.subdetection_unit,
+            amount: 30,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 12,
+          },
+          {
+            item: itemList.subdetection_unit,
+            amount: 45,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.shivada_jade_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 20,
+          },
+          {
+            item: itemList.subdetection_unit,
+            amount: 60,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.broken_drive_shaft, itemList.reinforced_drive_shaft, itemList.precision_drive_shaft],
+      book: [itemList.teachings_of_vagrancy, itemList.guide_to_vagrancy, itemList.philosophies_of_vagrancy],
+      boss: itemList.madmans_restraint,
     },
     element: elements.cryo,
   },
@@ -14265,7 +14697,6 @@ export const characters = {
       ],
       boss: itemList.mudra_of_the_malefic_general,
     },
-    element: elements.dendro,
   },
   traveler_hydro: {
     id: 'traveler_hydro',
@@ -15007,6 +15438,298 @@ export const characters = {
       boss: itemList.tail_of_boreas,
     },
     element: elements.anemo,
+  },
+  vesna: {
+    id: 'vesna',
+    name: 'Vesna',
+    rarity: 5,
+    weapon: weapons.sword,
+    stats: {
+      hp: 13262,
+      atk: 354,
+      def: 730,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.golden_fern,
+            amount: 3,
+          },
+          {
+            item: itemList.ethereal_glimmershard,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.vagabonds_cracked_armor,
+            amount: 2,
+          },
+          {
+            item: itemList.golden_fern,
+            amount: 10,
+          },
+          {
+            item: itemList.ethereal_glimmershard,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.vagabonds_cracked_armor,
+            amount: 4,
+          },
+          {
+            item: itemList.golden_fern,
+            amount: 20,
+          },
+          {
+            item: itemList.ethereal_crystal,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.vagabonds_cracked_armor,
+            amount: 8,
+          },
+          {
+            item: itemList.golden_fern,
+            amount: 30,
+          },
+          {
+            item: itemList.ethereal_crystal,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.vagabonds_cracked_armor,
+            amount: 12,
+          },
+          {
+            item: itemList.golden_fern,
+            amount: 45,
+          },
+          {
+            item: itemList.ethereal_crystalscale_stone,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.vayuda_turquoise_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.vagabonds_cracked_armor,
+            amount: 20,
+          },
+          {
+            item: itemList.golden_fern,
+            amount: 60,
+          },
+          {
+            item: itemList.ethereal_crystalscale_stone,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.ethereal_glimmershard, itemList.ethereal_crystal, itemList.ethereal_crystalscale_stone],
+      book: [itemList.teachings_of_glory, itemList.guide_to_glory, itemList.philosophies_of_glory],
+      boss: itemList.profaned_sprout,
+    },
+    element: elements.anemo,
+    new: true,
+  },
+  vodyanitsa: {
+    id: 'vodyanitsa',
+    name: 'Vodyanitsa',
+    rarity: 5,
+    weapon: weapons.catalyst,
+    stats: {
+      hp: 14818,
+      atk: 108,
+      def: 484,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.frostfairy_flower,
+            amount: 3,
+          },
+          {
+            item: itemList.chimeric_core,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.unscorched_blossom_branch,
+            amount: 2,
+          },
+          {
+            item: itemList.frostfairy_flower,
+            amount: 10,
+          },
+          {
+            item: itemList.chimeric_core,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.unscorched_blossom_branch,
+            amount: 4,
+          },
+          {
+            item: itemList.frostfairy_flower,
+            amount: 20,
+          },
+          {
+            item: itemList.symbiotic_chimeric_nucleus,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.unscorched_blossom_branch,
+            amount: 8,
+          },
+          {
+            item: itemList.frostfairy_flower,
+            amount: 30,
+          },
+          {
+            item: itemList.symbiotic_chimeric_nucleus,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.unscorched_blossom_branch,
+            amount: 12,
+          },
+          {
+            item: itemList.frostfairy_flower,
+            amount: 45,
+          },
+          {
+            item: itemList.prime_chimeric_nexus,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.varunada_lazurite_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.unscorched_blossom_branch,
+            amount: 20,
+          },
+          {
+            item: itemList.frostfairy_flower,
+            amount: 60,
+          },
+          {
+            item: itemList.prime_chimeric_nexus,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.chimeric_core, itemList.symbiotic_chimeric_nucleus, itemList.prime_chimeric_nexus],
+      book: [itemList.teachings_of_fortitude, itemList.guide_to_fortitude, itemList.philosophies_of_fortitude],
+      boss: itemList.madmans_restraint,
+    },
+    element: elements.hydro,
+    new: true,
   },
   wanderer: {
     id: 'wanderer',

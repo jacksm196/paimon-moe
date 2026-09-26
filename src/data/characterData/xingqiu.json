@@ -447,11 +447,11 @@
     },
     {
       "name": "Rainbow Upon the Azure Sky",
-      "description": "Extends the duration of <span style=\"color: #FFD780FF;\">Guhua Sword: Raincutter</span> by 3s.\\nDecreases the <span style=\"color: #80C0FFFF;\">Hydro RES</span> of opponents hit by sword rain attacks by 15% for 4s."
+      "description": "Extends the duration of <span style=\"color: #FFD780FF;\">Guhua Sword: Raincutter</span> by 3s.\nDecreases the <span style=\"color: #80C0FFFF;\">Hydro RES</span> of opponents hit by sword rain attacks by 15% for 4s."
     },
     {
       "name": "Weaver of Verses",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Guhua Sword: Raincutter</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Guhua Sword: Raincutter</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Evilsoother",
@@ -459,7 +459,7 @@
     },
     {
       "name": "Embrace of Rain",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Guhua Sword: Fatal Rainscreen</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Guhua Sword: Fatal Rainscreen</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Hence, Call Them My Own Verses",
@@ -480,9 +480,10 @@
       "description": "When Xingqiu crafts Character Talent Materials, he has a 25% chance to refund a portion of the crafting materials used."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Guhua Sword: Raincutter",
-    "description": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.\\n\\n<span style=\"color: #FFD780FF;\">Rainbow Bladework</span>\\n·Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing <span style=\"color: #80C0FFFF;\">Hydro DMG</span>.\\n·Rain Swords will remain at the maximum number throughout the ability's duration.\\n\\n<i>The \"Way of the Rain Cutter\" is one of the esoteric secret techniques of the Guhua Sect.</i>",
+    "description": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.\n\n<span style=\"color: #FFD780FF;\">Rainbow Bladework</span>\n·Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing <span style=\"color: #80C0FFFF;\">Hydro DMG</span>.\n·Rain Swords will remain at the maximum number throughout the ability's duration.\n\n<i>The \"Way of the Rain Cutter\" is one of the esoteric secret techniques of the Guhua Sect.</i>",
     "skillLabels": [
       "Sword Rain DMG",
       "Duration",
@@ -684,11 +685,13 @@
           80
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Guhua Style",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 rapid strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 rapid strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1195,11 +1198,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Guhua Sword: Fatal Rainscreen",
-    "description": "Xingqiu performs twin strikes with his sword, dealing <span style=\"color: #80C0FFFF;\">Hydro DMG</span>. At the same time, this ability creates the maximum number of Rain Swords, which will orbit your active character.\\nThe Rain Swords have the following properties:\\n·When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.\\n·Increases the character's resistance to interruption.\\n\\n20% of Xingqiu's <span style=\"color: #80C0FFFF;\">Hydro DMG Bonus</span> will be converted to additional DMG Reduction for the Rain Swords.\\n\\nThe maximum amount of additional DMG Reduction that can be gained this way is 24%.\\nThe initial maximum number of Rain Swords is 3.\\nUsing this ability applies the <span style=\"color: #80C0FFFF;\">Wet</span> status onto the character.\\n\\n<i>\"Easier to slay a rain dragon than to sever the rain.\"</i>",
+    "description": "Xingqiu performs twin strikes with his sword, dealing <span style=\"color: #80C0FFFF;\">Hydro DMG</span>. At the same time, this ability creates the maximum number of Rain Swords, which will orbit your active character.\nThe Rain Swords have the following properties:\n·When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.\n·Increases the character's resistance to interruption.\n\n20% of Xingqiu's <span style=\"color: #80C0FFFF;\">Hydro DMG Bonus</span> will be converted to additional DMG Reduction for the Rain Swords.\n\nThe maximum amount of additional DMG Reduction that can be gained this way is 24%.\nThe initial maximum number of Rain Swords is 3.\nUsing this ability applies the <span style=\"color: #80C0FFFF;\">Wet</span> status onto the character.\n\n<i>\"Easier to slay a rain dragon than to sever the rain.\"</i>",
     "skillLabels": [
       "Skill DMG",
       "Damage Reduction Ratio",
@@ -1416,6 +1421,8 @@
           21
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

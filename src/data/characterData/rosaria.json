@@ -451,15 +451,15 @@
     },
     {
       "name": "The Wages of Sin",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Ravaging Confession</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Ravaging Confession</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Painful Grace",
-      "description": "<span style=\"color: #FFD780FF;\">Ravaging Confession</span>'s CRIT Hits regenerate 5 Energy for Rosaria.\\nCan only be triggered once each time Ravaging Confession is cast."
+      "description": "<span style=\"color: #FFD780FF;\">Ravaging Confession</span>'s CRIT Hits regenerate 5 Energy for Rosaria.\nCan only be triggered once each time Ravaging Confession is cast."
     },
     {
       "name": "Last Rites",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Rites of Termination</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Rites of Termination</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Divine Retribution",
@@ -473,16 +473,17 @@
     },
     {
       "name": "Shadow Samaritan",
-      "description": "Casting <span style=\"color: #FFD780FF;\">Rites of Termination</span> increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\\nCRIT Rate Bonus gained this way cannot exceed 15%."
+      "description": "Casting <span style=\"color: #FFD780FF;\">Rites of Termination</span> increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\nCRIT Rate Bonus gained this way cannot exceed 15%."
     },
     {
       "name": "Night Walk",
-      "description": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack."
+      "description": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Rites of Termination",
-    "description": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal <span style=\"color: #99FFFFFF;\">Cryo DMG</span>.\\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to surrounding opponents.\\n\\n<i>Judgment is such a tedious ordeal — much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.</i>",
+    "description": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal <span style=\"color: #99FFFFFF;\">Cryo DMG</span>.\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to surrounding opponents.\n\n<i>Judgment is such a tedious ordeal — much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.</i>",
     "skillLabels": [
       "Skill DMG",
       "Ice Lance DoT",
@@ -748,11 +749,13 @@
           60
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Spear of the Church",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 consecutive spear strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 consecutive spear strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1229,11 +1232,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Ravaging Confession",
-    "description": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span>.\\nThis ability cannot be used to travel behind opponents of a larger build.\\n\\n<i>Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.</i>",
+    "description": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span>.\nThis ability cannot be used to travel behind opponents of a larger build.\n\n<i>Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.</i>",
     "skillLabels": [
       "Skill DMG",
       "CD"
@@ -1352,6 +1357,8 @@
           6
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

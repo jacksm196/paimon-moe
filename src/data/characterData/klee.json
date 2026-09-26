@@ -443,33 +443,42 @@
   "constellations": [
     {
       "name": "Chained Reactions",
-      "description": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span>'s DMG."
+      "description": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span>'s DMG.",
+      "descriptionBuff": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span>'s DMG.\nFor 12s after triggering the above effect, Klee's ATK is increased by 60%."
     },
     {
       "name": "Explosive Frags",
-      "description": "Being hit by <span style=\"color: #FFD780FF;\">Jumpy Dumpty</span>'s mines decreases opponents' DEF by 23% for 10s."
+      "description": "Being hit by <span style=\"color: #FFD780FF;\">Jumpy Dumpty</span>'s mines decreases opponents' DEF by 23% for 10s.",
+      "descriptionBuff": "When Klee's Elemental Skill hits an opponent, that opponent's DEF will be decreased by 23% for 10s."
     },
     {
       "name": "Exquisite Compound",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Jumpy Dumpty</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Jumpy Dumpty</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Sparkly Explosion",
-      "description": "If Klee leaves the field during the duration of <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span>, her departure triggers an explosion that deals 555% of her ATK as <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>."
+      "description": "If Klee leaves the field during the duration of <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span>, her departure triggers an explosion that deals 555% of her ATK as <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.",
+      "descriptionBuff": "An explosion will be triggered if Klee leaves the field while <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span> is active or when Sparks 'n' Splash ends, dealing 555% of ATK as <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>. If Klee is on-field when the explosion occurs, its DMG will be increased by 100%."
     },
     {
       "name": "Nova Burst",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Blazing Delight",
-      "description": "While under the effects of <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span>, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\\nWhen <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span> is used, all party members will gain a 10% <span style=\"color: #FF9999FF;\">Pyro DMG Bonus</span> for 25s."
+      "description": "While under the effects of <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span>, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\nWhen <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span> is used, all party members will gain a 10% <span style=\"color: #FF9999FF;\">Pyro DMG Bonus</span> for 25s.",
+      "descriptionBuff": "While under the effects of <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span>, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\nFor 25s after <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span> is used, all other party members will gain a 10% <span style=\"color: #FF9999FF;\">Pyro DMG Bonus</span>, and Klee will gain a 50% <span style=\"color: #FF9999FF;\">Pyro DMG Bonus</span>.\n\n<span style=\"color: #FFD780FF;\">Hexerei: Secret Rite</span>\n· When Klee uses an <span style=\"color: #FFD780FF;\">Explosive Spark</span>, there is a 50% chance it will not be consumed. Additionally, while <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span> is active, Klee's Normal Attacks have a 40% chance on the first and second hits to consume an Explosive Spark, dealing an additional attack equivalent to Boom-Boom Strike to her opponent(s)."
     }
   ],
   "passives": [
     {
+      "name": "Witch's Eve Rite: Sparkborne Magic",
+      "description": "After completing <span style=\"color: #FFD780FF;\">Witch's Homework: Of Leaves That Spark</span>, Klee will become a <span style=\"color: #FFD780FF;\">Hexerei</span> character. When the party includes at least 2 Hexerei characters, you will gain the <span style=\"color: #FFD780FF;\">Hexerei: Secret Rite</span> effect, which enhances Hexerei characters.\n\n<span style=\"color: #FFD780FF;\">Hexerei: Secret Rite</span>\nWhen Klee deals DMG with Normal Attacks, Elemental Skills, or Elemental Bursts, she gains 1 Boom Badge that lasts 20s. Each type of attack can grant at most 1 Boom Badge this way, and each badge has its own independent timer. While Klee has 1/2/3 Boom Badges, her special Charged Attack Boom-Boom Strike deals 115%/130%/150% of its original DMG."
+    },
+    {
       "name": "Pounding Surprise",
-      "description": "When <span style=\"color: #FFD780FF;\">Jumpy Dumpty</span> and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.\\nThis Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG."
+      "description": "When <span style=\"color: #FFD780FF;\">Jumpy Dumpty</span> and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.\nThis Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.",
+      "descriptionBuff": "When Klee's Elemental Skill <span style=\"color: #FFD780FF;\">Jumpy Dumpty</span> and Normal Attacks deal DMG, there is a 50% chance to grant her an Explosive Spark. Using her Elemental Skill <span style=\"color: #FFD780FF;\">Jumpy Dumpty</span> or Elemental Burst <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span> also grants 1 Explosive Spark. Klee can hold up to 3 Explosive Sparks.\nWhile holding an Explosive Spark, Klee's Charged Attack will consume 1 Spark to perform a special stamina-free Charged Attack, Boom-Boom Strike, dealing 50% increased DMG.\n\n<span style=\"color: #FFD780FF;\">Hexerei: Secret Rite</span>\nDuring the duration of Klee's Elemental Burst <span style=\"color: #FFD780FF;\">Sparks 'n' Splash</span>, her Normal Attack sequence does not reset. If Klee holds an Explosive Spark while performing Normal Attacks, the third attack in the sequence will consume 1 Spark to unleash an additional attack equivalent to Boom-Boom Strike."
     },
     {
       "name": "Sparkling Burst",
@@ -480,9 +489,10 @@
       "description": "Displays the location of nearby <span style=\"color: #FFD780FF;\">resources unique to Mondstadt</span> on the mini-map."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Sparks 'n' Splash",
-    "description": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\\n\\n<i>The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...</i>",
+    "description": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\n\n<i>The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...</i>",
     "skillLabels": [
       "Sparks 'n' Splash DMG",
       "Duration",
@@ -684,11 +694,13 @@
           60
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Kaboom!",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nThrows things that go boom when they hit things! Performs up to 3 explosive attacks, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina and deals <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span> to opponents after a short casting time.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span> upon impact with the ground.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nThrows things that go boom when they hit things! Performs up to 3 explosive attacks, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina and deals <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span> to opponents after a short casting time.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span> upon impact with the ground.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1052,11 +1064,13 @@
           3.79592
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Jumpy Dumpty",
-    "description": "Jumpy Dumpty is tons of boom-bang-fun! \\nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span> with every bounce.\\n\\nOn the third bounce, the bomb splits into many mines.\\nThe mines will explode upon contact with opponents, or after a short period of time, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\\n\\nStarts with 2 charges.\\n\\n<i>Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.</i>",
+    "description": "Jumpy Dumpty is tons of boom-bang-fun! \nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span> with every bounce.\n\nOn the third bounce, the bomb splits into many mines.\nThe mines will explode upon contact with opponents, or after a short period of time, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\n\nStarts with 2 charges.\n\n<i>Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.</i>",
     "skillLabels": [
       "Jumpy Dumpty DMG",
       "Mine DMG",
@@ -1258,6 +1272,8 @@
           20
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

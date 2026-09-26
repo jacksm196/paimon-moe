@@ -451,25 +451,30 @@
     },
     {
       "name": "Flawless Alchemistress",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Astable Anemohypostasis Creation - 6308</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Astable Anemohypostasis Creation - 6308</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Alchemania",
-      "description": "Sucrose will reduce the CD of <span style=\"color: #FFD780FF;\">Astable Anemohypostasis Creation - 6308</span> by 1-7s for every 7 Normal or Charged Attack hits she scores against opponents.\\nOne hit may be counted every 0.1s."
+      "description": "Sucrose will reduce the CD of <span style=\"color: #FFD780FF;\">Astable Anemohypostasis Creation - 6308</span> by 1-7s for every 7 Normal or Charged Attack hits she scores against opponents.\nOne hit may be counted every 0.1s."
     },
     {
       "name": "Caution: Standard Flask",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Forbidden Creation - Isomer 75 / Type II</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Forbidden Creation - Isomer 75 / Type II</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Chaotic Entropy",
-      "description": "If <span style=\"color: #FFD780FF;\">Forbidden Creation - Isomer 75 / Type II</span> triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration."
+      "description": "If <span style=\"color: #FFD780FF;\">Forbidden Creation - Isomer 75 / Type II</span> triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration.",
+      "descriptionBuff": "If <span style=\"color: #FFD780FF;\">Forbidden Creation - Isomer 75 / Type II</span> triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during the skill's duration, while nearby Hexerei characters in the party gain an additional 8.57142% Elemental DMG Bonus for the corresponding absorbed element."
     }
   ],
   "passives": [
     {
+      "name": "Witch's Eve Rite: Sevenfold Transmutation",
+      "description": "After completing <span style=\"color: #FFD780FF;\">Witch's Homework: Of Wonderland Flowers</span>, Sucrose will become a <span style=\"color: #FFD780FF;\">Hexerei</span> character. When the party includes at least 2 Hexerei characters, you will gain the <span style=\"color: #FFD780FF;\">Hexerei: Secret Rite</span> effect, which enhances Hexerei characters.\n\n<span style=\"color: #FFD780FF;\">Hexerei: Secret Rite</span>\n· After Sucrose creates a Small Wind Spirit, nearby party members' Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG are increased by 5.71428% for 15s.\n· After Sucrose creates a Large Wind Spirit, nearby Hexerei party members' Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG are increased by 7.14285% for 20s."
+    },
+    {
       "name": "Catalyst Conversion",
-      "description": "When Sucrose triggers a Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s."
+      "description": "When Sucrose triggers a Swirl or Stellar Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s."
     },
     {
       "name": "Mollis Favonius",
@@ -480,9 +485,10 @@
       "description": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% chance to obtain double the product."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Forbidden Creation - Isomer 75 / Type II",
-    "description": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Elemental Absorption</span>\\nIf the Wind Spirit comes into contact with <span style=\"color: #80C0FFFF;\">Hydro</span>/<span style=\"color: #FF9999FF;\">Pyro</span>/<span style=\"color: #99FFFFFF;\">Cryo</span>/<span style=\"color: #FFACFFFF;\">Electro</span> energy, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.</i>",
+    "description": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Elemental Absorption</span>\nIf the Wind Spirit comes into contact with <span style=\"color: #80C0FFFF;\">Hydro</span>/<span style=\"color: #FF9999FF;\">Pyro</span>/<span style=\"color: #99FFFFFF;\">Cryo</span>/<span style=\"color: #FFACFFFF;\">Electro</span> energy, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.</i>",
     "skillLabels": [
       "DoT",
       "Additional Elemental DMG",
@@ -733,11 +739,13 @@
           80
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Wind Spirit Creation",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 4 attacks using Wind Spirits, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina and deals <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span> after a short casting time.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span> upon impact with the ground.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 4 attacks using Wind Spirits, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina and deals <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span> after a short casting time.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span> upon impact with the ground.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1150,11 +1158,13 @@
           3.79592
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Astable Anemohypostasis Creation - 6308",
-    "description": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\\n\\n<i>This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.</i>",
+    "description": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\n\n<i>This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.</i>",
     "skillLabels": [
       "Skill DMG",
       "CD"
@@ -1258,6 +1268,8 @@
           15
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

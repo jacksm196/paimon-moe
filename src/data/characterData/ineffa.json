@@ -447,11 +447,11 @@
     },
     {
       "name": "Support Cleaning Module",
-      "description": "After the Elemental Burst <span style=\"color: #FFD780FF;\">Supreme Instruction: Cyclonic Exterminator</span> hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is defeated, nearby opponents will take <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> equal to 300% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.\\nAdditionally, when the Elemental Burst <span style=\"color: #FFD780FF;\">Supreme Instruction: Cyclonic Exterminator</span> is unleashed, nearby party members will gain Optical Flow Shield Barriers."
+      "description": "After the Elemental Burst <span style=\"color: #FFD780FF;\"><button data-link-s=\"Supreme Instruction: Cyclonic Exterminator\">Supreme Instruction: Cyclonic Exterminator</button></span> hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is defeated, nearby opponents will take <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> equal to 300% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.\nAdditionally, when the Elemental Burst <span style=\"color: #FFD780FF;\">Supreme Instruction: Cyclonic Exterminator</span> is unleashed, nearby party members will gain Optical Flow Shield Barriers."
     },
     {
       "name": "Enhanced Emotion Emulator",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Cleaning Mode: Carrier Frequency</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\"><button data-link-s=\"Cleaning Mode: Carrier Frequency\">Cleaning Mode: Carrier Frequency</button></span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "The Edictless Path",
@@ -459,7 +459,7 @@
     },
     {
       "name": "Mirror's Dream Transcension",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Supreme Instruction: Cyclonic Exterminator</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\"><button data-link-s=\"Supreme Instruction: Cyclonic Exterminator\">Supreme Instruction: Cyclonic Exterminator</button></span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "A Dawning Morn for You",
@@ -469,30 +469,30 @@
   "passives": [
     {
       "name": "Overclocking Circuit",
-      "description": "If there are thunderclouds created by Lunar-Charged reactions nearby when <span style=\"color: #FFD780FF;\">Birgitta</span> unleashes Discharge attacks, she will initiate an additional attack, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> equal to 65% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG."
+      "description": "If there are thunderclouds created by Lunar-Charged reactions nearby when <button data-link=\"11160001\"><span style=\"color: #FFD780FF;\">Birgitta</span></button> unleashes Discharge attacks, she will initiate an additional attack, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> equal to 65% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG."
     },
     {
       "name": "Panoramic Permutation Protocol",
-      "description": "When using the Elemental Burst <span style=\"color: #FFD780FF;\">Supreme Instruction: Cyclonic Exterminator</span>, all your party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s."
+      "description": "When using the Elemental Burst <span style=\"color: #FFD780FF;\"><button data-link-s=\"Supreme Instruction: Cyclonic Exterminator\">Supreme Instruction: Cyclonic Exterminator</button></span>, all your party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s."
     },
     {
       "name": "Moonsign Benediction: Assemblage Hub",
-      "description": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Ineffa has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.\\n\\nAdditionally, when Ineffa is in the party, the party's <span style=\"color: #FFD780FF;\">Moonsign</span> will increase by 1 level."
+      "description": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Ineffa has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Ineffa is in the party, the party's <span style=\"color: #FFD780FF;\">Moonsign</span> will increase by 1 level."
     },
     {
       "name": "Flavor Synthesis Unit",
-      "description": "When Ineffa uses food, there is a 30% chance of gaining a seasoning ingredient.\\n\\nAdditionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means..."
+      "description": "When Ineffa uses food, there is a 30% chance of gaining a seasoning ingredient.\n\nAdditionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means..."
     }
   ],
   "links": {
     "11160001": {
       "title": "Birgitta",
-      "desc": "Ineffa's assistant and companion in battle, she can be summoned to the battlefield via Elemental Skill or Elemental Burst.\\nIf there are opponents nearby, Birgitta will quickly move close to an opponent and unleash Discharge attacks every 2s, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span>.\\nOnly one Birgitta that has been summoned by Ineffa herself can exist at any one time.\\n\\nAdditionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means..."
+      "desc": "Ineffa's assistant and companion in battle, she can be summoned to the battlefield via Elemental Skill or Elemental Burst.\nIf there are opponents nearby, Birgitta will quickly move close to an opponent and unleash Discharge attacks every 2s, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span>.\nOnly one Birgitta that has been summoned by Ineffa herself can exist at any one time.\n\nAdditionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means..."
     }
   },
   "burst": {
     "name": "Supreme Instruction: Cyclonic Exterminator",
-    "description": "Through Multipurpose Smart Assistance Unit, <button data-link=\"11160001\"><span style=\"color: #FFD780FF;\">Birgitta</span></button>, Ineffa can use Rocket Punches to quickly clean up opponents! Shoots Birgitta into the fray, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> and allowing Birgitta to remain on the field.\\n\\nIf Birgitta is already on the field, having been summoned by Ineffa, this Skill will re-summon Birgitta at the target's location and reset her duration.\\n\\n<i>It's said that switching Rocket Punches to Red Mode (Aino's terminology) increases their power threefold. In reality, it simply results in Ineffa ejecting Birgitta with three times the force.</i>",
+    "description": "Through Multipurpose Smart Assistance Unit, <button data-link=\"11160001\"><span style=\"color: #FFD780FF;\">Birgitta</span></button>, Ineffa can use Rocket Punches to quickly clean up opponents! Shoots Birgitta into the fray, dealing <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> and allowing Birgitta to remain on the field.\n\nIf Birgitta is already on the field, having been summoned by Ineffa, this Skill will re-summon Birgitta at the target's location and reset her duration.\n\n<i>It's said that switching Rocket Punches to Red Mode (Aino's terminology) increases their power threefold. In reality, it simply results in Ineffa ejecting Birgitta with three times the force.</i>",
     "skillLabels": [
       "Skill DMG",
       "CD",
@@ -645,11 +645,13 @@
           60
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Cyclonic Duster",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 4 consecutive spear strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to perform a spinning attack.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 4 consecutive spear strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to perform a spinning attack.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1077,11 +1079,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Cleaning Mode: Carrier Frequency",
-    "description": "Ineffa engages her Enhanced Cleaning Module, dealing a single instance of <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> to nearby opponents, activating her Optical Flow Shield Barrier, and summoning the Multipurpose Smart Assistance Unit, <button data-link=\"11160001\"><span style=\"color: #FFD780FF;\">Birgitta</span></button>.\\nThe Optical Flow Shield Barrier absorbs DMG based on Ineffa's ATK, and it will absorb <span style=\"color: #FFACFFFF;\">Electro DMG</span> with 250% effectiveness.\\n\\n<i>\"Target for cleanup sequence confirmed. Shield raised, please await order completion. We will cleanse nearby biological and technological dirt on our own. Capacitance adjusted to service mode. Resistance is futile, Aino.\"</i>",
+    "description": "Ineffa engages her Enhanced Cleaning Module, dealing a single instance of <span style=\"color: #FFACFFFF;\">AoE Electro DMG</span> to nearby opponents, activating her Optical Flow Shield Barrier, and summoning the Multipurpose Smart Assistance Unit, <button data-link=\"11160001\"><span style=\"color: #FFD780FF;\">Birgitta</span></button>.\nThe Optical Flow Shield Barrier absorbs DMG based on Ineffa's ATK, and it will absorb <span style=\"color: #FFACFFFF;\">Electro DMG</span> with 250% effectiveness.\n\n<i>\"Target for cleanup sequence confirmed. Shield raised, please await order completion. We will cleanse nearby biological and technological dirt on our own. Capacitance adjusted to service mode. Resistance is futile, Aino.\"</i>",
     "skillLabels": [
       "Skill DMG",
       "Shield DMG Absorption",
@@ -1396,6 +1400,8 @@
           16
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

@@ -76,18 +76,27 @@
         teachings_of_prosperity: [],
         teachings_of_transience: [],
         teachings_of_admonition: [],
+        teachings_of_contention: [],
+        teachings_of_moonlight: [],
+        teachings_of_charity: [],
       },
       tuesday_friday: {
         teachings_of_resistance: [],
         teachings_of_diligence: [],
         teachings_of_elegance: [],
         teachings_of_ingenuity: [],
+        teachings_of_kindling: [],
+        teachings_of_elysium: [],
+        teachings_of_fortitude: [],
       },
       wednesday_saturday: {
         teachings_of_ballad: [],
         teachings_of_gold: [],
         teachings_of_light: [],
         teachings_of_praxis: [],
+        teachings_of_order: [],
+        teachings_of_conflict: [],
+        teachings_of_vagrancy: [],
       },
     };
 

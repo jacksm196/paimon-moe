@@ -451,7 +451,7 @@
     },
     {
       "name": "Seafaring General",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Cliffbreaker's Banner</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Cliffbreaker's Banner</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Flower and a Fighter",
@@ -459,7 +459,7 @@
     },
     {
       "name": "Famed Throughout the Land",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Opening Flourish</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Opening Flourish</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Decorous Harmony",
@@ -480,9 +480,10 @@
       "description": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Cliffbreaker's Banner",
-    "description": "Deals <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> and grants all nearby party members a Flying Cloud Flag Formation.\\n\\n<span style=\"color: #FFD780FF;\">Flying Cloud Flag Formation</span>\\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\\n\\nThe effects of this skill will be cleared after a set duration or after being triggered a specific number of times.\\nWhen one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.\\n\\n<i>As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.</i>\\n<i>As the instruments on stage strum in unison, lo, see how she vanquishes these demons!</i>",
+    "description": "Deals <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> and grants all nearby party members a Flying Cloud Flag Formation.\n\n<span style=\"color: #FFD780FF;\">Flying Cloud Flag Formation</span>\nWhen Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.\n\nThe effects of this skill will be cleared after a set duration or after being triggered a specific number of times.\nWhen one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.\n\n<i>As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.</i>\n<i>As the instruments on stage strum in unison, lo, see how she vanquishes these demons!</i>",
     "skillLabels": [
       "Skill DMG",
       "DMG Increase",
@@ -782,11 +783,13 @@
           60
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Cloud-Grazing Strike",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 consecutive spear strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 consecutive spear strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1278,11 +1281,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Opening Flourish",
-    "description": "Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\\n\\n<span style=\"color: #FFD780FF;\">Press</span>\\nFlourishes her polearm in a cloud-grasping stance, dealing <span style=\"color: #FFE699FF;\">Geo DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Hold</span>\\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing <span style=\"color: #FFE699FF;\">Geo DMG</span>.\\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.\\n\\n<i>One glorious moment on-stage, a decade of preparation behind it.</i>",
+    "description": "Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.\n\n<span style=\"color: #FFD780FF;\">Press</span>\nFlourishes her polearm in a cloud-grasping stance, dealing <span style=\"color: #FFE699FF;\">Geo DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Hold</span>\nTakes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.\nWhen the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing <span style=\"color: #FFE699FF;\">Geo DMG</span>.\nBased on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.\n\n<i>One glorious moment on-stage, a decade of preparation behind it.</i>",
     "skillLabels": [
       "Press DMG",
       "Charge Level 1 DMG",
@@ -1548,6 +1553,8 @@
           9
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

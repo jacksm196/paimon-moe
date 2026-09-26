@@ -451,7 +451,7 @@
     },
     {
       "name": "Sweeping Gust",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Gust Surge</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Gust Surge</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Cherishing Breezes",
@@ -459,11 +459,11 @@
     },
     {
       "name": "Vortex Stellaris",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Palm Vortex</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Palm Vortex</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Intertwined Winds",
-      "description": "Targets who take DMG from <span style=\"color: #FFD780FF;\">Gust Surge</span> have their <span style=\"color: #80FFD7FF;\">Anemo RES</span> decreased by 20%.\\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+      "description": "Targets who take DMG from <span style=\"color: #FFD780FF;\">Gust Surge</span> have their <span style=\"color: #80FFD7FF;\">Anemo RES</span> decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
     }
   ],
   "passives": [
@@ -473,12 +473,16 @@
     },
     {
       "name": "Second Wind",
-      "description": "<span style=\"color: #FFD780FF;\">Palm Vortex</span> kills regenerate 2% HP for 5s.\\nThis effect can only occur once every 5s."
+      "description": "<span style=\"color: #FFD780FF;\">Palm Vortex</span> kills regenerate 2% HP for 5s.\nThis effect can only occur once every 5s."
+    },
+    {
+      "name": "Foreign Windwrath",
+      "description": "Draw new strength from journeys past. For every element you have resonated with, you gain additional <span style=\"color: #FFD780FF;\">buffs</span>.\n\nAdditionally, when <span style=\"color: #FF9999FF;\">Pyro</span>, <span style=\"color: #80C0FFFF;\">Hydro</span>, <span style=\"color: #99FFFFFF;\">Cryo</span>, or <span style=\"color: #FFACFFFF;\">Electro</span> attacks from nearby party members hit opponents, Traveler will receive 1 stack of Blade of the Dawn Breeze. Each Elemental Type can grant 1 Blade of the Dawn Breeze stack. After obtaining at least 2 stacks of Blade of the Dawn Breeze, performing a Charged Attack will consume all stacks of Blade of the Dawn Breeze and transform into the special <span style=\"color: #FFD780FF;\">Charged Attack: Whirlwind</span>.\n\n<span style=\"color: #FFD780FF;\">Charged Attack: Whirlwind</span>\n· Each Charged Attack hit deals increased <span style=\"color: #80FFD7FF;\">Anemo DMG</span>. Increase in DMG is equal to 60% of Traveler's ATK.\n· Every time a Blade of the Dawn Breeze of a certain elemental type is consumed, a Blade Wind matching this elemental type will also be summoned, dealing elemental DMG equal to 50% of Traveler's ATK. This DMG is considered Charged Attack DMG.\n· <span style=\"color: #FFD780FF;\">Charged Attack: Whirlwind</span> can be triggered up to once every 15s.\n· For the duration of <span style=\"color: #FFD780FF;\">Charged Attack: Whirlwind</span>, no Blade of the Dawn Breeze will be obtained."
     }
   ],
   "burst": {
     "name": "Gust Surge",
-    "description": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Elemental Absorption</span>\\nIf the tornado comes into contact with <span style=\"color: #80C0FFFF;\">Hydro</span>/<span style=\"color: #FF9999FF;\">Pyro</span>/<span style=\"color: #99FFFFFF;\">Cryo</span>/<span style=\"color: #FFACFFFF;\">Electro</span>, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>You and Paimon studied the flapping of a butterfly's wings.</i>",
+    "description": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Elemental Absorption</span>\nIf the tornado comes into contact with <span style=\"color: #80C0FFFF;\">Hydro</span>/<span style=\"color: #FF9999FF;\">Pyro</span>/<span style=\"color: #99FFFFFF;\">Cryo</span>/<span style=\"color: #FFACFFFF;\">Electro</span>, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>You and Paimon studied the flapping of a butterfly's wings.</i>",
     "skillLabels": [
       "Tornado DMG",
       "Additional Elemental DMG",
@@ -729,11 +733,13 @@
           60
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Foreign Ironwind",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 rapid strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 rapid strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1210,11 +1216,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Palm Vortex",
-    "description": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous <span style=\"color: #80FFD7FF;\">Anemo DMG</span> to opponents in front of you.\\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\\n\\n<span style=\"color: #FFD780FF;\">Hold</span>\\nDMG and AoE will gradually increase.\\n\\n<span style=\"color: #FFD780FF;\">Elemental Absorption</span>\\nIf the vortex comes into contact with <span style=\"color: #80C0FFFF;\">Hydro</span>/<span style=\"color: #FF9999FF;\">Pyro</span>/<span style=\"color: #99FFFFFF;\">Cryo</span>/<span style=\"color: #FFACFFFF;\">Electro</span>, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>You discussed the way to grasp the formless wind with Paimon.</i>",
+    "description": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous <span style=\"color: #80FFD7FF;\">Anemo DMG</span> to opponents in front of you.\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\n\n<span style=\"color: #FFD780FF;\">Hold</span>\nDMG and AoE will gradually increase.\n\n<span style=\"color: #FFD780FF;\">Elemental Absorption</span>\nIf the vortex comes into contact with <span style=\"color: #80C0FFFF;\">Hydro</span>/<span style=\"color: #FF9999FF;\">Pyro</span>/<span style=\"color: #99FFFFFF;\">Cryo</span>/<span style=\"color: #FFACFFFF;\">Electro</span>, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\n<i>You discussed the way to grasp the formless wind with Paimon.</i>",
     "skillLabels": [
       "Initial Cutting DMG",
       "Max Cutting DMG",
@@ -1514,6 +1522,8 @@
           8
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

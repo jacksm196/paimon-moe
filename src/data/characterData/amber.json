@@ -447,11 +447,11 @@
     },
     {
       "name": "Bunny Triggered",
-      "description": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\\nExplosion via manual detonation deals 200% additional DMG."
+      "description": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\nExplosion via manual detonation deals 200% additional DMG."
     },
     {
       "name": "It Burns!",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Fiery Rain</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Fiery Rain</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "It's Not Just Any Doll...",
@@ -459,7 +459,7 @@
     },
     {
       "name": "It's Baron Bunny!",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Explosive Puppet</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Explosive Puppet</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Wildfire",
@@ -477,12 +477,13 @@
     },
     {
       "name": "Gliding Champion",
-      "description": "Decreases gliding Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+      "description": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Fiery Rain",
-    "description": "Fires off a shower of arrows, dealing continuous <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\\n\\n<i>Amber's passion truly burns hot.</i>",
+    "description": "Fires off a shower of arrows, dealing continuous <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\n\n<i>Amber's passion truly burns hot.</i>",
     "skillLabels": [
       "Fiery Rain DMG Per Wave",
       "Total Fiery Rain DMG",
@@ -733,11 +734,13 @@
           40
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Sharpshooter",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 consecutive shots with a bow.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nPerforms a more precise <span style=\"color: #FFD780FF;\">Aimed Shot</span> with increased DMG.\\nWhile aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 consecutive shots with a bow.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nPerforms a more precise <span style=\"color: #FFD780FF;\">Aimed Shot</span> with increased DMG.\nWhile aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1199,11 +1202,13 @@
           3.79592
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Explosive Puppet",
-    "description": "The ever-reliable Baron Bunny takes the stage.\\n\\n<span style=\"color: #FFD780FF;\">Baron Bunny</span>\\n·Continuously taunts the enemy, drawing their fire.\\n·Baron Bunny's HP scales with Amber's Max HP.\\n·When destroyed or when its timer expires, Baron Bunny explodes, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Hold</span>\\nAdjusts the throwing direction of Baron Bunny.\\nThe longer the button is held, the further the throw.\\n\\n<i>Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.</i>",
+    "description": "The ever-reliable Baron Bunny takes the stage.\n\n<span style=\"color: #FFD780FF;\">Baron Bunny</span>\n·Continuously taunts the enemy, drawing their fire.\n·Baron Bunny's HP scales with Amber's Max HP.\n·When destroyed or when its timer expires, Baron Bunny explodes, dealing <span style=\"color: #FF9999FF;\">AoE Pyro DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Hold</span>\nAdjusts the throwing direction of Baron Bunny.\nThe longer the button is held, the further the throw.\n\n<i>Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.</i>",
     "skillLabels": [
       "Inherited HP",
       "Explosion DMG",
@@ -1356,6 +1361,8 @@
           15
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

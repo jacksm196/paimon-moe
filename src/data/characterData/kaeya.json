@@ -451,15 +451,15 @@
     },
     {
       "name": "Dance of Frost",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Frostgnaw</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Frostgnaw</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Frozen Kiss",
-      "description": "Triggers automatically when Kaeya's HP falls below 20%:\\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\\nThis shield absorbs <span style=\"color: #99FFFFFF;\">Cryo DMG</span> with 250% efficiency.\\nCan only occur once every 60s."
+      "description": "Triggers automatically when Kaeya's HP falls below 20%:\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\nThis shield absorbs <span style=\"color: #99FFFFFF;\">Cryo DMG</span> with 250% efficiency.\nCan only occur once every 60s."
     },
     {
       "name": "Frostbiting Embrace",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Glacial Waltz</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Glacial Waltz</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Glacial Whirlwind",
@@ -473,16 +473,17 @@
     },
     {
       "name": "Glacial Heart",
-      "description": "Opponents <span style=\"color: #99FFFFFF;\">Frozen</span> by <span style=\"color: #FFD780FF;\">Frostgnaw</span> will drop additional Elemental Particles.\\nFrostgnaw may only produce a maximum of 2 additional Elemental Particles per use."
+      "description": "Opponents <span style=\"color: #99FFFFFF;\">Frozen</span> by <span style=\"color: #FFD780FF;\">Frostgnaw</span> will drop additional Elemental Particles.\nFrostgnaw may only produce a maximum of 2 additional Elemental Particles per use."
     },
     {
       "name": "Hidden Strength",
-      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Glacial Waltz",
-    "description": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\\nThese icicles will follow the character around and deal <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to opponents in their path for the ability's duration.\\n\\n<i>A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.</i>",
+    "description": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\nThese icicles will follow the character around and deal <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to opponents in their path for the ability's duration.\n\n<i>A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.</i>",
     "skillLabels": [
       "Skill DMG",
       "CD",
@@ -684,11 +685,13 @@
           60
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Ceremonial Bladework",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 rapid strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 rapid strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1165,11 +1168,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Frostgnaw",
-    "description": "Unleashes a frigid blast, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to opponents in front of Kaeya.\\n\\n<i>Kaeya seems affable, but his nature is that of unyielding ice.</i>",
+    "description": "Unleashes a frigid blast, dealing <span style=\"color: #99FFFFFF;\">Cryo DMG</span> to opponents in front of Kaeya.\n\n<i>Kaeya seems affable, but his nature is that of unyielding ice.</i>",
     "skillLabels": [
       "Skill DMG",
       "CD"
@@ -1273,6 +1278,8 @@
           6
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

@@ -46,7 +46,7 @@
   {/if}
   {#if event.description}
     <p class="my-2 overflow-auto mt-4 text-gray-200">
-      {event.description}
+      {@html event.description.replace(/\n/g, '<br>')}
     </p>
   {/if}
   <p class="text-gray-400 px-4 py-1 bg-black bg-opacity-50 rounded-xl mt-2 inline-block">

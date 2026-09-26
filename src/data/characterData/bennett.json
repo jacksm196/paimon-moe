@@ -451,15 +451,15 @@
     },
     {
       "name": "Unstoppable Fervor",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Passion Overload</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Passion Overload</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Unexpected Odyssey",
-      "description": "Using a Normal Attack as the second attack of <span style=\"color: #FFD780FF;\">Passion Overload</span>'s Charge Level 1 will perform a follow-up attack.\\nThis additional attack does 135% of the second attack's DMG."
+      "description": "Using a Normal Attack as the second attack of <span style=\"color: #FFD780FF;\">Passion Overload</span>'s Charge Level 1 will perform a follow-up attack.\nThis additional attack does 135% of the second attack's DMG."
     },
     {
       "name": "True Explorer",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Fantastic Voyage</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Fantastic Voyage</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Fire Ventures With Me",
@@ -473,16 +473,17 @@
     },
     {
       "name": "Fearnaught",
-      "description": "Within the area created by <span style=\"color: #FFD780FF;\">Fantastic Voyage</span>, <span style=\"color: #FFD780FF;\">Passion Overload</span> takes on the following effects:\\n·CD is reduced by 50%.\\n·Bennett will not be launched by the effects of Charge Level 2."
+      "description": "Within the area created by <span style=\"color: #FFD780FF;\">Fantastic Voyage</span>, <span style=\"color: #FFD780FF;\">Passion Overload</span> takes on the following effects:\n·CD is reduced by 50%.\n·Bennett will not be launched by the effects of Charge Level 2."
     },
     {
       "name": "It Should Be Safe...",
       "description": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Fantastic Voyage",
-    "description": "Bennett performs a jumping attack that deals <span style=\"color: #FF9999FF;\">Pyro DMG</span>, creating an Inspiration Field.\\n\\n<span style=\"color: #FFD780FF;\">Inspiration Field</span>\\n·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\\n·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\\n·Imbues characters within the AoE with <span style=\"color: #FF9999FF;\">Pyro</span>.\\n\\n<i>Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"</i>",
+    "description": "Bennett performs a jumping attack that deals <span style=\"color: #FF9999FF;\">Pyro DMG</span>, creating an Inspiration Field.\n\n<span style=\"color: #FFD780FF;\">Inspiration Field</span>\n·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\n·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\n·Imbues characters within the AoE with <span style=\"color: #FF9999FF;\">Pyro</span>.\n\n<i>Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"</i>",
     "skillLabels": [
       "Skill DMG",
       "Continuous Regeneration Per Sec",
@@ -797,11 +798,13 @@
           60
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Strike of Fortune",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 5 rapid strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 5 rapid strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1278,11 +1281,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Passion Overload",
-    "description": "Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\\n\\n<span style=\"color: #FFD780FF;\">Press</span>\\nA single, swift flame strike that deals <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\\n\\n<span style=\"color: #FFD780FF;\">Hold (Short)</span>\\nCharges up, resulting in different effects when unleashed based on the Charge Level.\\n·Level 1: Strikes twice, dealing <span style=\"color: #FF9999FF;\">Pyro DMG</span> and launching opponents.\\n·Level 2: Unleashes 3 consecutive attacks that deal impressive <span style=\"color: #FF9999FF;\">Pyro DMG</span>, but the last attack triggers an explosion that launches both Bennett and the enemy.\\nBennett takes no damage from being launched.\\n\\n<i>An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.</i>",
+    "description": "Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\n\n<span style=\"color: #FFD780FF;\">Press</span>\nA single, swift flame strike that deals <span style=\"color: #FF9999FF;\">Pyro DMG</span>.\n\n<span style=\"color: #FFD780FF;\">Hold (Short)</span>\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n·Level 1: Strikes twice, dealing <span style=\"color: #FF9999FF;\">Pyro DMG</span> and launching opponents.\n·Level 2: Unleashes 3 consecutive attacks that deal impressive <span style=\"color: #FF9999FF;\">Pyro DMG</span>, but the last attack triggers an explosion that launches both Bennett and the enemy.\nBennett takes no damage from being launched.\n\n<i>An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.</i>",
     "skillLabels": [
       "Press DMG",
       "Charge Level 1 DMG",
@@ -1593,6 +1598,8 @@
           10
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

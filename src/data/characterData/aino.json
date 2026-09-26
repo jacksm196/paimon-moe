@@ -443,33 +443,33 @@
   "constellations": [
     {
       "name": "The Theory of Ash—Field Equilibrium",
-      "description": "After Aino uses her Elemental Skill <span style=\"color: #FFD780FF;\">Musecatcher</span> or her Elemental Burst <span style=\"color: #FFD780FF;\">Precision Hydronic Cooler</span>, her Elemental Mastery will be increased by 80. The Elemental Mastery of other nearby active party members will be increased by 80 for 15s.\\n\\nThe Elemental Mastery-increasing effects of this Constellation do not stack."
+      "description": "After Aino uses her Elemental Skill <span style=\"color: #FFD780FF;\"><button data-link-s=\"Musecatcher\">Musecatcher</button></span> or her Elemental Burst <span style=\"color: #FFD780FF;\"><button data-link-s=\"Precision Hydronic Cooler\">Precision Hydronic Cooler</button></span>, her Elemental Mastery will be increased by 80. The Elemental Mastery of other nearby active party members will be increased by 80 for 15s.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack."
     },
     {
       "name": "The Principle of Transference in Gear Differentials",
-      "description": "If Aino is off-field while the <span style=\"color: #FFD780FF;\">Focused Hydronic Cooling Zone</span> of her Elemental Burst <span style=\"color: #FFD780FF;\">Precision Hydronic Cooler</span> is active, when your active party member hits a nearby opponent with an attack, the <span style=\"color: #FFD780FF;\">Cool Your Jets Ducky</span> will fire an additional water ball at that opponent, dealing <span style=\"color: #80C0FFFF;\">AoE Hydro DMG</span> equal to 25% of Aino's ATK and 100% of her Elemental Mastery. This DMG is considered Elemental Burst DMG. This effect can be triggered once every 5s."
+      "description": "If Aino is off-field while the <span style=\"color: #FFD780FF;\">Focused Hydronic Cooling Zone</span> of her Elemental Burst <span style=\"color: #FFD780FF;\"><button data-link-s=\"Precision Hydronic Cooler\">Precision Hydronic Cooler</button></span> is active, when your active party member hits a nearby opponent with an attack, the <span style=\"color: #FFD780FF;\">Cool Your Jets Ducky</span> will fire an additional water ball at that opponent, dealing <span style=\"color: #80C0FFFF;\">AoE Hydro DMG</span> equal to 25% of Aino's ATK and 100% of her Elemental Mastery. This DMG is considered Elemental Burst DMG. This effect can be triggered once every 5s."
     },
     {
       "name": "Cake and the Art of Mechanism Repair",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Precision Hydronic Cooler</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\"><button data-link-s=\"Precision Hydronic Cooler\">Precision Hydronic Cooler</button></span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Butter and Cats and the Law of Energy Supply",
-      "description": "When the Elemental Skill <span style=\"color: #FFD780FF;\">Musecatcher</span> hits an opponent, it will restore 10 Elemental Energy for Aino. Energy can be restored to her in this manner once every 10s."
+      "description": "When the Elemental Skill <span style=\"color: #FFD780FF;\"><button data-link-s=\"Musecatcher\">Musecatcher</button></span> hits an opponent, it will restore 10 Elemental Energy for Aino. Energy can be restored to her in this manner once every 10s."
     },
     {
       "name": "Perpetual Turbine of Metal and Light",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Musecatcher</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\"><button data-link-s=\"Musecatcher\">Musecatcher</button></span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "The Burden of Creative Genius",
-      "description": "For the next 15s after using the Elemental Burst <span style=\"color: #FFD780FF;\">Precision Hydronic Cooler</span>, DMG from nearby active characters' Electro-Charged, Bloom, Lunar-Charged, Lunar-Bloom, and Lunar-Crystallize reactions is increased by 15%.\\n<span style=\"color: #FFD780FF;\">Moonsign: Ascendant Gleam</span>: DMG from the aforementioned reactions will be further increased by 20%."
+      "description": "For the next 15s after using the Elemental Burst <span style=\"color: #FFD780FF;\"><button data-link-s=\"Precision Hydronic Cooler\">Precision Hydronic Cooler</button></span>, DMG from nearby active characters' Electro-Charged, Bloom, Lunar-Charged, Lunar-Bloom, and Lunar-Crystallize reactions is increased by 15%.\n<span style=\"color: #FFD780FF;\">Moonsign: Ascendant Gleam</span>: DMG from the aforementioned reactions will be further increased by 20%."
     }
   ],
   "passives": [
     {
       "name": "Modular Efficiency Protocol",
-      "description": "Aino will be granted the corresponding buff effects based on the party's <span style=\"color: #FFD780FF;\">Moonsign</span>.\\n\\n<span style=\"color: #FFD780FF;\">Moonsign: Ascendant Gleam</span>: Her Elemental Burst <span style=\"color: #FFD780FF;\">Precision Hydronic Cooler</span> is enhanced: The <span style=\"color: #FFD780FF;\">Cool Your Jets Ducky</span> will fire water balls more frequently, and the water balls will deal <span style=\"color: #80C0FFFF;\">AoE Hydro DMG</span> over a larger area of effect."
+      "description": "Aino will be granted the corresponding buff effects based on the party's <span style=\"color: #FFD780FF;\">Moonsign</span>.\n\n<span style=\"color: #FFD780FF;\">Moonsign: Ascendant Gleam</span>: Her Elemental Burst <span style=\"color: #FFD780FF;\"><button data-link-s=\"Precision Hydronic Cooler\">Precision Hydronic Cooler</button></span> is enhanced: The <span style=\"color: #FFD780FF;\">Cool Your Jets Ducky</span> will fire water balls more frequently, and the water balls will deal <span style=\"color: #80C0FFFF;\">AoE Hydro DMG</span> over a larger area of effect."
     },
     {
       "name": "Structured Power Booster",
@@ -481,12 +481,13 @@
     },
     {
       "name": "Miniaturized Detection Sensor",
-      "description": "Displays the location of nearby <span style=\"color: #FFD780FF;\">resources unique to Nod-Krai</span> on the mini-map.\\nAdditionally, Aino appears to be able to alter the Cool Your Jets Ducky's appearance in some way..."
+      "description": "Displays the location of nearby <span style=\"color: #FFD780FF;\">resources unique to Nod-Krai</span> on the mini-map.\nAdditionally, Aino appears to be able to alter the Cool Your Jets Ducky's appearance in some way..."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Precision Hydronic Cooler",
-    "description": "Aino deploys a custom water-spraying device, the <span style=\"color: #FFD780FF;\">Cool Your Jets Ducky</span> to establish a <span style=\"color: #FFD780FF;\">Focused Hydronic Cooling Zone</span>.\\nWhile active, the Cool Your Jets Ducky will periodically fire water balls at nearby opponents, dealing <span style=\"color: #80C0FFFF;\">Hydro DMG</span>.\\n\\n<i>\"When taking action, no matter how fast your heart is pounding, you've gotta keep a cool head... Huh? Fighting? No, I'm talking about making machines!\"</i>",
+    "description": "Aino deploys a custom water-spraying device, the <span style=\"color: #FFD780FF;\">Cool Your Jets Ducky</span> to establish a <span style=\"color: #FFD780FF;\">Focused Hydronic Cooling Zone</span>.\nWhile active, the Cool Your Jets Ducky will periodically fire water balls at nearby opponents, dealing <span style=\"color: #80C0FFFF;\">Hydro DMG</span>.\n\n<i>\"When taking action, no matter how fast your heart is pounding, you've gotta keep a cool head... Huh? Fighting? No, I'm talking about making machines!\"</i>",
     "skillLabels": [
       "Water Ball DMG",
       "Duration",
@@ -688,11 +689,13 @@
           50
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Bish-Bash-Bosh Repair",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 3 consecutive strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, performs a more powerful slash. \\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 3 consecutive strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1154,11 +1157,13 @@
           4.982145
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Musecatcher",
-    "description": "Aino throws a <span style=\"color: #FFD780FF;\">Musecatcher</span> forward, dealing <span style=\"color: #80C0FFFF;\">Hydro DMG</span> and dragging her along behind it. When the dragging stops, Aino deals <span style=\"color: #80C0FFFF;\">AoE Hydro DMG</span> to nearby opponents.\\nHolding the Skill will cause it to behave differently.\\n\\n<span style=\"color: #FFD780FF;\">Hold</span>\\nEnter Aiming Mode to adjust the Musecatcher's throwing direction.\\n\\n<i>\"Dreams — and snacks — should be seized with your own hands... Kerplunk-a-tron counts as my hand, right?\"</i>",
+    "description": "Aino throws a <span style=\"color: #FFD780FF;\">Musecatcher</span> forward, dealing <span style=\"color: #80C0FFFF;\">Hydro DMG</span> and dragging her along behind it. When the dragging stops, Aino deals <span style=\"color: #80C0FFFF;\">AoE Hydro DMG</span> to nearby opponents.\nHolding the Skill will cause it to behave differently.\n\n<span style=\"color: #FFD780FF;\">Hold</span>\nEnter Aiming Mode to adjust the Musecatcher's throwing direction.\n\n<i>\"Dreams — and snacks — should be seized with your own hands... Kerplunk-a-tron counts as my hand, right?\"</i>",
     "skillLabels": [
       "Stage 1 DMG",
       "Stage 2 DMG",
@@ -1311,6 +1316,8 @@
           10
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

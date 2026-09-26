@@ -451,7 +451,7 @@
     },
     {
       "name": "Cognition-Inverting Gaze",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Magic Trick: Astonishing Shift</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Magic Trick: Astonishing Shift</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Tacit Coordination",
@@ -459,7 +459,7 @@
     },
     {
       "name": "Obscuring Ambiguity",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Enigmatic Feint</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Enigmatic Feint</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Watchful Eye",
@@ -480,9 +480,10 @@
       "description": "Shows the location of nearby <span style=\"color: #FFD780FF;\">Recovery Orbs</span> on the minimap. The Aquatic Stamina and HP gained from touching Orbs will be increased by 25%."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Magic Trick: Astonishing Shift",
-    "description": "Lynette raises her mantle high, dealing <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span>, using skillful sleight of hand to make a giant Bogglecat Box appear!\\n\\n<span style=\"color: #FFD780FF;\">Bogglecat Box</span>\\n·Taunts nearby opponents, attracting their attacks.\\n·Deals <span style=\"color: #80FFD7FF;\">Anemo DMG</span> to nearby opponents at intervals.\\n·When the Bogglecat Box comes into contact with <span style=\"color: #80C0FFFF;\">Hydro</span>/<span style=\"color: #FF9999FF;\">Pyro</span>/<span style=\"color: #99FFFFFF;\">Cryo</span>/<span style=\"color: #FFACFFFF;\">Electro</span>, it will gain the corresponding element and additionally fire Vivid Shots that will deal DMG from that element at intervals.\\nElemental Absorption of this kind will only occur once during this ability's duration.\\n\\n<i>\"Look this way, and look closely. This is a time for miracles, just for us.\"</i>",
+    "description": "Lynette raises her mantle high, dealing <span style=\"color: #80FFD7FF;\">AoE Anemo DMG</span>, using skillful sleight of hand to make a giant Bogglecat Box appear!\n\n<span style=\"color: #FFD780FF;\">Bogglecat Box</span>\n·Taunts nearby opponents, attracting their attacks.\n·Deals <span style=\"color: #80FFD7FF;\">Anemo DMG</span> to nearby opponents at intervals.\n·When the Bogglecat Box comes into contact with <span style=\"color: #80C0FFFF;\">Hydro</span>/<span style=\"color: #FF9999FF;\">Pyro</span>/<span style=\"color: #99FFFFFF;\">Cryo</span>/<span style=\"color: #FFACFFFF;\">Electro</span>, it will gain the corresponding element and additionally fire Vivid Shots that will deal DMG from that element at intervals.\nElemental Absorption of this kind will only occur once during this ability's duration.\n\n<i>\"Look this way, and look closely. This is a time for miracles, just for us.\"</i>",
     "skillLabels": [
       "Skill DMG",
       "Bogglecat Box DMG",
@@ -782,11 +783,13 @@
           70
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Rapid Ritesword",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 4 rapid strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 4 rapid strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1229,11 +1232,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Enigmatic Feint",
-    "description": "Flicks her mantle and executes an Enigma Thrust, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\\nWhen the Enigma Thrust hits an opponent, it will restore Lynette's HP based on her Max HP, and in the 4s afterward, she will lose a certain amount of HP per second.\\nBased on whether you press or hold this ability, she will use Enigma Thrust differently.\\n\\n<span style=\"color: #FFD780FF;\">press</span>\\nShe swiftly uses an Enigma Thrust.\\n\\n<span style=\"color: #FFD780FF;\">Hold</span>\\nLynette will enter a high-speed Pilfering Shadow state and apply Shadowsign to a nearby opponent. You can control her movement direction during this state, and you can end it prematurely by using this skill again.\\nWhen this high-speed state ends, Lynette will unleash her Enigma Thrust. If there is an opponent with Shadowsign applied to them nearby, Lynette will approach them in a flash before using Enigma Thrust.\\n\\nA maximum of 1 opponent can have Shadowsign at any one time. When this opponent gets too far from Lynette, the Shadowsign will be canceled.\\n\\n<span style=\"color: #FFD780FF;\">Arkhe: Ousia</span>\\nAt specific intervals, Lynette will unleash a Surging Blade when she uses Enigma Thrust, dealing Ousia-aligned <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\\n\\n<i>\"Now then, turn your eyes to the stage and continue to enjoy the performance. When I next appear, I'll be where you least expect.\"</i>",
+    "description": "Flicks her mantle and executes an Enigma Thrust, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\nWhen the Enigma Thrust hits an opponent, it will restore Lynette's HP based on her Max HP, and in the 4s afterward, she will lose a certain amount of HP per second.\nBased on whether you press or hold this ability, she will use Enigma Thrust differently.\n\n<span style=\"color: #FFD780FF;\">press</span>\nShe swiftly uses an Enigma Thrust.\n\n<span style=\"color: #FFD780FF;\">Hold</span>\nLynette will enter a high-speed Pilfering Shadow state and apply Shadowsign to a nearby opponent. You can control her movement direction during this state, and you can end it prematurely by using this skill again.\nWhen this high-speed state ends, Lynette will unleash her Enigma Thrust. If there is an opponent with Shadowsign applied to them nearby, Lynette will approach them in a flash before using Enigma Thrust.\n\nA maximum of 1 opponent can have Shadowsign at any one time. When this opponent gets too far from Lynette, the Shadowsign will be canceled.\n\n<span style=\"color: #FFD780FF;\">Arkhe: Ousia</span>\nAt specific intervals, Lynette will unleash a Surging Blade when she uses Enigma Thrust, dealing Ousia-aligned <span style=\"color: #80FFD7FF;\">Anemo DMG</span>.\n\n<i>\"Now then, turn your eyes to the stage and continue to enjoy the performance. When I next appear, I'll be where you least expect.\"</i>",
     "skillLabels": [
       "Enigma Thrust DMG",
       "Surging Blade DMG",
@@ -1582,6 +1587,8 @@
           12
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

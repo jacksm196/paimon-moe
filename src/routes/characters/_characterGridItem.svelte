@@ -32,7 +32,9 @@
   constellation ||
   char.new
     ? ''
-    : 'opacity-50'} {char.rarity === 5 ? 'ring-legendary-from' : 'ring-rare-from'} {char.new ? 'ring-4' : ''}"
+    : 'opacity-50'} {char.rarity === 5 ? 'ring-legendary-from' : 'ring-rare-from'} {char.new
+    ? 'ring-4 new-character'
+    : ''}"
 >
   <div
     class="w-full rounded-t-xl bg-opacity-50 overflow-hidden {char.rarity === 5 ? 'bg-legendary-from' : 'bg-rare-from'}"
@@ -84,5 +86,21 @@
     width: calc(33.33333% - 1rem);
 
     @apply md:w-24;
+  }
+
+  .new-character {
+    animation: pulse-ring 1.5s ease-out infinite;
+  }
+
+  @keyframes pulse-ring {
+    0% {
+      box-shadow: 0 0 0 3px var(--tw-ring-color), 0 0 0 6px color-mix(in srgb, var(--tw-ring-color) 85%, transparent);
+    }
+    55% {
+      box-shadow: 0 0 0 3px var(--tw-ring-color), 0 0 0 16px color-mix(in srgb, var(--tw-ring-color) 0%, transparent);
+    }
+    100% {
+      box-shadow: 0 0 0 3px var(--tw-ring-color), 0 0 0 16px color-mix(in srgb, var(--tw-ring-color) 0%, transparent);
+    }
   }
 </style>

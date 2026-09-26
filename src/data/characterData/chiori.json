@@ -443,33 +443,33 @@
   "constellations": [
     {
       "name": "Six Paths of Sage Silkcraft",
-      "description": "The AoE of the automaton doll \"Tamoto\" summoned by <span style=\"color: #FFD780FF;\">Fluttering Hasode</span> is increased by 50%.\\nAdditionally, if there is a <span style=\"color: #FFE699FF;\">Geo</span> party member other than Chiori, Fluttering Hasode will trigger the following after the dash is completed:\\n· Summon an additional Tamoto. Only one additional Tamoto can exist at the same time, whether summoned by Chiori this way or through the presence of a Geo Construct.\\n· Triggers the Ascension Talent \"The Finishing Touch.\" You must first unlock the Ascension Talent \"The Finishing Touch.\""
+      "description": "The AoE of the automaton doll \"Tamoto\" summoned by <span style=\"color: #FFD780FF;\">Fluttering Hasode</span> is increased by 50%.\nAdditionally, if there is a <span style=\"color: #FFE699FF;\">Geo</span> party member other than Chiori, Fluttering Hasode will trigger the following after the dash is completed:\n· Summon an additional Tamoto. Only one additional Tamoto can exist at the same time, whether summoned by Chiori this way or through the presence of a Geo Construct.\n· Triggers the Ascension Talent \"The Finishing Touch.\" You must first unlock the Ascension Talent \"The Finishing Touch.\""
     },
     {
       "name": "In Five Colors Dyed",
-      "description": "For 10s after using <span style=\"color: #FFD780FF;\">Hiyoku: Twin Blades</span>, a simplified automaton doll, \"Kinu,\" will be summoned next to your active character every 3s. Kinu will attack nearby opponents, dealing <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> equivalent to 170% of Tamoto's DMG. DMG dealt this way is considered Elemental Skill DMG.\\nKinu will leave the field after 1 attack or after lasting 3s."
+      "description": "For 10s after using <span style=\"color: #FFD780FF;\">Hiyoku: Twin Blades</span>, a simplified automaton doll, \"Kinu,\" will be summoned next to your active character every 3s. Kinu will attack nearby opponents, dealing <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> equivalent to 170% of Tamoto's DMG. DMG dealt this way is considered Elemental Skill DMG.\nKinu will leave the field after 1 attack or after lasting 3s."
     },
     {
       "name": "Four Brocade Embellishments",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Fluttering Hasode</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Fluttering Hasode</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "A Tailor's Three Courtesies",
-      "description": "For 8s after triggering either follow-up effect of the Ascension Talent \"Tailor-Made,\" when your current active character's Normal, Charged, or Plunging Attacks hit a nearby opponent, a simplified automaton doll, \"Kinu,\" will be summoned near this opponent. You can summon 1 Kinu every 1s in this way, and up to 3 Kinu may be summoned this way during each instance of \"Tailor-Made\"'s Seize the Moment or Tailoring effect. The above effect can be triggered up to once every 15s.\\nYou must first unlock the Ascension Talent \"Tailor-Made.\""
+      "description": "For 8s after triggering either follow-up effect of the Ascension Talent \"Tailor-Made,\" when your current active character's Normal, Charged, or Plunging Attacks hit a nearby opponent, a simplified automaton doll, \"Kinu,\" will be summoned near this opponent. You can summon 1 Kinu every 1s in this way, and up to 3 Kinu may be summoned this way during each instance of \"Tailor-Made\"'s Seize the Moment or Tailoring effect. The above effect can be triggered up to once every 15s.\nYou must first unlock the Ascension Talent \"Tailor-Made.\""
     },
     {
       "name": "Two Silken Plumules",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Hiyoku: Twin Blades</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Hiyoku: Twin Blades</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Sole Principle Pursuit",
-      "description": "After triggering a follow-up effect of the Ascension Talent \"Tailor-Made,\" Chiori's own <span style=\"color: #FFD780FF;\">Fluttering Hasode</span>'s CD is decreased by 12s. You must first unlock the Ascension Talent \"Tailor-Made.\".\\nIn addition, the DMG dealt by Chiori's own Normal Attacks is increased by an amount equal to 235% of her own DEF."
+      "description": "After triggering a follow-up effect of the Ascension Talent \"Tailor-Made,\" Chiori's own <span style=\"color: #FFD780FF;\">Fluttering Hasode</span>'s CD is decreased by 12s. You must first unlock the Ascension Talent \"Tailor-Made.\".\nIn addition, the DMG dealt by Chiori's own Normal Attacks is increased by an amount equal to 235% of her own DEF."
     }
   ],
   "passives": [
     {
       "name": "Tailor-Made",
-      "description": "Gain different effects depending on the next action you take within a short duration after using <span style=\"color: #FFD780FF;\">Fluttering Hasode</span>'s upward sweep. If you Press the Elemental Skill, you will trigger the Tapestry effect. If you Press your Normal Attack, the Tailoring effect will be triggered instead.\\n\\n<span style=\"color: #FFD780FF;\">Tapestry</span>\\n· Switches to the next character in your roster.\\n· Grants all your party members \"Seize the Moment\": When your active party member's Normal Attacks, Charged Attacks, and Plunging Attacks hit a nearby opponent, \"Tamoto\" will execute a coordinated attack, dealing 100% of Fluttering Hasode's upward sweep DMG as <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> at the opponent's location. DMG dealt this way is considered Elemental Skill DMG.\\n· \"Seize the Moment\" lasts 8s, and 1 of \"Tamoto\"'s coordinated attack can be unleashed every 2s. 2 such coordinated attacks can occur per \"Seize the Moment\" effect duration.\\n\\n<span style=\"color: #FFD780FF;\">Tailoring</span>\\n· Chiori gains <span style=\"color: #FFE699FF;\">Geo infusion</span> for 5s.\\n\\nWhen on the field, if Chiori does not either Press her Elemental Skill or use a Normal Attack within a short time after using Fluttering Hasode's upward sweep, the Tailoring effect will be triggered by default."
+      "description": "Gain different effects depending on the next action you take within a short duration after using <span style=\"color: #FFD780FF;\">Fluttering Hasode</span>'s upward sweep. If you Press the Elemental Skill, you will trigger the Tapestry effect. If you Press your Normal Attack, the Tailoring effect will be triggered instead.\n\n<span style=\"color: #FFD780FF;\">Tapestry</span>\n· Switches to the next character in your roster.\n· Grants all your party members \"Seize the Moment\": When your active party member's Normal Attacks, Charged Attacks, and Plunging Attacks hit a nearby opponent, \"Tamoto\" will execute a coordinated attack, dealing 100% of Fluttering Hasode's upward sweep DMG as <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> at the opponent's location. DMG dealt this way is considered Elemental Skill DMG.\n· \"Seize the Moment\" lasts 8s, and 1 of \"Tamoto\"'s coordinated attack can be unleashed every 2s. 2 such coordinated attacks can occur per \"Seize the Moment\" effect duration.\n\n<span style=\"color: #FFD780FF;\">Tailoring</span>\n· Chiori gains <span style=\"color: #FFE699FF;\">Geo infusion</span> for 5s.\n\nWhen on the field, if Chiori does not either Press her Elemental Skill or use a Normal Attack within a short time after using Fluttering Hasode's upward sweep, the Tailoring effect will be triggered by default."
     },
     {
       "name": "The Finishing Touch",
@@ -477,12 +477,13 @@
     },
     {
       "name": "Brocaded Collar's Beauteous Silhouette",
-      "description": "When any party member is wearing an outfit apart from their default outfit, or is wearing a wind glider other than the Wings of First Flight, your party members will obtain the Swift Stride effect: Movement SPD is increased by 10%.\\nThis effect does not take effect in Domains, Trounce Domains, and the Spiral Abyss. Swift Stride does not stack."
+      "description": "When any party member is wearing an outfit apart from their default outfit, or is wearing a wind glider other than the Wings of First Flight, your party members will obtain the Swift Stride effect: Movement SPD is increased by 10%.\nThis effect does not take effect in Domains, Trounce Domains, and the Spiral Abyss. Swift Stride does not stack."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Hiyoku: Twin Blades",
-    "description": "Twin blades leave their sheaths as Chiori slices with the clean cuts of a master tailor, dealing <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> based on her ATK and DEF.\\n\\n<i>\"Master one principle, and the path to all others shall open to you.\"</i>",
+    "description": "Twin blades leave their sheaths as Chiori slices with the clean cuts of a master tailor, dealing <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> based on her ATK and DEF.\n\n<i>\"Master one principle, and the path to all others shall open to you.\"</i>",
     "skillLabels": [
       "Skill DMG",
       "CD",
@@ -650,11 +651,13 @@
           50
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Weaving Blade",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 4 rapid strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 4 rapid strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1097,11 +1100,13 @@
           4.27041
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Fluttering Hasode",
-    "description": "Dashes nimbly forward with silken steps. Once this dash ends, Chiori will summon the automaton doll \"Tamoto\" beside her and sweep her blade upward, dealing <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> to nearby opponents based on her ATK and DEF.\\nHolding the Skill will cause it to behave differently.\\n\\n<span style=\"color: #FFD780FF;\">Hold</span>\\nEnter Aiming Mode to adjust the dash direction.\\n\\n<span style=\"color: #FFD780FF;\">Tamoto</span>\\n· Will slash at nearby opponents at intervals, dealing <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> based on Chiori's ATK and DEF.\\n· While active, if there are nearby <span style=\"color: #FFE699FF;\">Geo Construct(s)</span> or <span style=\"color: #FFE699FF;\">Geo Construct(s)</span> are created nearby, an additional Tamoto will be summoned next to your active character. Only 1 additional Tamoto can be summoned in this manner, and its duration is independently counted.\\n\\n<i>\"Sakura red dyes the brocade, the fragrance suffuses the sleeves, the orioles intoxicated.\"</i>",
+    "description": "Dashes nimbly forward with silken steps. Once this dash ends, Chiori will summon the automaton doll \"Tamoto\" beside her and sweep her blade upward, dealing <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> to nearby opponents based on her ATK and DEF.\nHolding the Skill will cause it to behave differently.\n\n<span style=\"color: #FFD780FF;\">Hold</span>\nEnter Aiming Mode to adjust the dash direction.\n\n<span style=\"color: #FFD780FF;\">Tamoto</span>\n· Will slash at nearby opponents at intervals, dealing <span style=\"color: #FFE699FF;\">AoE Geo DMG</span> based on Chiori's ATK and DEF.\n· While active, if there are nearby <span style=\"color: #FFE699FF;\">Geo Construct(s)</span> or <span style=\"color: #FFE699FF;\">Geo Construct(s)</span> are created nearby, an additional Tamoto will be summoned next to your active character. Only 1 additional Tamoto can be summoned in this manner, and its duration is independently counted.\n\n<i>\"Sakura red dyes the brocade, the fragrance suffuses the sleeves, the orioles intoxicated.\"</i>",
     "skillLabels": [
       "Tamoto DMG",
       "Tamoto Duration",
@@ -1382,6 +1387,8 @@
           16
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }

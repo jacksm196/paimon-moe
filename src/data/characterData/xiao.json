@@ -451,7 +451,7 @@
     },
     {
       "name": "Conqueror of Evil: Wrath Deity",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Lemniscatic Wind Cycling</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Lemniscatic Wind Cycling</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Transcension: Extinction of Suffering",
@@ -459,7 +459,7 @@
     },
     {
       "name": "Evolution Eon: Origin of Ignorance",
-      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Bane of All Evil</span> by 3.\\nMaximum upgrade level is 15."
+      "description": "Increases the Level of <span style=\"color: #FFD780FF;\">Bane of All Evil</span> by 3.\nMaximum upgrade level is 15."
     },
     {
       "name": "Conqueror of Evil: Guardian Yaksha",
@@ -469,20 +469,21 @@
   "passives": [
     {
       "name": "Conqueror of Evil: Tamer of Demons",
-      "description": "While under the effects of <span style=\"color: #FFD780FF;\">Bane of All Evil</span>, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.\\nThe maximum DMG Bonus is 25%."
+      "description": "While under the effects of <span style=\"color: #FFD780FF;\">Bane of All Evil</span>, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.\nThe maximum DMG Bonus is 25%."
     },
     {
       "name": "Dissolution Eon: Heaven Fall",
-      "description": "Using <span style=\"color: #FFD780FF;\">Lemniscatic Wind Cycling</span> increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\\nThis effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration."
+      "description": "Using <span style=\"color: #FFD780FF;\">Lemniscatic Wind Cycling</span> increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\nThis effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration."
     },
     {
       "name": "Transcension: Gravity Defier",
-      "description": "Decreases climbing Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects."
+      "description": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
     }
   ],
+  "links": {},
   "burst": {
     "name": "Bane of All Evil",
-    "description": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\\n\\n<span style=\"color: #FFD780FF;\">Yaksha's Mask</span>\\n·Greatly increases Xiao's jumping ability.\\n·Increases his attack AoE and attack DMG.\\n·Converts attack DMG into <span style=\"color: #80FFD7FF;\">Anemo DMG</span>, which cannot be overridden by any other elemental infusion.\\n\\nIn this state, Xiao will continuously lose HP.\\nThe effects of this skill end when Xiao leaves the field.\\n\\n<i>Donning the Mask of the Yaksha, Xiao takes the terrifying, demon-conquering form of the Vigilant Yaksha. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"</i>",
+    "description": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\n\n<span style=\"color: #FFD780FF;\">Yaksha's Mask</span>\n·Greatly increases Xiao's jumping ability.\n·Increases his attack AoE and attack DMG.\n·Converts attack DMG into <span style=\"color: #80FFD7FF;\">Anemo DMG</span>, which cannot be overridden by any other elemental infusion.\n\nIn this state, Xiao will continuously lose HP.\nThe effects of this skill end when Xiao leaves the field.\n\n<i>Donning the Mask of the Yaksha, Xiao takes the terrifying, demon-conquering form of the Vigilant Yaksha. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"</i>",
     "skillLabels": [
       "Normal/Charged/Plunging Attack DMG Bonus",
       "Life Drain",
@@ -733,11 +734,13 @@
           70
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "attack": {
     "name": "Whirlwind Thrust",
-    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\\nPerforms up to 6 consecutive spear strikes.\\n\\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\\nConsumes a certain amount of Stamina to perform an upward thrust.\\n\\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\\nXiao does not take DMG from performing Plunging Attacks.",
+    "description": "<span style=\"color: #FFD780FF;\">Normal Attack</span>\nPerforms up to 6 consecutive spear strikes.\n\n<span style=\"color: #FFD780FF;\">Charged Attack</span>\nConsumes a certain amount of Stamina to perform an upward thrust.\n\n<span style=\"color: #FFD780FF;\">Plunging Attack</span>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\nXiao does not take DMG from performing Plunging Attacks.",
     "skillLabels": [
       "1-Hit DMG",
       "2-Hit DMG",
@@ -1278,11 +1281,13 @@
           5.466125
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   },
   "elementalSkill": {
     "name": "Lemniscatic Wind Cycling",
-    "description": "Xiao lunges forward, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span> to opponents in his path.\\nCan be used in mid-air.\\nStarts with 2 charges.\\n\\n<i>According to the legends of another land, the world will someday be crushed by two great wind wheels. Xiao's mastery over polearms is transcendent, ripping his foes apart like those legendary wind wheels.</i>",
+    "description": "Xiao lunges forward, dealing <span style=\"color: #80FFD7FF;\">Anemo DMG</span> to opponents in his path.\nCan be used in mid-air.\nStarts with 2 charges.\n\n<i>According to the legends of another land, the world will someday be crushed by two great wind wheels. Xiao's mastery over polearms is transcendent, ripping his foes apart like those legendary wind wheels.</i>",
     "skillLabels": [
       "Skill DMG",
       "CD"
@@ -1386,6 +1391,8 @@
           10
         ]
       ]
-    ]
+    ],
+    "skillIndex": [],
+    "skillBuffIndex": []
   }
 }
